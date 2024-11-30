@@ -1,0 +1,6372 @@
+[
+    {
+        "id": 1,
+        "speed": 2,
+        "building": 1,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "1": {
+                "item": 1,
+                "number": 1
+            }
+        },
+        "out": {
+            "3": {
+                "item": 3,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 2,
+        "speed": 2,
+        "building": 1,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "2": {
+                "item": 2,
+                "number": 1
+            }
+        },
+        "out": {
+            "4": {
+                "item": 4,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 3,
+        "speed": 6,
+        "building": 3,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "3": {
+                "item": 3,
+                "number": 3
+            }
+        },
+        "out": {
+            "16": {
+                "item": 16,
+                "number": 2,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 4,
+        "speed": 4,
+        "building": 3,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "3": {
+                "item": 3,
+                "number": 1
+            }
+        },
+        "out": {
+            "17": {
+                "item": 17,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 5,
+        "speed": 6,
+        "building": 3,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "17": {
+                "item": 17,
+                "number": 1
+            }
+        },
+        "out": {
+            "19": {
+                "item": 19,
+                "number": 4,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 6,
+        "speed": 12,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "16": {
+                "item": 16,
+                "number": 6
+            },
+            "19": {
+                "item": 19,
+                "number": 12
+            }
+        },
+        "out": {
+            "18": {
+                "item": 18,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 7,
+        "speed": 8,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "21": {
+                "item": 21,
+                "number": 2
+            },
+            "34": {
+                "item": 34,
+                "number": 4
+            }
+        },
+        "out": {
+            "36": {
+                "item": 36,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 8,
+        "speed": 6,
+        "building": 3,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "4": {
+                "item": 4,
+                "number": 2
+            }
+        },
+        "out": {
+            "21": {
+                "item": 21,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 9,
+        "speed": 6,
+        "building": 6,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "13": {
+                "item": 13,
+                "number": 3
+            }
+        },
+        "out": {
+            "34": {
+                "item": 34,
+                "number": 2,
+                "primary": true
+            },
+            "39": {
+                "item": 39,
+                "number": 1,
+                "primary": false
+            }
+        }
+    },
+    {
+        "id": 10,
+        "speed": 2,
+        "building": 3,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "20": {
+                "item": 20,
+                "number": 2
+            }
+        },
+        "out": {
+            "14": {
+                "item": 14,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 11,
+        "speed": 24,
+        "building": 5,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "14": {
+                "item": 14,
+                "number": 8
+            },
+            "34": {
+                "item": 34,
+                "number": 16
+            },
+            "36": {
+                "item": 36,
+                "number": 4
+            }
+        },
+        "out": {
+            "37": {
+                "item": 37,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 12,
+        "speed": 4,
+        "building": 3,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "4": {
+                "item": 4,
+                "number": 1
+            }
+        },
+        "out": {
+            "20": {
+                "item": 20,
+                "number": 2,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 13,
+        "speed": 8,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "3": {
+                "item": 3,
+                "number": 5
+            },
+            "34": {
+                "item": 34,
+                "number": 1
+            }
+        },
+        "out": {
+            "16": {
+                "item": 16,
+                "number": 10,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 19,
+        "speed": 4,
+        "building": 2,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "1": {
+                "item": 1,
+                "number": 3
+            },
+            "5": {
+                "item": 5,
+                "number": 3
+            }
+        },
+        "out": {
+            "24": {
+                "item": 24,
+                "number": 3,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 20,
+        "speed": 4,
+        "building": 1,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "6": {
+                "item": 6,
+                "number": 3
+            }
+        },
+        "out": {
+            "57": {
+                "item": 57,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 21,
+        "speed": 4,
+        "building": 3,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "7": {
+                "item": 7,
+                "number": 3
+            }
+        },
+        "out": {
+            "15": {
+                "item": 15,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 22,
+        "speed": 8,
+        "building": 3,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "9": {
+                "item": 9,
+                "number": 5
+            }
+        },
+        "out": {
+            "62": {
+                "item": 62,
+                "number": 3,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 23,
+        "speed": 8,
+        "building": 3,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "9": {
+                "item": 9,
+                "number": 3
+            }
+        },
+        "out": {
+            "63": {
+                "item": 63,
+                "number": 5,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 25,
+        "speed": 4,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "5": {
+                "item": 5,
+                "number": 1
+            },
+            "10": {
+                "item": 10,
+                "number": 1
+            }
+        },
+        "out": {
+            "56": {
+                "item": 56,
+                "number": 2,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 26,
+        "speed": 6,
+        "building": 6,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "10": {
+                "item": 10,
+                "number": 5
+            },
+            "12": {
+                "item": 12,
+                "number": 5
+            }
+        },
+        "out": {
+            "52": {
+                "item": 52,
+                "number": 5,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 28,
+        "speed": 1,
+        "building": 6,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "5": {
+                "item": 5,
+                "number": 2
+            },
+            "42": {
+                "item": 42,
+                "number": 4
+            }
+        },
+        "out": {
+            "12": {
+                "item": 12,
+                "number": 2,
+                "primary": false
+            },
+            "45": {
+                "item": 45,
+                "number": 6,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 29,
+        "speed": 60,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "17": {
+                "item": 17,
+                "number": 12
+            },
+            "18": {
+                "item": 18,
+                "number": 3
+            }
+        },
+        "out": {
+            "22": {
+                "item": 22,
+                "number": 2,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 30,
+        "speed": 15,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "17": {
+                "item": 17,
+                "number": 5
+            },
+            "19": {
+                "item": 19,
+                "number": 25
+            }
+        },
+        "out": {
+            "23": {
+                "item": 23,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 31,
+        "speed": 12,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "20": {
+                "item": 20,
+                "number": 8
+            },
+            "26": {
+                "item": 26,
+                "number": 3
+            }
+        },
+        "out": {
+            "29": {
+                "item": 29,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 32,
+        "speed": 4,
+        "building": 3,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "24": {
+                "item": 24,
+                "number": 4
+            }
+        },
+        "out": {
+            "25": {
+                "item": 25,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 33,
+        "speed": 6,
+        "building": 3,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "24": {
+                "item": 24,
+                "number": 3
+            }
+        },
+        "out": {
+            "26": {
+                "item": 26,
+                "number": 2,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 34,
+        "speed": 10,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "15": {
+                "item": 15,
+                "number": 6
+            },
+            "25": {
+                "item": 25,
+                "number": 3
+            }
+        },
+        "out": {
+            "27": {
+                "item": 27,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 35,
+        "speed": 30,
+        "building": 5,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "19": {
+                "item": 19,
+                "number": 120
+            },
+            "22": {
+                "item": 22,
+                "number": 5
+            },
+            "26": {
+                "item": 26,
+                "number": 20
+            },
+            "27": {
+                "item": 27,
+                "number": 5
+            }
+        },
+        "out": {
+            "28": {
+                "item": 28,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 36,
+        "speed": 12,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "23": {
+                "item": 23,
+                "number": 2
+            },
+            "29": {
+                "item": 29,
+                "number": 2
+            }
+        },
+        "out": {
+            "33": {
+                "item": 33,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 37,
+        "speed": 6,
+        "building": 6,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "13": {
+                "item": 13,
+                "number": 6
+            }
+        },
+        "out": {
+            "38": {
+                "item": 38,
+                "number": 4,
+                "primary": true
+            },
+            "41": {
+                "item": 41,
+                "number": 3,
+                "primary": false
+            }
+        }
+    },
+    {
+        "id": 38,
+        "speed": 6,
+        "building": 6,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "39": {
+                "item": 39,
+                "number": 6
+            }
+        },
+        "out": {
+            "38": {
+                "item": 38,
+                "number": 4,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 39,
+        "speed": 6,
+        "building": 6,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "39": {
+                "item": 39,
+                "number": 4
+            }
+        },
+        "out": {
+            "40": {
+                "item": 40,
+                "number": 12,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 40,
+        "speed": 6,
+        "building": 6,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "13": {
+                "item": 13,
+                "number": 3
+            }
+        },
+        "out": {
+            "35": {
+                "item": 35,
+                "number": 2,
+                "primary": true
+            },
+            "39": {
+                "item": 39,
+                "number": 2,
+                "primary": false
+            }
+        }
+    },
+    {
+        "id": 41,
+        "speed": 6,
+        "building": 6,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "12": {
+                "item": 12,
+                "number": 2
+            },
+            "41": {
+                "item": 41,
+                "number": 6
+            }
+        },
+        "out": {
+            "34": {
+                "item": 34,
+                "number": 2,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 42,
+        "speed": 6,
+        "building": 6,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "12": {
+                "item": 12,
+                "number": 4
+            },
+            "41": {
+                "item": 41,
+                "number": 4
+            }
+        },
+        "out": {
+            "35": {
+                "item": 35,
+                "number": 2,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 43,
+        "speed": 2,
+        "building": 6,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "13": {
+                "item": 13,
+                "number": 6
+            }
+        },
+        "out": {
+            "39": {
+                "item": 39,
+                "number": 2,
+                "primary": false
+            },
+            "41": {
+                "item": 41,
+                "number": 13,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 45,
+        "speed": 6,
+        "building": 6,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "8": {
+                "item": 8,
+                "number": 12
+            },
+            "12": {
+                "item": 12,
+                "number": 18
+            }
+        },
+        "out": {
+            "42": {
+                "item": 42,
+                "number": 12,
+                "primary": true
+            },
+            "63": {
+                "item": 63,
+                "number": 5,
+                "primary": false
+            }
+        }
+    },
+    {
+        "id": 46,
+        "speed": 6,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "4": {
+                "item": 4,
+                "number": 1
+            },
+            "44": {
+                "item": 44,
+                "number": 3
+            }
+        },
+        "out": {
+            "43": {
+                "item": 43,
+                "number": 3,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 47,
+        "speed": 6,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "35": {
+                "item": 35,
+                "number": 3
+            },
+            "73": {
+                "item": 73,
+                "number": 3
+            }
+        },
+        "out": {
+            "49": {
+                "item": 49,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 48,
+        "speed": 4,
+        "building": 2,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "45": {
+                "item": 45,
+                "number": 6
+            },
+            "63": {
+                "item": 63,
+                "number": 5
+            }
+        },
+        "out": {
+            "44": {
+                "item": 44,
+                "number": 4,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 49,
+        "speed": 30,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "29": {
+                "item": 29,
+                "number": 3
+            },
+            "55": {
+                "item": 55,
+                "number": 2
+            }
+        },
+        "out": {
+            "47": {
+                "item": 47,
+                "number": 2,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 50,
+        "speed": 150,
+        "building": 5,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "27": {
+                "item": 27,
+                "number": 3
+            },
+            "47": {
+                "item": 47,
+                "number": 5
+            },
+            "48": {
+                "item": 48,
+                "number": 50
+            }
+        },
+        "out": {
+            "50": {
+                "item": 50,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 51,
+        "speed": 12,
+        "building": 7,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "11": {
+                "item": 11,
+                "number": 10
+            },
+            "15": {
+                "item": 15,
+                "number": 3
+            },
+            "52": {
+                "item": 52,
+                "number": 8
+            }
+        },
+        "out": {
+            "48": {
+                "item": 48,
+                "number": 5,
+                "primary": true
+            },
+            "52": {
+                "item": 52,
+                "number": 2,
+                "primary": false
+            }
+        }
+    },
+    {
+        "id": 52,
+        "speed": 300,
+        "building": 8,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "50": {
+                "item": 50,
+                "number": 1
+            }
+        },
+        "out": {
+            "51": {
+                "item": 51,
+                "number": 50,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 53,
+        "speed": 32,
+        "building": 7,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "33": {
+                "item": 33,
+                "number": 4
+            },
+            "35": {
+                "item": 35,
+                "number": 24
+            },
+            "65": {
+                "item": 65,
+                "number": 2
+            },
+            "74": {
+                "item": 74,
+                "number": 4
+            }
+        },
+        "out": {
+            "54": {
+                "item": 54,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 54,
+        "speed": 64,
+        "building": 5,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "23": {
+                "item": 23,
+                "number": 7
+            },
+            "33": {
+                "item": 33,
+                "number": 7
+            },
+            "47": {
+                "item": 47,
+                "number": 5
+            },
+            "65": {
+                "item": 65,
+                "number": 9
+            }
+        },
+        "out": {
+            "54": {
+                "item": 54,
+                "number": 3,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 55,
+        "speed": 12,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "21": {
+                "item": 21,
+                "number": 5
+            },
+            "61": {
+                "item": 61,
+                "number": 20
+            }
+        },
+        "out": {
+            "55": {
+                "item": 55,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 56,
+        "speed": 5,
+        "building": 3,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "57": {
+                "item": 57,
+                "number": 1
+            }
+        },
+        "out": {
+            "61": {
+                "item": 61,
+                "number": 5,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 57,
+        "speed": 12,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "5": {
+                "item": 5,
+                "number": 5
+            },
+            "10": {
+                "item": 10,
+                "number": 5
+            }
+        },
+        "out": {
+            "58": {
+                "item": 58,
+                "number": 5,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 58,
+        "speed": 12,
+        "building": 6,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "12": {
+                "item": 12,
+                "number": 1
+            },
+            "41": {
+                "item": 41,
+                "number": 1
+            }
+        },
+        "out": {
+            "59": {
+                "item": 59,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 59,
+        "speed": 16,
+        "building": 5,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "14": {
+                "item": 14,
+                "number": 10
+            },
+            "36": {
+                "item": 36,
+                "number": 1
+            },
+            "61": {
+                "item": 61,
+                "number": 56
+            }
+        },
+        "out": {
+            "60": {
+                "item": 60,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 60,
+        "speed": 120,
+        "building": 5,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "14": {
+                "item": 14,
+                "number": 28
+            },
+            "18": {
+                "item": 18,
+                "number": 5
+            },
+            "62": {
+                "item": 62,
+                "number": 36
+            }
+        },
+        "out": {
+            "64": {
+                "item": 64,
+                "number": 2,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 61,
+        "speed": 48,
+        "building": 5,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "37": {
+                "item": 37,
+                "number": 2
+            },
+            "64": {
+                "item": 64,
+                "number": 1
+            },
+            "73": {
+                "item": 73,
+                "number": 32
+            }
+        },
+        "out": {
+            "65": {
+                "item": 65,
+                "number": 2,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 62,
+        "speed": 32,
+        "building": 5,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "34": {
+                "item": 34,
+                "number": 28
+            },
+            "37": {
+                "item": 37,
+                "number": 4
+            },
+            "55": {
+                "item": 55,
+                "number": 2
+            },
+            "60": {
+                "item": 60,
+                "number": 3
+            }
+        },
+        "out": {
+            "66": {
+                "item": 66,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 63,
+        "speed": 8,
+        "building": 6,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "20": {
+                "item": 20,
+                "number": 5
+            },
+            "39": {
+                "item": 39,
+                "number": 2
+            }
+        },
+        "out": {
+            "14": {
+                "item": 14,
+                "number": 9,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 64,
+        "speed": 12,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "20": {
+                "item": 20,
+                "number": 9
+            },
+            "35": {
+                "item": 35,
+                "number": 6
+            }
+        },
+        "out": {
+            "14": {
+                "item": 14,
+                "number": 20,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 65,
+        "speed": 24,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "35": {
+                "item": 35,
+                "number": 2
+            },
+            "61": {
+                "item": 61,
+                "number": 3
+            }
+        },
+        "out": {
+            "14": {
+                "item": 14,
+                "number": 11,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 66,
+        "speed": 12,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "7": {
+                "item": 7,
+                "number": 10
+            },
+            "35": {
+                "item": 35,
+                "number": 2
+            }
+        },
+        "out": {
+            "15": {
+                "item": 15,
+                "number": 9,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 67,
+        "speed": 3,
+        "building": 6,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "7": {
+                "item": 7,
+                "number": 6
+            },
+            "12": {
+                "item": 12,
+                "number": 5
+            }
+        },
+        "out": {
+            "15": {
+                "item": 15,
+                "number": 4,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 68,
+        "speed": 24,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "7": {
+                "item": 7,
+                "number": 12
+            },
+            "63": {
+                "item": 63,
+                "number": 3
+            }
+        },
+        "out": {
+            "15": {
+                "item": 15,
+                "number": 10,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 69,
+        "speed": 6,
+        "building": 2,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "1": {
+                "item": 1,
+                "number": 5
+            },
+            "2": {
+                "item": 2,
+                "number": 5
+            }
+        },
+        "out": {
+            "4": {
+                "item": 4,
+                "number": 10,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 70,
+        "speed": 24,
+        "building": 6,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "2": {
+                "item": 2,
+                "number": 6
+            },
+            "12": {
+                "item": 12,
+                "number": 4
+            }
+        },
+        "out": {
+            "4": {
+                "item": 4,
+                "number": 15,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 71,
+        "speed": 12,
+        "building": 6,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "1": {
+                "item": 1,
+                "number": 7
+            },
+            "12": {
+                "item": 12,
+                "number": 4
+            }
+        },
+        "out": {
+            "3": {
+                "item": 3,
+                "number": 13,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 72,
+        "speed": 12,
+        "building": 2,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "1": {
+                "item": 1,
+                "number": 8
+            },
+            "2": {
+                "item": 2,
+                "number": 2
+            }
+        },
+        "out": {
+            "3": {
+                "item": 3,
+                "number": 15,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 73,
+        "speed": 4,
+        "building": 2,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "3": {
+                "item": 3,
+                "number": 1
+            },
+            "24": {
+                "item": 24,
+                "number": 1
+            }
+        },
+        "out": {
+            "16": {
+                "item": 16,
+                "number": 3,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 74,
+        "speed": 5,
+        "building": 3,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "24": {
+                "item": 24,
+                "number": 1
+            }
+        },
+        "out": {
+            "17": {
+                "item": 17,
+                "number": 4,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 75,
+        "speed": 16,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "16": {
+                "item": 16,
+                "number": 3
+            },
+            "35": {
+                "item": 35,
+                "number": 1
+            }
+        },
+        "out": {
+            "18": {
+                "item": 18,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 76,
+        "speed": 12,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "16": {
+                "item": 16,
+                "number": 18
+            },
+            "19": {
+                "item": 19,
+                "number": 50
+            }
+        },
+        "out": {
+            "18": {
+                "item": 18,
+                "number": 3,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 77,
+        "speed": 32,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "16": {
+                "item": 16,
+                "number": 10
+            },
+            "20": {
+                "item": 20,
+                "number": 20
+            }
+        },
+        "out": {
+            "18": {
+                "item": 18,
+                "number": 3,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 78,
+        "speed": 24,
+        "building": 3,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "3": {
+                "item": 3,
+                "number": 5
+            }
+        },
+        "out": {
+            "19": {
+                "item": 19,
+                "number": 20,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 79,
+        "speed": 12,
+        "building": 3,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "25": {
+                "item": 25,
+                "number": 1
+            }
+        },
+        "out": {
+            "19": {
+                "item": 19,
+                "number": 52,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 80,
+        "speed": 20,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "4": {
+                "item": 4,
+                "number": 4
+            },
+            "57": {
+                "item": 57,
+                "number": 1
+            }
+        },
+        "out": {
+            "20": {
+                "item": 20,
+                "number": 30,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 81,
+        "speed": 24,
+        "building": 3,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "3": {
+                "item": 3,
+                "number": 5
+            }
+        },
+        "out": {
+            "20": {
+                "item": 20,
+                "number": 9,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 82,
+        "speed": 4,
+        "building": 3,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "57": {
+                "item": 57,
+                "number": 1
+            }
+        },
+        "out": {
+            "20": {
+                "item": 20,
+                "number": 8,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 83,
+        "speed": 8,
+        "building": 6,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "4": {
+                "item": 4,
+                "number": 3
+            },
+            "12": {
+                "item": 12,
+                "number": 3
+            }
+        },
+        "out": {
+            "21": {
+                "item": 21,
+                "number": 3,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 84,
+        "speed": 24,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "18": {
+                "item": 18,
+                "number": 3
+            },
+            "19": {
+                "item": 19,
+                "number": 56
+            }
+        },
+        "out": {
+            "22": {
+                "item": 22,
+                "number": 2,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 85,
+        "speed": 60,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "18": {
+                "item": 18,
+                "number": 2
+            },
+            "26": {
+                "item": 26,
+                "number": 10
+            }
+        },
+        "out": {
+            "22": {
+                "item": 22,
+                "number": 3,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 86,
+        "speed": 16,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "19": {
+                "item": 19,
+                "number": 52
+            },
+            "21": {
+                "item": 21,
+                "number": 6
+            }
+        },
+        "out": {
+            "23": {
+                "item": 23,
+                "number": 3,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 87,
+        "speed": 12,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "20": {
+                "item": 20,
+                "number": 6
+            },
+            "26": {
+                "item": 26,
+                "number": 2
+            }
+        },
+        "out": {
+            "23": {
+                "item": 23,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 88,
+        "speed": 12,
+        "building": 2,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "1": {
+                "item": 1,
+                "number": 15
+            },
+            "40": {
+                "item": 40,
+                "number": 15
+            }
+        },
+        "out": {
+            "24": {
+                "item": 24,
+                "number": 20,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 89,
+        "speed": 24,
+        "building": 2,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "1": {
+                "item": 1,
+                "number": 2
+            },
+            "58": {
+                "item": 58,
+                "number": 1
+            }
+        },
+        "out": {
+            "24": {
+                "item": 24,
+                "number": 4,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 90,
+        "speed": 3,
+        "building": 2,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "3": {
+                "item": 3,
+                "number": 2
+            },
+            "5": {
+                "item": 5,
+                "number": 2
+            }
+        },
+        "out": {
+            "24": {
+                "item": 24,
+                "number": 3,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 91,
+        "speed": 15,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "15": {
+                "item": 15,
+                "number": 5
+            },
+            "26": {
+                "item": 26,
+                "number": 6
+            }
+        },
+        "out": {
+            "27": {
+                "item": 27,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 92,
+        "speed": 16,
+        "building": 5,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "19": {
+                "item": 19,
+                "number": 104
+            },
+            "22": {
+                "item": 22,
+                "number": 5
+            },
+            "27": {
+                "item": 27,
+                "number": 3
+            },
+            "35": {
+                "item": 35,
+                "number": 20
+            }
+        },
+        "out": {
+            "28": {
+                "item": 28,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 93,
+        "speed": 64,
+        "building": 5,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "15": {
+                "item": 15,
+                "number": 22
+            },
+            "22": {
+                "item": 22,
+                "number": 8
+            },
+            "26": {
+                "item": 26,
+                "number": 36
+            },
+            "27": {
+                "item": 27,
+                "number": 10
+            }
+        },
+        "out": {
+            "28": {
+                "item": 28,
+                "number": 3,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 94,
+        "speed": 48,
+        "building": 5,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "23": {
+                "item": 23,
+                "number": 3
+            },
+            "29": {
+                "item": 29,
+                "number": 3
+            },
+            "64": {
+                "item": 64,
+                "number": 1
+            }
+        },
+        "out": {
+            "33": {
+                "item": 33,
+                "number": 6,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 95,
+        "speed": 15,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "26": {
+                "item": 26,
+                "number": 4
+            },
+            "61": {
+                "item": 61,
+                "number": 15
+            }
+        },
+        "out": {
+            "29": {
+                "item": 29,
+                "number": 2,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 96,
+        "speed": 12,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "35": {
+                "item": 35,
+                "number": 4
+            },
+            "40": {
+                "item": 40,
+                "number": 8
+            }
+        },
+        "out": {
+            "36": {
+                "item": 36,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 97,
+        "speed": 24,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "21": {
+                "item": 21,
+                "number": 11
+            },
+            "63": {
+                "item": 63,
+                "number": 11
+            }
+        },
+        "out": {
+            "36": {
+                "item": 36,
+                "number": 5,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 98,
+        "speed": 48,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "34": {
+                "item": 34,
+                "number": 10
+            },
+            "61": {
+                "item": 61,
+                "number": 30
+            }
+        },
+        "out": {
+            "36": {
+                "item": 36,
+                "number": 7,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 99,
+        "speed": 36,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "36": {
+                "item": 36,
+                "number": 3
+            },
+            "64": {
+                "item": 64,
+                "number": 1
+            }
+        },
+        "out": {
+            "37": {
+                "item": 37,
+                "number": 2,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 100,
+        "speed": 16,
+        "building": 5,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "35": {
+                "item": 35,
+                "number": 6
+            },
+            "36": {
+                "item": 36,
+                "number": 4
+            },
+            "61": {
+                "item": 61,
+                "number": 14
+            }
+        },
+        "out": {
+            "37": {
+                "item": 37,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 101,
+        "speed": 6,
+        "building": 6,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "13": {
+                "item": 13,
+                "number": 3
+            }
+        },
+        "out": {
+            "39": {
+                "item": 39,
+                "number": 4,
+                "primary": true
+            },
+            "41": {
+                "item": 41,
+                "number": 2,
+                "primary": false
+            }
+        }
+    },
+    {
+        "id": 102,
+        "speed": 12,
+        "building": 6,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "35": {
+                "item": 35,
+                "number": 6
+            },
+            "38": {
+                "item": 38,
+                "number": 6
+            }
+        },
+        "out": {
+            "34": {
+                "item": 34,
+                "number": 12,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 103,
+        "speed": 12,
+        "building": 6,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "34": {
+                "item": 34,
+                "number": 6
+            },
+            "38": {
+                "item": 38,
+                "number": 6
+            }
+        },
+        "out": {
+            "35": {
+                "item": 35,
+                "number": 12,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 104,
+        "speed": 2,
+        "building": 1,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "45": {
+                "item": 45,
+                "number": 2
+            }
+        },
+        "out": {
+            "44": {
+                "item": 44,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 105,
+        "speed": 4,
+        "building": 6,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "40": {
+                "item": 40,
+                "number": 4
+            },
+            "42": {
+                "item": 42,
+                "number": 12
+            }
+        },
+        "out": {
+            "12": {
+                "item": 12,
+                "number": 7,
+                "primary": false
+            },
+            "45": {
+                "item": 45,
+                "number": 20,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 106,
+        "speed": 15,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "29": {
+                "item": 29,
+                "number": 2
+            },
+            "60": {
+                "item": 60,
+                "number": 1
+            }
+        },
+        "out": {
+            "47": {
+                "item": 47,
+                "number": 2,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 107,
+        "speed": 12,
+        "building": 5,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "10": {
+                "item": 10,
+                "number": 5
+            },
+            "11": {
+                "item": 11,
+                "number": 5
+            },
+            "61": {
+                "item": 61,
+                "number": 15
+            },
+            "63": {
+                "item": 63,
+                "number": 3
+            }
+        },
+        "out": {
+            "48": {
+                "item": 48,
+                "number": 4,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 108,
+        "speed": 8,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "21": {
+                "item": 21,
+                "number": 3
+            },
+            "43": {
+                "item": 43,
+                "number": 5
+            }
+        },
+        "out": {
+            "49": {
+                "item": 49,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 109,
+        "speed": 8,
+        "building": 5,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "14": {
+                "item": 14,
+                "number": 2
+            },
+            "16": {
+                "item": 16,
+                "number": 3
+            },
+            "17": {
+                "item": 17,
+                "number": 1
+            },
+            "20": {
+                "item": 20,
+                "number": 15
+            }
+        },
+        "out": {
+            "67": {
+                "item": 67,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 110,
+        "speed": 120,
+        "building": 5,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "25": {
+                "item": 25,
+                "number": 4
+            },
+            "26": {
+                "item": 26,
+                "number": 16
+            },
+            "64": {
+                "item": 64,
+                "number": 1
+            }
+        },
+        "out": {
+            "67": {
+                "item": 67,
+                "number": 20,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 111,
+        "speed": 300,
+        "building": 5,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "23": {
+                "item": 23,
+                "number": 10
+            },
+            "47": {
+                "item": 47,
+                "number": 10
+            },
+            "48": {
+                "item": 48,
+                "number": 100
+            },
+            "64": {
+                "item": 64,
+                "number": 3
+            }
+        },
+        "out": {
+            "50": {
+                "item": 50,
+                "number": 3,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 112,
+        "speed": 8,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "10": {
+                "item": 10,
+                "number": 1
+            },
+            "58": {
+                "item": 58,
+                "number": 2
+            }
+        },
+        "out": {
+            "56": {
+                "item": 56,
+                "number": 6,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 113,
+        "speed": 5,
+        "building": 6,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "6": {
+                "item": 6,
+                "number": 2
+            },
+            "12": {
+                "item": 12,
+                "number": 2
+            }
+        },
+        "out": {
+            "57": {
+                "item": 57,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 114,
+        "speed": 40,
+        "building": 5,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "36": {
+                "item": 36,
+                "number": 2
+            },
+            "61": {
+                "item": 61,
+                "number": 60
+            },
+            "63": {
+                "item": 63,
+                "number": 25
+            }
+        },
+        "out": {
+            "60": {
+                "item": 60,
+                "number": 2,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 115,
+        "speed": 8,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "4": {
+                "item": 4,
+                "number": 5
+            },
+            "57": {
+                "item": 57,
+                "number": 1
+            }
+        },
+        "out": {
+            "61": {
+                "item": 61,
+                "number": 12,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 116,
+        "speed": 8,
+        "building": 6,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "9": {
+                "item": 9,
+                "number": 9
+            },
+            "12": {
+                "item": 12,
+                "number": 5
+            }
+        },
+        "out": {
+            "62": {
+                "item": 62,
+                "number": 7,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 117,
+        "speed": 16,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "7": {
+                "item": 7,
+                "number": 5
+            },
+            "9": {
+                "item": 9,
+                "number": 3
+            }
+        },
+        "out": {
+            "63": {
+                "item": 63,
+                "number": 7,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 118,
+        "speed": 32,
+        "building": 5,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "35": {
+                "item": 35,
+                "number": 7
+            },
+            "55": {
+                "item": 55,
+                "number": 1
+            },
+            "62": {
+                "item": 62,
+                "number": 10
+            }
+        },
+        "out": {
+            "64": {
+                "item": 64,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 119,
+        "speed": 16,
+        "building": 5,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "49": {
+                "item": 49,
+                "number": 4
+            },
+            "60": {
+                "item": 60,
+                "number": 2
+            },
+            "62": {
+                "item": 62,
+                "number": 12
+            }
+        },
+        "out": {
+            "65": {
+                "item": 65,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 120,
+        "speed": 30,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "18": {
+                "item": 18,
+                "number": 1
+            },
+            "23": {
+                "item": 23,
+                "number": 1
+            }
+        },
+        "out": {
+            "68": {
+                "item": 68,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 121,
+        "speed": 24,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "22": {
+                "item": 22,
+                "number": 1
+            },
+            "25": {
+                "item": 25,
+                "number": 12
+            }
+        },
+        "out": {
+            "69": {
+                "item": 69,
+                "number": 2,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 122,
+        "speed": 24,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "14": {
+                "item": 14,
+                "number": 20
+            },
+            "29": {
+                "item": 29,
+                "number": 1
+            }
+        },
+        "out": {
+            "70": {
+                "item": 70,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 123,
+        "speed": 60,
+        "building": 5,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "33": {
+                "item": 33,
+                "number": 2
+            },
+            "35": {
+                "item": 35,
+                "number": 15
+            },
+            "68": {
+                "item": 68,
+                "number": 2
+            }
+        },
+        "out": {
+            "71": {
+                "item": 71,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 124,
+        "speed": 60,
+        "building": 5,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "28": {
+                "item": 28,
+                "number": 1
+            },
+            "36": {
+                "item": 36,
+                "number": 5
+            },
+            "37": {
+                "item": 37,
+                "number": 2
+            },
+            "70": {
+                "item": 70,
+                "number": 5
+            }
+        },
+        "out": {
+            "72": {
+                "item": 72,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 125,
+        "speed": 2,
+        "building": 3,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "44": {
+                "item": 44,
+                "number": 3
+            }
+        },
+        "out": {
+            "73": {
+                "item": 73,
+                "number": 2,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 126,
+        "speed": 10,
+        "building": 7,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "12": {
+                "item": 12,
+                "number": 5
+            },
+            "35": {
+                "item": 35,
+                "number": 2
+            },
+            "49": {
+                "item": 49,
+                "number": 2
+            },
+            "77": {
+                "item": 77,
+                "number": 25
+            }
+        },
+        "out": {
+            "74": {
+                "item": 74,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 127,
+        "speed": 1,
+        "building": 3,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "44": {
+                "item": 44,
+                "number": 1
+            }
+        },
+        "out": {
+            "75": {
+                "item": 75,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 128,
+        "speed": 40,
+        "building": 7,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "28": {
+                "item": 28,
+                "number": 1
+            },
+            "73": {
+                "item": 73,
+                "number": 50
+            },
+            "77": {
+                "item": 77,
+                "number": 25
+            }
+        },
+        "out": {
+            "76": {
+                "item": 76,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 129,
+        "speed": 8,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "4": {
+                "item": 4,
+                "number": 10
+            },
+            "44": {
+                "item": 44,
+                "number": 20
+            }
+        },
+        "out": {
+            "73": {
+                "item": 73,
+                "number": 15,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 130,
+        "speed": 80,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "66": {
+                "item": 66,
+                "number": 1
+            },
+            "72": {
+                "item": 72,
+                "number": 2
+            }
+        },
+        "out": {
+            "87": {
+                "item": 87,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 132,
+        "speed": 32,
+        "building": 7,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "33": {
+                "item": 33,
+                "number": 1
+            },
+            "49": {
+                "item": 49,
+                "number": 5
+            },
+            "77": {
+                "item": 77,
+                "number": 24
+            }
+        },
+        "out": {
+            "74": {
+                "item": 74,
+                "number": 2,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 133,
+        "speed": 6,
+        "building": 3,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "4": {
+                "item": 4,
+                "number": 30
+            }
+        },
+        "out": {
+            "78": {
+                "item": 78,
+                "number": 5,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 134,
+        "speed": 12,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "15": {
+                "item": 15,
+                "number": 4
+            },
+            "84": {
+                "item": 84,
+                "number": 2
+            }
+        },
+        "out": {
+            "79": {
+                "item": 79,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 135,
+        "speed": 120,
+        "building": 9,
+        "owned": true,
+        "minPower": 250,
+        "maxPower": 500,
+        "in": {
+            "73": {
+                "item": 73,
+                "number": 20
+            },
+            "81": {
+                "item": 81,
+                "number": 150
+            }
+        },
+        "out": {
+            "79": {
+                "item": 79,
+                "number": 20,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 136,
+        "speed": 20,
+        "building": 7,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "28": {
+                "item": 28,
+                "number": 1
+            },
+            "38": {
+                "item": 38,
+                "number": 10
+            },
+            "44": {
+                "item": 44,
+                "number": 50
+            },
+            "80": {
+                "item": 80,
+                "number": 8
+            }
+        },
+        "out": {
+            "76": {
+                "item": 76,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 137,
+        "speed": 120,
+        "building": 5,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "47": {
+                "item": 47,
+                "number": 2
+            },
+            "69": {
+                "item": 69,
+                "number": 5
+            }
+        },
+        "out": {
+            "88": {
+                "item": 88,
+                "number": 2,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 138,
+        "speed": 6,
+        "building": 7,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "42": {
+                "item": 42,
+                "number": 4
+            },
+            "52": {
+                "item": 52,
+                "number": 5
+            },
+            "73": {
+                "item": 73,
+                "number": 2
+            }
+        },
+        "out": {
+            "12": {
+                "item": 12,
+                "number": 3,
+                "primary": false
+            },
+            "46": {
+                "item": 46,
+                "number": 2,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 139,
+        "speed": 8,
+        "building": 5,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "10": {
+                "item": 10,
+                "number": 6
+            },
+            "20": {
+                "item": 20,
+                "number": 12
+            },
+            "34": {
+                "item": 34,
+                "number": 8
+            },
+            "43": {
+                "item": 43,
+                "number": 7
+            }
+        },
+        "out": {
+            "46": {
+                "item": 46,
+                "number": 4,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 140,
+        "speed": 6,
+        "building": 7,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "12": {
+                "item": 12,
+                "number": 3
+            },
+            "16": {
+                "item": 16,
+                "number": 1
+            },
+            "77": {
+                "item": 77,
+                "number": 12
+            }
+        },
+        "out": {
+            "80": {
+                "item": 80,
+                "number": 3,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 141,
+        "speed": 24,
+        "building": 7,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "51": {
+                "item": 51,
+                "number": 15
+            },
+            "52": {
+                "item": 52,
+                "number": 6
+            },
+            "63": {
+                "item": 63,
+                "number": 10
+            },
+            "80": {
+                "item": 80,
+                "number": 6
+            }
+        },
+        "out": {
+            "12": {
+                "item": 12,
+                "number": 6,
+                "primary": false
+            },
+            "81": {
+                "item": 81,
+                "number": 20,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 142,
+        "speed": 12,
+        "building": 7,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "11": {
+                "item": 11,
+                "number": 5
+            },
+            "51": {
+                "item": 51,
+                "number": 5
+            },
+            "52": {
+                "item": 52,
+                "number": 5
+            },
+            "80": {
+                "item": 80,
+                "number": 3
+            }
+        },
+        "out": {
+            "12": {
+                "item": 12,
+                "number": 8,
+                "primary": false
+            },
+            "81": {
+                "item": 81,
+                "number": 20,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 146,
+        "speed": 120,
+        "building": 9,
+        "owned": true,
+        "minPower": 500,
+        "maxPower": 1500,
+        "in": {
+            "78": {
+                "item": 78,
+                "number": 200
+            },
+            "82": {
+                "item": 82,
+                "number": 1
+            }
+        },
+        "out": {
+            "83": {
+                "item": 83,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 147,
+        "speed": 240,
+        "building": 5,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "25": {
+                "item": 25,
+                "number": 18
+            },
+            "47": {
+                "item": 47,
+                "number": 6
+            },
+            "49": {
+                "item": 49,
+                "number": 10
+            },
+            "79": {
+                "item": 79,
+                "number": 30
+            }
+        },
+        "out": {
+            "85": {
+                "item": 85,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 148,
+        "speed": 120,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "79": {
+                "item": 79,
+                "number": 20
+            },
+            "82": {
+                "item": 82,
+                "number": 1
+            }
+        },
+        "out": {
+            "85": {
+                "item": 85,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 149,
+        "speed": 600,
+        "building": 8,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "85": {
+                "item": 85,
+                "number": 1
+            }
+        },
+        "out": {
+            "86": {
+                "item": 86,
+                "number": 10,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 150,
+        "speed": 60,
+        "building": 9,
+        "owned": true,
+        "minPower": 250,
+        "maxPower": 750,
+        "in": {
+            "51": {
+                "item": 51,
+                "number": 25
+            },
+            "81": {
+                "item": 81,
+                "number": 100
+            }
+        },
+        "out": {
+            "84": {
+                "item": 84,
+                "number": 30,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 151,
+        "speed": 60,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "65": {
+                "item": 65,
+                "number": 2
+            },
+            "76": {
+                "item": 76,
+                "number": 1
+            }
+        },
+        "out": {
+            "82": {
+                "item": 82,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 152,
+        "speed": 120,
+        "building": 5,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "54": {
+                "item": 54,
+                "number": 2
+            },
+            "71": {
+                "item": 71,
+                "number": 5
+            },
+            "74": {
+                "item": 74,
+                "number": 6
+            },
+            "76": {
+                "item": 76,
+                "number": 2
+            }
+        },
+        "out": {
+            "89": {
+                "item": 89,
+                "number": 2,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 153,
+        "speed": 20,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "65": {
+                "item": 65,
+                "number": 2
+            },
+            "74": {
+                "item": 74,
+                "number": 2
+            }
+        },
+        "out": {
+            "66": {
+                "item": 66,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 154,
+        "speed": 25,
+        "building": 5,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "20": {
+                "item": 20,
+                "number": 25
+            },
+            "37": {
+                "item": 37,
+                "number": 3
+            },
+            "46": {
+                "item": 46,
+                "number": 10
+            },
+            "47": {
+                "item": 47,
+                "number": 1
+            }
+        },
+        "out": {
+            "66": {
+                "item": 66,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 155,
+        "speed": 40,
+        "building": 5,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "35": {
+                "item": 35,
+                "number": 30
+            },
+            "36": {
+                "item": 36,
+                "number": 10
+            },
+            "64": {
+                "item": 64,
+                "number": 1
+            },
+            "73": {
+                "item": 73,
+                "number": 60
+            }
+        },
+        "out": {
+            "65": {
+                "item": 65,
+                "number": 3,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 156,
+        "speed": 16,
+        "building": 6,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "38": {
+                "item": 38,
+                "number": 6
+            },
+            "58": {
+                "item": 58,
+                "number": 4
+            }
+        },
+        "out": {
+            "90": {
+                "item": 90,
+                "number": 5,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 157,
+        "speed": 8,
+        "building": 6,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "39": {
+                "item": 39,
+                "number": 5
+            },
+            "58": {
+                "item": 58,
+                "number": 4
+            }
+        },
+        "out": {
+            "90": {
+                "item": 90,
+                "number": 4,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 158,
+        "speed": 8,
+        "building": 7,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "10": {
+                "item": 10,
+                "number": 3
+            },
+            "38": {
+                "item": 38,
+                "number": 2
+            },
+            "39": {
+                "item": 39,
+                "number": 4
+            },
+            "40": {
+                "item": 40,
+                "number": 3
+            }
+        },
+        "out": {
+            "90": {
+                "item": 90,
+                "number": 6,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 159,
+        "speed": 6,
+        "building": 7,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "12": {
+                "item": 12,
+                "number": 10
+            },
+            "39": {
+                "item": 39,
+                "number": 5
+            }
+        },
+        "out": {
+            "38": {
+                "item": 38,
+                "number": 10,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 160,
+        "speed": 6,
+        "building": 7,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "5": {
+                "item": 5,
+                "number": 10
+            },
+            "8": {
+                "item": 8,
+                "number": 15
+            },
+            "12": {
+                "item": 12,
+                "number": 6
+            },
+            "52": {
+                "item": 52,
+                "number": 5
+            }
+        },
+        "out": {
+            "12": {
+                "item": 12,
+                "number": 5,
+                "primary": false
+            },
+            "45": {
+                "item": 45,
+                "number": 30,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 161,
+        "speed": 4,
+        "building": 2,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "34": {
+                "item": 34,
+                "number": 2
+            }
+        },
+        "out": {
+            "100": {
+                "item": 100,
+                "number": 4,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 162,
+        "speed": 6,
+        "building": 3,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "24": {
+                "item": 24,
+                "number": 4
+            }
+        },
+        "out": {
+            "100": {
+                "item": 100,
+                "number": 4,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 163,
+        "speed": 4,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "16": {
+                "item": 16,
+                "number": 2
+            },
+            "21": {
+                "item": 21,
+                "number": 1
+            }
+        },
+        "out": {
+            "100": {
+                "item": 100,
+                "number": 4,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 164,
+        "speed": 1,
+        "building": 10,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "42": {
+                "item": 42,
+                "number": 2
+            },
+            "100": {
+                "item": 100,
+                "number": 2
+            }
+        },
+        "out": {
+            "95": {
+                "item": 95,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 165,
+        "speed": 3,
+        "building": 10,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "38": {
+                "item": 38,
+                "number": 2
+            },
+            "100": {
+                "item": 100,
+                "number": 2
+            }
+        },
+        "out": {
+            "96": {
+                "item": 96,
+                "number": 2,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 166,
+        "speed": 4,
+        "building": 10,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "39": {
+                "item": 39,
+                "number": 2
+            },
+            "100": {
+                "item": 100,
+                "number": 2
+            }
+        },
+        "out": {
+            "97": {
+                "item": 97,
+                "number": 2,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 167,
+        "speed": 2,
+        "building": 10,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "75": {
+                "item": 75,
+                "number": 1
+            },
+            "80": {
+                "item": 80,
+                "number": 1
+            }
+        },
+        "out": {
+            "98": {
+                "item": 98,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 168,
+        "speed": 1,
+        "building": 10,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "75": {
+                "item": 75,
+                "number": 1
+            },
+            "77": {
+                "item": 77,
+                "number": 4
+            }
+        },
+        "out": {
+            "99": {
+                "item": 99,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 169,
+        "speed": 4,
+        "building": 10,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "13": {
+                "item": 13,
+                "number": 2
+            },
+            "100": {
+                "item": 100,
+                "number": 2
+            }
+        },
+        "out": {
+            "91": {
+                "item": 91,
+                "number": 2,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 170,
+        "speed": 3,
+        "building": 10,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "52": {
+                "item": 52,
+                "number": 2
+            },
+            "100": {
+                "item": 100,
+                "number": 2
+            }
+        },
+        "out": {
+            "92": {
+                "item": 92,
+                "number": 2,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 171,
+        "speed": 6,
+        "building": 10,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "90": {
+                "item": 90,
+                "number": 2
+            },
+            "100": {
+                "item": 100,
+                "number": 2
+            }
+        },
+        "out": {
+            "93": {
+                "item": 93,
+                "number": 2,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 172,
+        "speed": 2,
+        "building": 10,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "12": {
+                "item": 12,
+                "number": 2
+            },
+            "100": {
+                "item": 100,
+                "number": 2
+            }
+        },
+        "out": {
+            "94": {
+                "item": 94,
+                "number": 2,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 173,
+        "speed": 2,
+        "building": 10,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "96": {
+                "item": 96,
+                "number": 2
+            }
+        },
+        "out": {
+            "38": {
+                "item": 38,
+                "number": 2,
+                "primary": true
+            },
+            "100": {
+                "item": 100,
+                "number": 2,
+                "primary": false
+            }
+        }
+    },
+    {
+        "id": 174,
+        "speed": 6,
+        "building": 10,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "97": {
+                "item": 97,
+                "number": 2
+            }
+        },
+        "out": {
+            "39": {
+                "item": 39,
+                "number": 2,
+                "primary": true
+            },
+            "100": {
+                "item": 100,
+                "number": 2,
+                "primary": false
+            }
+        }
+    },
+    {
+        "id": 175,
+        "speed": 3,
+        "building": 10,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "98": {
+                "item": 98,
+                "number": 1
+            }
+        },
+        "out": {
+            "75": {
+                "item": 75,
+                "number": 1,
+                "primary": false
+            },
+            "80": {
+                "item": 80,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 176,
+        "speed": 1,
+        "building": 10,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "99": {
+                "item": 99,
+                "number": 1
+            }
+        },
+        "out": {
+            "75": {
+                "item": 75,
+                "number": 1,
+                "primary": false
+            },
+            "77": {
+                "item": 77,
+                "number": 4,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 177,
+        "speed": 2,
+        "building": 10,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "91": {
+                "item": 91,
+                "number": 2
+            }
+        },
+        "out": {
+            "13": {
+                "item": 13,
+                "number": 2,
+                "primary": true
+            },
+            "100": {
+                "item": 100,
+                "number": 2,
+                "primary": false
+            }
+        }
+    },
+    {
+        "id": 178,
+        "speed": 1,
+        "building": 10,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "92": {
+                "item": 92,
+                "number": 1
+            }
+        },
+        "out": {
+            "52": {
+                "item": 52,
+                "number": 1,
+                "primary": true
+            },
+            "100": {
+                "item": 100,
+                "number": 1,
+                "primary": false
+            }
+        }
+    },
+    {
+        "id": 179,
+        "speed": 6,
+        "building": 10,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "93": {
+                "item": 93,
+                "number": 2
+            }
+        },
+        "out": {
+            "90": {
+                "item": 90,
+                "number": 2,
+                "primary": true
+            },
+            "100": {
+                "item": 100,
+                "number": 2,
+                "primary": false
+            }
+        }
+    },
+    {
+        "id": 180,
+        "speed": 1,
+        "building": 10,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "94": {
+                "item": 94,
+                "number": 2
+            }
+        },
+        "out": {
+            "12": {
+                "item": 12,
+                "number": 2,
+                "primary": true
+            },
+            "100": {
+                "item": 100,
+                "number": 2,
+                "primary": false
+            }
+        }
+    },
+    {
+        "id": 181,
+        "speed": 32,
+        "building": 5,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "29": {
+                "item": 29,
+                "number": 8
+            },
+            "33": {
+                "item": 33,
+                "number": 4
+            },
+            "82": {
+                "item": 82,
+                "number": 1
+            },
+            "99": {
+                "item": 99,
+                "number": 24
+            }
+        },
+        "out": {
+            "54": {
+                "item": 54,
+                "number": 2,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 182,
+        "speed": 2,
+        "building": 6,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "39": {
+                "item": 39,
+                "number": 1
+            },
+            "94": {
+                "item": 94,
+                "number": 2
+            }
+        },
+        "out": {
+            "96": {
+                "item": 96,
+                "number": 2,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 183,
+        "speed": 3,
+        "building": 6,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "8": {
+                "item": 8,
+                "number": 10
+            },
+            "12": {
+                "item": 12,
+                "number": 10
+            }
+        },
+        "out": {
+            "42": {
+                "item": 42,
+                "number": 12,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 184,
+        "speed": 1,
+        "building": 6,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "95": {
+                "item": 95,
+                "number": 2
+            }
+        },
+        "out": {
+            "42": {
+                "item": 42,
+                "number": 2,
+                "primary": true
+            },
+            "100": {
+                "item": 100,
+                "number": 2,
+                "primary": false
+            }
+        }
+    },
+    {
+        "id": 185,
+        "speed": 16,
+        "building": 5,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "22": {
+                "item": 22,
+                "number": 1
+            },
+            "25": {
+                "item": 25,
+                "number": 6
+            },
+            "35": {
+                "item": 35,
+                "number": 8
+            }
+        },
+        "out": {
+            "69": {
+                "item": 69,
+                "number": 2,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 186,
+        "speed": 32,
+        "building": 5,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "20": {
+                "item": 20,
+                "number": 40
+            },
+            "29": {
+                "item": 29,
+                "number": 2
+            },
+            "60": {
+                "item": 60,
+                "number": 1
+            }
+        },
+        "out": {
+            "70": {
+                "item": 70,
+                "number": 4,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 187,
+        "speed": 16,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "23": {
+                "item": 23,
+                "number": 2
+            },
+            "47": {
+                "item": 47,
+                "number": 1
+            }
+        },
+        "out": {
+            "33": {
+                "item": 33,
+                "number": 2,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 188,
+        "speed": 24,
+        "building": 5,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "18": {
+                "item": 18,
+                "number": 1
+            },
+            "23": {
+                "item": 23,
+                "number": 1
+            },
+            "34": {
+                "item": 34,
+                "number": 3
+            }
+        },
+        "out": {
+            "68": {
+                "item": 68,
+                "number": 2,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 189,
+        "speed": 6,
+        "building": 6,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "39": {
+                "item": 39,
+                "number": 1
+            },
+            "56": {
+                "item": 56,
+                "number": 2
+            }
+        },
+        "out": {
+            "101": {
+                "item": 101,
+                "number": 2,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 190,
+        "speed": 4,
+        "building": 3,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "17": {
+                "item": 17,
+                "number": 1
+            }
+        },
+        "out": {
+            "102": {
+                "item": 102,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 191,
+        "speed": 12,
+        "building": 5,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "26": {
+                "item": 26,
+                "number": 2
+            },
+            "101": {
+                "item": 101,
+                "number": 2
+            },
+            "102": {
+                "item": 102,
+                "number": 2
+            }
+        },
+        "out": {
+            "105": {
+                "item": 105,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 192,
+        "speed": 12,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "62": {
+                "item": 62,
+                "number": 3
+            },
+            "102": {
+                "item": 102,
+                "number": 2
+            }
+        },
+        "out": {
+            "104": {
+                "item": 104,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 193,
+        "speed": 6,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "61": {
+                "item": 61,
+                "number": 5
+            },
+            "102": {
+                "item": 102,
+                "number": 1
+            }
+        },
+        "out": {
+            "103": {
+                "item": 103,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 194,
+        "speed": 6,
+        "building": 3,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "106": {
+                "item": 106,
+                "number": 1
+            }
+        },
+        "out": {
+            "107": {
+                "item": 107,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 195,
+        "speed": 12,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "21": {
+                "item": 21,
+                "number": 3
+            },
+            "101": {
+                "item": 101,
+                "number": 2
+            }
+        },
+        "out": {
+            "108": {
+                "item": 108,
+                "number": 15,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 196,
+        "speed": 24,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "60": {
+                "item": 60,
+                "number": 1
+            },
+            "108": {
+                "item": 108,
+                "number": 20
+            }
+        },
+        "out": {
+            "109": {
+                "item": 109,
+                "number": 10,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 197,
+        "speed": 12,
+        "building": 7,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "73": {
+                "item": 73,
+                "number": 3
+            },
+            "90": {
+                "item": 90,
+                "number": 3
+            },
+            "108": {
+                "item": 108,
+                "number": 25
+            }
+        },
+        "out": {
+            "110": {
+                "item": 110,
+                "number": 50,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 198,
+        "speed": 12,
+        "building": 5,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "73": {
+                "item": 73,
+                "number": 3
+            },
+            "93": {
+                "item": 93,
+                "number": 3
+            },
+            "108": {
+                "item": 108,
+                "number": 25
+            }
+        },
+        "out": {
+            "110": {
+                "item": 110,
+                "number": 50,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 199,
+        "speed": 6,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "26": {
+                "item": 26,
+                "number": 2
+            },
+            "56": {
+                "item": 56,
+                "number": 2
+            }
+        },
+        "out": {
+            "111": {
+                "item": 111,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 201,
+        "speed": 12,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "111": {
+                "item": 111,
+                "number": 1
+            },
+            "116": {
+                "item": 116,
+                "number": 10
+            }
+        },
+        "out": {
+            "112": {
+                "item": 112,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 202,
+        "speed": 4,
+        "building": 3,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "106": {
+                "item": 106,
+                "number": 1
+            }
+        },
+        "out": {
+            "116": {
+                "item": 116,
+                "number": 100,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 203,
+        "speed": 60,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "64": {
+                "item": 64,
+                "number": 1
+            },
+            "111": {
+                "item": 111,
+                "number": 5
+            }
+        },
+        "out": {
+            "113": {
+                "item": 113,
+                "number": 5,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 204,
+        "speed": 24,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "101": {
+                "item": 101,
+                "number": 4
+            },
+            "111": {
+                "item": 111,
+                "number": 3
+            }
+        },
+        "out": {
+            "114": {
+                "item": 114,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 205,
+        "speed": 120,
+        "building": 5,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "48": {
+                "item": 48,
+                "number": 20
+            },
+            "55": {
+                "item": 55,
+                "number": 6
+            },
+            "101": {
+                "item": 101,
+                "number": 10
+            },
+            "111": {
+                "item": 111,
+                "number": 5
+            }
+        },
+        "out": {
+            "115": {
+                "item": 115,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 206,
+        "speed": 6,
+        "building": 7,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "80": {
+                "item": 80,
+                "number": 1
+            },
+            "90": {
+                "item": 90,
+                "number": 6
+            }
+        },
+        "out": {
+            "58": {
+                "item": 58,
+                "number": 1,
+                "primary": false
+            },
+            "125": {
+                "item": 125,
+                "number": 10,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 207,
+        "speed": 2.4,
+        "building": 7,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "5": {
+                "item": 5,
+                "number": 2
+            },
+            "10": {
+                "item": 10,
+                "number": 4
+            },
+            "38": {
+                "item": 38,
+                "number": 4
+            },
+            "77": {
+                "item": 77,
+                "number": 3
+            }
+        },
+        "out": {
+            "58": {
+                "item": 58,
+                "number": 1,
+                "primary": false
+            },
+            "125": {
+                "item": 125,
+                "number": 6,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 208,
+        "speed": 1,
+        "building": 10,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "126": {
+                "item": 126,
+                "number": 1
+            }
+        },
+        "out": {
+            "75": {
+                "item": 75,
+                "number": 1,
+                "primary": false
+            },
+            "125": {
+                "item": 125,
+                "number": 2,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 209,
+        "speed": 1,
+        "building": 10,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "75": {
+                "item": 75,
+                "number": 1
+            },
+            "125": {
+                "item": 125,
+                "number": 2
+            }
+        },
+        "out": {
+            "126": {
+                "item": 126,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 210,
+        "speed": 6,
+        "building": 11,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "3": {
+                "item": 3,
+                "number": 24
+            },
+            "123": {
+                "item": 123,
+                "number": 4
+            }
+        },
+        "out": {
+            "117": {
+                "item": 117,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 211,
+        "speed": 4,
+        "building": 11,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "57": {
+                "item": 57,
+                "number": 4
+            },
+            "123": {
+                "item": 123,
+                "number": 3
+            }
+        },
+        "out": {
+            "117": {
+                "item": 117,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 212,
+        "speed": 2,
+        "building": 11,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "44": {
+                "item": 44,
+                "number": 4
+            },
+            "123": {
+                "item": 123,
+                "number": 2
+            }
+        },
+        "out": {
+            "117": {
+                "item": 117,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 213,
+        "speed": 2,
+        "building": 9,
+        "owned": true,
+        "minPower": 250,
+        "maxPower": 750,
+        "in": {
+            "5": {
+                "item": 5,
+                "number": 20
+            }
+        },
+        "out": {
+            "119": {
+                "item": 119,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 214,
+        "speed": 10,
+        "building": 11,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "119": {
+                "item": 119,
+                "number": 2
+            }
+        },
+        "out": {
+            "120": {
+                "item": 120,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 215,
+        "speed": 120,
+        "building": 7,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "12": {
+                "item": 12,
+                "number": 20
+            },
+            "87": {
+                "item": 87,
+                "number": 1
+            },
+            "118": {
+                "item": 118,
+                "number": 80
+            }
+        },
+        "out": {
+            "121": {
+                "item": 121,
+                "number": 4,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 216,
+        "speed": 6,
+        "building": 3,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "117": {
+                "item": 117,
+                "number": 1
+            }
+        },
+        "out": {
+            "118": {
+                "item": 118,
+                "number": 3,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 217,
+        "speed": 2,
+        "building": 3,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "122": {
+                "item": 122,
+                "number": 4
+            }
+        },
+        "out": {
+            "123": {
+                "item": 123,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 218,
+        "speed": 6,
+        "building": 5,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "20": {
+                "item": 20,
+                "number": 5
+            },
+            "26": {
+                "item": 26,
+                "number": 3
+            },
+            "123": {
+                "item": 123,
+                "number": 6
+            }
+        },
+        "out": {
+            "124": {
+                "item": 124,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 219,
+        "speed": 3,
+        "building": 9,
+        "owned": true,
+        "minPower": 250,
+        "maxPower": 750,
+        "in": {
+            "5": {
+                "item": 5,
+                "number": 12
+            },
+            "7": {
+                "item": 7,
+                "number": 24
+            }
+        },
+        "out": {
+            "119": {
+                "item": 119,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 220,
+        "speed": 3,
+        "building": 11,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": [],
+        "out": {
+            "131": {
+                "item": 131,
+                "number": 10,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 221,
+        "speed": 6,
+        "building": 11,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "123": {
+                "item": 123,
+                "number": 5
+            }
+        },
+        "out": {
+            "129": {
+                "item": 129,
+                "number": 10,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 222,
+        "speed": 2,
+        "building": 9,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "119": {
+                "item": 119,
+                "number": 1
+            },
+            "129": {
+                "item": 129,
+                "number": 5
+            }
+        },
+        "out": {
+            "130": {
+                "item": 130,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 223,
+        "speed": 12,
+        "building": 12,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "43": {
+                "item": 43,
+                "number": 9
+            },
+            "64": {
+                "item": 64,
+                "number": 1
+            },
+            "130": {
+                "item": 130,
+                "number": 6
+            },
+            "131": {
+                "item": 131,
+                "number": 25
+            }
+        },
+        "out": {
+            "129": {
+                "item": 129,
+                "number": 25,
+                "primary": false
+            },
+            "132": {
+                "item": 132,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 224,
+        "speed": 20,
+        "building": 12,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "66": {
+                "item": 66,
+                "number": 1
+            },
+            "118": {
+                "item": 118,
+                "number": 15
+            },
+            "120": {
+                "item": 120,
+                "number": 5
+            },
+            "131": {
+                "item": 131,
+                "number": 25
+            }
+        },
+        "out": {
+            "129": {
+                "item": 129,
+                "number": 25,
+                "primary": false
+            },
+            "133": {
+                "item": 133,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 225,
+        "speed": 15,
+        "building": 12,
+        "owned": true,
+        "minPower": 1500,
+        "maxPower": 2500,
+        "in": {
+            "88": {
+                "item": 88,
+                "number": 1
+            },
+            "131": {
+                "item": 131,
+                "number": 25
+            },
+            "132": {
+                "item": 132,
+                "number": 1
+            },
+            "133": {
+                "item": 133,
+                "number": 1
+            }
+        },
+        "out": {
+            "129": {
+                "item": 129,
+                "number": 25,
+                "primary": false
+            },
+            "134": {
+                "item": 134,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 226,
+        "speed": 12,
+        "building": 12,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "62": {
+                "item": 62,
+                "number": 12
+            },
+            "120": {
+                "item": 120,
+                "number": 2
+            },
+            "130": {
+                "item": 130,
+                "number": 2
+            },
+            "131": {
+                "item": 131,
+                "number": 12
+            }
+        },
+        "out": {
+            "129": {
+                "item": 129,
+                "number": 12,
+                "primary": false
+            },
+            "135": {
+                "item": 135,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 227,
+        "speed": 6,
+        "building": 9,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "86": {
+                "item": 86,
+                "number": 1
+            },
+            "129": {
+                "item": 129,
+                "number": 20
+            },
+            "138": {
+                "item": 138,
+                "number": 1
+            }
+        },
+        "out": {
+            "136": {
+                "item": 136,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 228,
+        "speed": 24,
+        "building": 12,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "47": {
+                "item": 47,
+                "number": 2
+            },
+            "118": {
+                "item": 118,
+                "number": 40
+            },
+            "131": {
+                "item": 131,
+                "number": 20
+            },
+            "136": {
+                "item": 136,
+                "number": 2
+            }
+        },
+        "out": {
+            "129": {
+                "item": 129,
+                "number": 20,
+                "primary": false
+            },
+            "137": {
+                "item": 137,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 229,
+        "speed": 60,
+        "building": 5,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "15": {
+                "item": 15,
+                "number": 200
+            },
+            "16": {
+                "item": 16,
+                "number": 100
+            },
+            "83": {
+                "item": 83,
+                "number": 1
+            },
+            "130": {
+                "item": 130,
+                "number": 20
+            }
+        },
+        "out": {
+            "138": {
+                "item": 138,
+                "number": 10,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 230,
+        "speed": 3,
+        "building": 9,
+        "owned": true,
+        "minPower": 250,
+        "maxPower": 750,
+        "in": {
+            "13": {
+                "item": 13,
+                "number": 10
+            }
+        },
+        "out": {
+            "119": {
+                "item": 119,
+                "number": 2,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 231,
+        "speed": 4,
+        "building": 11,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "5": {
+                "item": 5,
+                "number": 8
+            },
+            "62": {
+                "item": 62,
+                "number": 3
+            }
+        },
+        "out": {
+            "119": {
+                "item": 119,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 232,
+        "speed": 60,
+        "building": 5,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "89": {
+                "item": 89,
+                "number": 1
+            },
+            "130": {
+                "item": 130,
+                "number": 40
+            },
+            "132": {
+                "item": 132,
+                "number": 2
+            },
+            "138": {
+                "item": 138,
+                "number": 5
+            }
+        },
+        "out": {
+            "139": {
+                "item": 139,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 233,
+        "speed": 12,
+        "building": 2,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "1": {
+                "item": 1,
+                "number": 5
+            },
+            "7": {
+                "item": 7,
+                "number": 8
+            }
+        },
+        "out": {
+            "3": {
+                "item": 3,
+                "number": 10,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 234,
+        "speed": 6,
+        "building": 6,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "1": {
+                "item": 1,
+                "number": 5
+            },
+            "52": {
+                "item": 52,
+                "number": 1
+            }
+        },
+        "out": {
+            "3": {
+                "item": 3,
+                "number": 10,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 235,
+        "speed": 12,
+        "building": 6,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "2": {
+                "item": 2,
+                "number": 9
+            },
+            "52": {
+                "item": 52,
+                "number": 5
+            }
+        },
+        "out": {
+            "4": {
+                "item": 4,
+                "number": 22,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 236,
+        "speed": 12,
+        "building": 2,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "2": {
+                "item": 2,
+                "number": 5
+            },
+            "40": {
+                "item": 40,
+                "number": 8
+            }
+        },
+        "out": {
+            "4": {
+                "item": 4,
+                "number": 12,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 237,
+        "speed": 8,
+        "building": 3,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "44": {
+                "item": 44,
+                "number": 1
+            }
+        },
+        "out": {
+            "17": {
+                "item": 17,
+                "number": 7,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 238,
+        "speed": 12,
+        "building": 2,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "15": {
+                "item": 15,
+                "number": 16
+            },
+            "24": {
+                "item": 24,
+                "number": 24
+            }
+        },
+        "out": {
+            "25": {
+                "item": 25,
+                "number": 9,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 239,
+        "speed": 6,
+        "building": 2,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "15": {
+                "item": 15,
+                "number": 3
+            },
+            "24": {
+                "item": 24,
+                "number": 5
+            }
+        },
+        "out": {
+            "26": {
+                "item": 26,
+                "number": 5,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 240,
+        "speed": 8,
+        "building": 2,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "6": {
+                "item": 6,
+                "number": 6
+            },
+            "40": {
+                "item": 40,
+                "number": 2
+            }
+        },
+        "out": {
+            "57": {
+                "item": 57,
+                "number": 3,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 241,
+        "speed": 12,
+        "building": 6,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "9": {
+                "item": 9,
+                "number": 24
+            },
+            "80": {
+                "item": 80,
+                "number": 2
+            }
+        },
+        "out": {
+            "62": {
+                "item": 62,
+                "number": 15,
+                "primary": true
+            },
+            "140": {
+                "item": 140,
+                "number": 12,
+                "primary": false
+            }
+        }
+    },
+    {
+        "id": 242,
+        "speed": 6,
+        "building": 7,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "7": {
+                "item": 7,
+                "number": 5
+            },
+            "12": {
+                "item": 12,
+                "number": 10
+            },
+            "140": {
+                "item": 140,
+                "number": 12
+            }
+        },
+        "out": {
+            "12": {
+                "item": 12,
+                "number": 8,
+                "primary": false
+            },
+            "63": {
+                "item": 63,
+                "number": 27,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 243,
+        "speed": 24,
+        "building": 12,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "124": {
+                "item": 124,
+                "number": 5
+            },
+            "131": {
+                "item": 131,
+                "number": 24
+            },
+            "132": {
+                "item": 132,
+                "number": 3
+            },
+            "135": {
+                "item": 135,
+                "number": 3
+            }
+        },
+        "out": {
+            "129": {
+                "item": 129,
+                "number": 24,
+                "primary": false
+            },
+            "141": {
+                "item": 141,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 244,
+        "speed": 3,
+        "building": 10,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "75": {
+                "item": 75,
+                "number": 2
+            },
+            "127": {
+                "item": 127,
+                "number": 4
+            }
+        },
+        "out": {
+            "128": {
+                "item": 128,
+                "number": 2,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 245,
+        "speed": 24,
+        "building": 6,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "125": {
+                "item": 125,
+                "number": 16
+            },
+            "135": {
+                "item": 135,
+                "number": 1
+            }
+        },
+        "out": {
+            "58": {
+                "item": 58,
+                "number": 2,
+                "primary": false
+            },
+            "127": {
+                "item": 127,
+                "number": 16,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 246,
+        "speed": 3,
+        "building": 10,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "128": {
+                "item": 128,
+                "number": 2
+            }
+        },
+        "out": {
+            "75": {
+                "item": 75,
+                "number": 2,
+                "primary": false
+            },
+            "127": {
+                "item": 127,
+                "number": 4,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 247,
+        "speed": 12,
+        "building": 3,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "3": {
+                "item": 3,
+                "number": 20
+            }
+        },
+        "out": {
+            "26": {
+                "item": 26,
+                "number": 5,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 248,
+        "speed": 3,
+        "building": 11,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "126": {
+                "item": 126,
+                "number": 12
+            },
+            "130": {
+                "item": 130,
+                "number": 4
+            }
+        },
+        "out": {
+            "58": {
+                "item": 58,
+                "number": 2,
+                "primary": false
+            },
+            "127": {
+                "item": 127,
+                "number": 10,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 249,
+        "speed": 3,
+        "building": 9,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "5": {
+                "item": 5,
+                "number": 30
+            },
+            "93": {
+                "item": 93,
+                "number": 2
+            }
+        },
+        "out": {
+            "119": {
+                "item": 119,
+                "number": 3,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 250,
+        "speed": 3,
+        "building": 9,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "129": {
+                "item": 129,
+                "number": 10
+            }
+        },
+        "out": {
+            "130": {
+                "item": 130,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 251,
+        "speed": 20,
+        "building": 2,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "5": {
+                "item": 5,
+                "number": 12
+            },
+            "9": {
+                "item": 9,
+                "number": 25
+            }
+        },
+        "out": {
+            "62": {
+                "item": 62,
+                "number": 18,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 252,
+        "speed": 8,
+        "building": 3,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "44": {
+                "item": 44,
+                "number": 3
+            }
+        },
+        "out": {
+            "25": {
+                "item": 25,
+                "number": 3,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 253,
+        "speed": 2,
+        "building": 9,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "40": {
+                "item": 40,
+                "number": 24
+            }
+        },
+        "out": {
+            "119": {
+                "item": 119,
+                "number": 1,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 254,
+        "speed": 15,
+        "building": 4,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "34": {
+                "item": 34,
+                "number": 7
+            },
+            "61": {
+                "item": 61,
+                "number": 30
+            }
+        },
+        "out": {
+            "55": {
+                "item": 55,
+                "number": 2,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 255,
+        "speed": 2,
+        "building": 9,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "120": {
+                "item": 120,
+                "number": 1
+            },
+            "129": {
+                "item": 129,
+                "number": 5
+            }
+        },
+        "out": {
+            "130": {
+                "item": 130,
+                "number": 2,
+                "primary": true
+            }
+        }
+    },
+    {
+        "id": 256,
+        "speed": 10,
+        "building": 6,
+        "owned": true,
+        "minPower": 0,
+        "maxPower": 0,
+        "in": {
+            "6": {
+                "item": 6,
+                "number": 9
+            },
+            "52": {
+                "item": 52,
+                "number": 5
+            }
+        },
+        "out": {
+            "57": {
+                "item": 57,
+                "number": 6,
+                "primary": true
+            }
+        }
+    }
+]

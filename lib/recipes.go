@@ -63,6 +63,33 @@ var RecipesList []ItemRecipe=[]ItemRecipe{
             "screw":390,
         },
     },
+    {
+        ItemName: "modular frame",
+        RecipeName: "regular",
+        Output: 2,
+        Inputs: InputsDict{
+            "reinforced iron plate":3,
+            "iron rod":12,
+        },
+    },
+    {
+        ItemName: "modular frame",
+        RecipeName: "bolted frame",
+        Output: 5,
+        Inputs: InputsDict{
+            "reinforced iron plate":7.5,
+            "screw":140,
+        },
+    },
+    {
+        ItemName: "modular frame",
+        RecipeName: "steeled frame",
+        Output: 3,
+        Inputs: InputsDict{
+            "reinforced iron plate":2,
+            "steel pipe":10,
+        },
+    },
 }
 
 // recipes collection as dict
