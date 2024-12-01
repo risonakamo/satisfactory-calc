@@ -4,12 +4,9 @@ online apis to get json data
 - https://satisfactory.wiki.gg/wiki/Online_tools
 - https://api.calculatory.ovh/data/items
 - https://api.calculatory.ovh/data/recipes
+- https://factoriolab.github.io/data/sfy/data.json
 
-# ovh calc data analysis
-These jsons should provide recipe information for any given item, but doesn't include the name of the recipe.
-
-Also, it includes the items made and time in seconds to make, so it doesn't have items per minute, but that can be calculated.
-
+# requirements
 To fill out our items list, we need, for each item+recipe combo:
 
 - output amount
@@ -17,4 +14,16 @@ To fill out our items list, we need, for each item+recipe combo:
 - name of item
 - name of recipe
 
-The data has all of this except for recipe name
+Each recipe should be able to link with it's "original" item.
+
+# ovh calc data analysis
+- does not provide name of recp
+- need to calculate inputs/min
+
+# factorylab
+- can identify recipe's link with original item with the output item
+- need to calculate inputs/min
+- has name of alternate recps
+
+# conclusion
+factorylab seems to have what we would need. should be able to create converter func that converts the json into our own json, then don't need to continuously run this func.
