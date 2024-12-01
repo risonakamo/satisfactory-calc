@@ -2,6 +2,8 @@
 
 package factorylab
 
+import "satisfactory-calc/lib/utils"
+
 // dict specifying amount of items required by an item.
 // also used for outputs.
 // key: item name
@@ -26,4 +28,17 @@ type Recipe struct {
 
     In InputsDict
     Out InputsDict
+}
+
+// read factory lab json file
+func readFactoryLabJson(filename string) FactorylabJson {
+    var result FactorylabJson
+    var e error
+    result,e=utils.ReadJson[FactorylabJson](filename)
+
+    if e!=nil {
+        panic(e)
+    }
+
+    return result
 }
