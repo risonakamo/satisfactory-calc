@@ -2,6 +2,8 @@
 
 package satisfactory_calc
 
+import "satisfactory-calc/lib/factorylab"
+
 // collection of recipes, sorted by item/recipe
 // key: item name
 // val: the recipe as dict of all its alternates
@@ -56,4 +58,12 @@ func groupRecipesIntoDict(recps []ItemRecipe) RecipesDict {
     }
 
     return result
+}
+
+// get recipes dict from factory lab data json
+func loadRecipesDict(path string) RecipesDict {
+    var facLabData factorylab.FactorylabJson=factorylab.ReadFactoryLabJson(path)
+    return groupRecipesIntoDict(
+        convertFacLabRecps(facLabData.Recipes),
+    )
 }

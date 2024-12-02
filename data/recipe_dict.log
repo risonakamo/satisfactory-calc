@@ -1,0 +1,2264 @@
+satisfactory_calc.RecipesDict{
+    "adaptive-control-unit": {
+        "Adaptive Control Unit": {
+            ItemName:   "adaptive-control-unit",
+            RecipeName: "Adaptive Control Unit",
+            Output:     1,
+            Inputs:     {"automated-wiring":5, "circuit-board":5, "computer":2, "heavy-modular-frame":1},
+        },
+    },
+    "ai-expansion-server": {
+        "AI Expansion Server": {
+            ItemName:   "ai-expansion-server",
+            RecipeName: "AI Expansion Server",
+            Output:     4,
+            Inputs:     {"excited-photonic-matter":100, "magnetic-field-generator":4, "neural-quantum-processor":4, "superposition-oscillator":4},
+        },
+    },
+    "ai-limiter": {
+        "AI Limiter": {
+            ItemName:   "ai-limiter",
+            RecipeName: "AI Limiter",
+            Output:     5,
+            Inputs:     {"copper-sheet":25, "quickwire":100},
+        },
+        "Plastic AI Limiter": {
+            ItemName:   "ai-limiter",
+            RecipeName: "Plastic AI Limiter",
+            Output:     8,
+            Inputs:     {"plastic":28, "quickwire":120},
+        },
+    },
+    "alclad-aluminum-sheet": {
+        "Alclad Aluminum Sheet": {
+            ItemName:   "alclad-aluminum-sheet",
+            RecipeName: "Alclad Aluminum Sheet",
+            Output:     30,
+            Inputs:     {"aluminum-ingot":30, "copper-ingot":10},
+        },
+    },
+    "alien-dna-capsule": {
+        "Alien DNA Capsule": {
+            ItemName:   "alien-dna-capsule",
+            RecipeName: "Alien DNA Capsule",
+            Output:     10,
+            Inputs:     {"alien-protein":10},
+        },
+    },
+    "alien-power-matrix": {
+        "Alien Power Matrix": {
+            ItemName:   "alien-power-matrix",
+            RecipeName: "Alien Power Matrix",
+            Output:     2.5,
+            Inputs:     {"excited-photonic-matter":60, "power-shard":7.5, "sam-fluctuator":12.5, "superposition-oscillator":7.5},
+        },
+    },
+    "alien-protein": {
+        "Hatcher Protein": {
+            ItemName:   "alien-protein",
+            RecipeName: "Hatcher Protein",
+            Output:     20,
+            Inputs:     {"hatcher-remains":20},
+        },
+        "Hog Protein": {
+            ItemName:   "alien-protein",
+            RecipeName: "Hog Protein",
+            Output:     20,
+            Inputs:     {"hog-remains":20},
+        },
+        "Spitter Protein": {
+            ItemName:   "alien-protein",
+            RecipeName: "Spitter Protein",
+            Output:     20,
+            Inputs:     {"spitter-remains":20},
+        },
+        "Stinger Protein": {
+            ItemName:   "alien-protein",
+            RecipeName: "Stinger Protein",
+            Output:     20,
+            Inputs:     {"stinger-remains":20},
+        },
+    },
+    "alumina-solution": {
+        "Alumina Solution": {
+            ItemName:   "alumina-solution",
+            RecipeName: "Alumina Solution",
+            Output:     120,
+            Inputs:     {"bauxite":120, "water":180},
+        },
+        "Sloppy Alumina": {
+            ItemName:   "alumina-solution",
+            RecipeName: "Sloppy Alumina",
+            Output:     240,
+            Inputs:     {"bauxite":200, "water":200},
+        },
+        "Unpackage Alumina Solution": {
+            ItemName:   "alumina-solution",
+            RecipeName: "Unpackage Alumina Solution",
+            Output:     119.99999237060547,
+            Inputs:     {"packaged-alumina-solution":119.99999237060547},
+        },
+    },
+    "aluminum-casing": {
+        "Alclad Casing": {
+            ItemName:   "aluminum-casing",
+            RecipeName: "Alclad Casing",
+            Output:     112.49999237060547,
+            Inputs:     {"aluminum-ingot":149.99998474121094, "copper-ingot":74.99999237060547},
+        },
+        "Aluminum Casing": {
+            ItemName:   "aluminum-casing",
+            RecipeName: "Aluminum Casing",
+            Output:     59.999996185302734,
+            Inputs:     {"aluminum-ingot":89.99999237060547},
+        },
+    },
+    "aluminum-ingot": {
+        "Aluminum Ingot": {
+            ItemName:   "aluminum-ingot",
+            RecipeName: "Aluminum Ingot",
+            Output:     59.999996185302734,
+            Inputs:     {"aluminum-scrap":89.99999237060547, "silica":74.99999237060547},
+        },
+        "Pure Aluminum Ingot": {
+            ItemName:   "aluminum-ingot",
+            RecipeName: "Pure Aluminum Ingot",
+            Output:     29.999998092651367,
+            Inputs:     {"aluminum-scrap":59.999996185302734},
+        },
+    },
+    "aluminum-scrap": {
+        "Aluminum Scrap": {
+            ItemName:   "aluminum-scrap",
+            RecipeName: "Aluminum Scrap",
+            Output:     359.9999694824219,
+            Inputs:     {"alumina-solution":239.99998474121094, "coal":119.99999237060547},
+        },
+        "Electrode Aluminum Scrap": {
+            ItemName:   "aluminum-scrap",
+            RecipeName: "Electrode Aluminum Scrap",
+            Output:     299.9999694824219,
+            Inputs:     {"alumina-solution":179.99998474121094, "petroleum-coke":59.999996185302734},
+        },
+        "Instant Scrap": {
+            ItemName:   "aluminum-scrap",
+            RecipeName: "Instant Scrap",
+            Output:     300,
+            Inputs:     {"bauxite":150, "coal":100, "sulfuric-acid":50, "water":60},
+        },
+    },
+    "assembly-director-system": {
+        "Assembly Director System": {
+            ItemName:   "assembly-director-system",
+            RecipeName: "Assembly Director System",
+            Output:     0.75,
+            Inputs:     {"adaptive-control-unit":1.5, "supercomputer":0.75},
+        },
+    },
+    "automated-wiring": {
+        "Automated Speed Wiring": {
+            ItemName:   "automated-wiring",
+            RecipeName: "Automated Speed Wiring",
+            Output:     7.499999523162842,
+            Inputs:     {"high-speed-connector":1.8749998807907104, "stator":3.749999761581421, "wire":74.99999237060547},
+        },
+        "Automated Wiring": {
+            ItemName:   "automated-wiring",
+            RecipeName: "Automated Wiring",
+            Output:     2.5,
+            Inputs:     {"cable":50, "stator":2.5},
+        },
+    },
+    "ballistic-warp-drive": {
+        "Ballistic Warp Drive": {
+            ItemName:   "ballistic-warp-drive",
+            RecipeName: "Ballistic Warp Drive",
+            Output:     1,
+            Inputs:     {"dark-matter-crystal":40, "singularity-cell":5, "superposition-oscillator":2, "thermal-propulsion-rocket":1},
+        },
+    },
+    "battery": {
+        "Battery": {
+            ItemName:   "battery",
+            RecipeName: "Battery",
+            Output:     20,
+            Inputs:     {"alumina-solution":40, "aluminum-casing":20, "sulfuric-acid":0},
+        },
+        "Classic Battery": {
+            ItemName:   "battery",
+            RecipeName: "Classic Battery",
+            Output:     29.999998092651367,
+            Inputs:     {"alclad-aluminum-sheet":52.499996185302734, "plastic":59.999996185302734, "sulfur":44.999996185302734, "wire":89.99999237060547},
+        },
+    },
+    "bauxite": {
+        "Bauxite": {
+            ItemName:   "bauxite",
+            RecipeName: "Bauxite",
+            Output:     59.999996185302734,
+            Inputs:     {},
+        },
+        "Bauxite (Caterium)": {
+            ItemName:   "bauxite",
+            RecipeName: "Bauxite (Caterium)",
+            Output:     120,
+            Inputs:     {"caterium-ore":150, "reanimated-sam":10},
+        },
+        "Bauxite (Copper)": {
+            ItemName:   "bauxite",
+            RecipeName: "Bauxite (Copper)",
+            Output:     120,
+            Inputs:     {"copper-ore":180, "reanimated-sam":10},
+        },
+    },
+    "biochemical-sculptor": {
+        "Biochemical Sculptor": {
+            ItemName:   "biochemical-sculptor",
+            RecipeName: "Biochemical Sculptor",
+            Output:     2,
+            Inputs:     {"assembly-director-system":0.5, "ficsite-trigon":40, "water":10},
+        },
+    },
+    "biomass": {
+        "Biomass (Alien Protein)": {
+            ItemName:   "biomass",
+            RecipeName: "Biomass (Alien Protein)",
+            Output:     1499.9998779296875,
+            Inputs:     {"alien-protein":14.999999046325684},
+        },
+        "Biomass (Leaves)": {
+            ItemName:   "biomass",
+            RecipeName: "Biomass (Leaves)",
+            Output:     60,
+            Inputs:     {"leaves":120},
+        },
+        "Biomass (Mycelia)": {
+            ItemName:   "biomass",
+            RecipeName: "Biomass (Mycelia)",
+            Output:     149.99998474121094,
+            Inputs:     {"mycelia":14.999999046325684},
+        },
+        "Biomass (Wood)": {
+            ItemName:   "biomass",
+            RecipeName: "Biomass (Wood)",
+            Output:     299.9999694824219,
+            Inputs:     {"wood":59.999996185302734},
+        },
+    },
+    "black-powder": {
+        "Black Powder": {
+            ItemName:   "black-powder",
+            RecipeName: "Black Powder",
+            Output:     29.999998092651367,
+            Inputs:     {"coal":14.999999046325684, "sulfur":14.999999046325684},
+        },
+        "Fine Black Powder": {
+            ItemName:   "black-powder",
+            RecipeName: "Fine Black Powder",
+            Output:     44.999996185302734,
+            Inputs:     {"compacted-coal":14.999999046325684, "sulfur":7.499999523162842},
+        },
+    },
+    "cable": {
+        "Cable": {
+            ItemName:   "cable",
+            RecipeName: "Cable",
+            Output:     29.999998092651367,
+            Inputs:     {"wire":59.999996185302734},
+        },
+        "Coated Cable": {
+            ItemName:   "cable",
+            RecipeName: "Coated Cable",
+            Output:     67.5,
+            Inputs:     {"heavy-oil-residue":14.999999046325684, "wire":37.499996185302734},
+        },
+        "Insulated Cable": {
+            ItemName:   "cable",
+            RecipeName: "Insulated Cable",
+            Output:     100,
+            Inputs:     {"rubber":30, "wire":45},
+        },
+        "Quickwire Cable": {
+            ItemName:   "cable",
+            RecipeName: "Quickwire Cable",
+            Output:     27.5,
+            Inputs:     {"quickwire":7.5, "rubber":5},
+        },
+    },
+    "caterium-ingot": {
+        "Caterium Ingot": {
+            ItemName:   "caterium-ingot",
+            RecipeName: "Caterium Ingot",
+            Output:     14.999999046325684,
+            Inputs:     {"caterium-ore":44.999996185302734},
+        },
+        "Leached Caterium Ingot": {
+            ItemName:   "caterium-ingot",
+            RecipeName: "Leached Caterium Ingot",
+            Output:     36,
+            Inputs:     {"caterium-ore":54, "sulfuric-acid":30},
+        },
+        "Pure Caterium Ingot": {
+            ItemName:   "caterium-ingot",
+            RecipeName: "Pure Caterium Ingot",
+            Output:     12,
+            Inputs:     {"caterium-ore":24, "water":24},
+        },
+        "Tempered Caterium Ingot": {
+            ItemName:   "caterium-ingot",
+            RecipeName: "Tempered Caterium Ingot",
+            Output:     22.499998092651367,
+            Inputs:     {"caterium-ore":44.999996185302734, "petroleum-coke":14.999999046325684},
+        },
+    },
+    "caterium-ore": {
+        "Caterium Ore": {
+            ItemName:   "caterium-ore",
+            RecipeName: "Caterium Ore",
+            Output:     59.999996185302734,
+            Inputs:     {},
+        },
+        "Caterium Ore (Copper)": {
+            ItemName:   "caterium-ore",
+            RecipeName: "Caterium Ore (Copper)",
+            Output:     120,
+            Inputs:     {"copper-ore":150, "reanimated-sam":10},
+        },
+        "Caterium Ore (Quartz)": {
+            ItemName:   "caterium-ore",
+            RecipeName: "Caterium Ore (Quartz)",
+            Output:     120,
+            Inputs:     {"raw-quartz":120, "reanimated-sam":10},
+        },
+    },
+    "circuit-board": {
+        "Caterium Circuit Board": {
+            ItemName:   "circuit-board",
+            RecipeName: "Caterium Circuit Board",
+            Output:     8.75,
+            Inputs:     {"plastic":12.5, "quickwire":37.5},
+        },
+        "Circuit Board": {
+            ItemName:   "circuit-board",
+            RecipeName: "Circuit Board",
+            Output:     7.499999523162842,
+            Inputs:     {"copper-sheet":14.999999046325684, "plastic":29.999998092651367},
+        },
+        "Electrode Circuit Board": {
+            ItemName:   "circuit-board",
+            RecipeName: "Electrode Circuit Board",
+            Output:     5,
+            Inputs:     {"petroleum-coke":40, "rubber":20},
+        },
+        "Silicon Circuit Board": {
+            ItemName:   "circuit-board",
+            RecipeName: "Silicon Circuit Board",
+            Output:     12.5,
+            Inputs:     {"copper-sheet":27.5, "silica":27.5},
+        },
+    },
+    "cluster-nobelisk": {
+        "Cluster Nobelisk": {
+            ItemName:   "cluster-nobelisk",
+            RecipeName: "Cluster Nobelisk",
+            Output:     2.5,
+            Inputs:     {"nobelisk":7.5, "smokeless-powder":10},
+        },
+    },
+    "coal": {
+        "Biocoal": {
+            ItemName:   "coal",
+            RecipeName: "Biocoal",
+            Output:     44.999996185302734,
+            Inputs:     {"biomass":37.499996185302734},
+        },
+        "Charcoal": {
+            ItemName:   "coal",
+            RecipeName: "Charcoal",
+            Output:     149.99998474121094,
+            Inputs:     {"wood":14.999999046325684},
+        },
+        "Coal": {
+            ItemName:   "coal",
+            RecipeName: "Coal",
+            Output:     59.999996185302734,
+            Inputs:     {},
+        },
+        "Coal (Iron)": {
+            ItemName:   "coal",
+            RecipeName: "Coal (Iron)",
+            Output:     120,
+            Inputs:     {"iron-ore":180, "reanimated-sam":10},
+        },
+        "Coal (Limestone)": {
+            ItemName:   "coal",
+            RecipeName: "Coal (Limestone)",
+            Output:     120,
+            Inputs:     {"limestone":360, "reanimated-sam":10},
+        },
+    },
+    "color-cartridge": {
+        "Color Cartridge": {
+            ItemName:   "color-cartridge",
+            RecipeName: "Color Cartridge",
+            Output:     74.99999237060547,
+            Inputs:     {"flower-petals":37.499996185302734},
+        },
+    },
+    "compacted-coal": {
+        "Compacted Coal": {
+            ItemName:   "compacted-coal",
+            RecipeName: "Compacted Coal",
+            Output:     25,
+            Inputs:     {"coal":25, "sulfur":25},
+        },
+        "Dark-Ion Fuel": {
+            ItemName:   "compacted-coal",
+            RecipeName: "Dark-Ion Fuel",
+            Output:     40,
+            Inputs:     {"dark-matter-crystal":80, "packaged-rocket-fuel":240},
+        },
+        "Ionized Fuel": {
+            ItemName:   "compacted-coal",
+            RecipeName: "Ionized Fuel",
+            Output:     5,
+            Inputs:     {"power-shard":2.5, "rocket-fuel":40},
+        },
+        "Nitro Rocket Fuel": {
+            ItemName:   "compacted-coal",
+            RecipeName: "Nitro Rocket Fuel",
+            Output:     +Inf,
+            Inputs:     {"coal":+Inf, "fuel":+Inf, "nitrogen-gas":+Inf, "sulfur":+Inf},
+        },
+        "Rocket Fuel": {
+            ItemName:   "compacted-coal",
+            RecipeName: "Rocket Fuel",
+            Output:     10,
+            Inputs:     {"nitric-acid":10, "turbofuel":60},
+        },
+    },
+    "computer": {
+        "Caterium Computer": {
+            ItemName:   "computer",
+            RecipeName: "Caterium Computer",
+            Output:     3.749999761581421,
+            Inputs:     {"circuit-board":14.999999046325684, "quickwire":52.499996185302734, "rubber":22.499998092651367},
+        },
+        "Computer": {
+            ItemName:   "computer",
+            RecipeName: "Computer",
+            Output:     2.5,
+            Inputs:     {"cable":20, "circuit-board":10, "plastic":40},
+        },
+        "Crystal Computer": {
+            ItemName:   "computer",
+            RecipeName: "Crystal Computer",
+            Output:     3.3333332538604736,
+            Inputs:     {"circuit-board":5, "crystal-oscillator":1.6666666269302368},
+        },
+    },
+    "concrete": {
+        "Concrete": {
+            ItemName:   "concrete",
+            RecipeName: "Concrete",
+            Output:     14.999999046325684,
+            Inputs:     {"limestone":44.999996185302734},
+        },
+        "Fine Concrete": {
+            ItemName:   "concrete",
+            RecipeName: "Fine Concrete",
+            Output:     50,
+            Inputs:     {"limestone":60, "silica":15},
+        },
+        "Rubber Concrete": {
+            ItemName:   "concrete",
+            RecipeName: "Rubber Concrete",
+            Output:     90,
+            Inputs:     {"limestone":100, "rubber":20},
+        },
+        "Wet Concrete": {
+            ItemName:   "concrete",
+            RecipeName: "Wet Concrete",
+            Output:     80,
+            Inputs:     {"limestone":120, "water":100},
+        },
+    },
+    "cooling-system": {
+        "Cooling Device": {
+            ItemName:   "cooling-system",
+            RecipeName: "Cooling Device",
+            Output:     5,
+            Inputs:     {"heat-sink":10, "motor":2.5, "nitrogen-gas":60},
+        },
+        "Cooling System": {
+            ItemName:   "cooling-system",
+            RecipeName: "Cooling System",
+            Output:     6,
+            Inputs:     {"heat-sink":12, "nitrogen-gas":150, "rubber":12, "water":30},
+        },
+    },
+    "copper-ingot": {
+        "Copper Alloy Ingot": {
+            ItemName:   "copper-ingot",
+            RecipeName: "Copper Alloy Ingot",
+            Output:     100,
+            Inputs:     {"copper-ore":50, "iron-ore":50},
+        },
+        "Copper Ingot": {
+            ItemName:   "copper-ingot",
+            RecipeName: "Copper Ingot",
+            Output:     29.999998092651367,
+            Inputs:     {"copper-ore":29.999998092651367},
+        },
+        "Leached Copper Ingot": {
+            ItemName:   "copper-ingot",
+            RecipeName: "Leached Copper Ingot",
+            Output:     110,
+            Inputs:     {"copper-ore":45, "sulfuric-acid":25},
+        },
+        "Pure Copper Ingot": {
+            ItemName:   "copper-ingot",
+            RecipeName: "Pure Copper Ingot",
+            Output:     37.5,
+            Inputs:     {"copper-ore":15, "water":10},
+        },
+        "Tempered Copper Ingot": {
+            ItemName:   "copper-ingot",
+            RecipeName: "Tempered Copper Ingot",
+            Output:     60,
+            Inputs:     {"copper-ore":25, "petroleum-coke":40},
+        },
+    },
+    "copper-ore": {
+        "Copper Ore": {
+            ItemName:   "copper-ore",
+            RecipeName: "Copper Ore",
+            Output:     59.999996185302734,
+            Inputs:     {},
+        },
+        "Copper Ore (Quartz)": {
+            ItemName:   "copper-ore",
+            RecipeName: "Copper Ore (Quartz)",
+            Output:     120,
+            Inputs:     {"raw-quartz":100, "reanimated-sam":10},
+        },
+        "Copper Ore (Sulfur)": {
+            ItemName:   "copper-ore",
+            RecipeName: "Copper Ore (Sulfur)",
+            Output:     120,
+            Inputs:     {"reanimated-sam":10, "sulfur":120},
+        },
+    },
+    "copper-powder": {
+        "Copper Powder": {
+            ItemName:   "copper-powder",
+            RecipeName: "Copper Powder",
+            Output:     50,
+            Inputs:     {"copper-ingot":300},
+        },
+    },
+    "copper-sheet": {
+        "Copper Sheet": {
+            ItemName:   "copper-sheet",
+            RecipeName: "Copper Sheet",
+            Output:     10,
+            Inputs:     {"copper-ingot":20},
+        },
+        "Steamed Copper Sheet": {
+            ItemName:   "copper-sheet",
+            RecipeName: "Steamed Copper Sheet",
+            Output:     22.499998092651367,
+            Inputs:     {"copper-ingot":22.499998092651367, "water":22.499998092651367},
+        },
+    },
+    "crude-oil": {
+        "Crude Oil": {
+            ItemName:   "crude-oil",
+            RecipeName: "Crude Oil",
+            Output:     59.999996185302734,
+            Inputs:     {},
+        },
+        "Unpackage Oil": {
+            ItemName:   "crude-oil",
+            RecipeName: "Unpackage Oil",
+            Output:     59.999996185302734,
+            Inputs:     {"packaged-oil":59.999996185302734},
+        },
+    },
+    "crystal-oscillator": {
+        "Crystal Oscillator": {
+            ItemName:   "crystal-oscillator",
+            RecipeName: "Crystal Oscillator",
+            Output:     1,
+            Inputs:     {"cable":14, "quartz-crystal":18, "reinforced-iron-plate":2.5},
+        },
+        "Insulated Crystal Oscillator": {
+            ItemName:   "crystal-oscillator",
+            RecipeName: "Insulated Crystal Oscillator",
+            Output:     1.8749998807907104,
+            Inputs:     {"ai-limiter":1.8749998807907104, "quartz-crystal":18.749998092651367, "rubber":13.124999046325684},
+        },
+    },
+    "dark-matter-crystal": {
+        "Dark Matter Crystal": {
+            ItemName:   "dark-matter-crystal",
+            RecipeName: "Dark Matter Crystal",
+            Output:     29.999998092651367,
+            Inputs:     {"dark-matter-residue":149.99998474121094, "diamonds":29.999998092651367},
+        },
+        "Dark Matter Crystallization": {
+            ItemName:   "dark-matter-crystal",
+            RecipeName: "Dark Matter Crystallization",
+            Output:     20,
+            Inputs:     {"dark-matter-residue":200},
+        },
+        "Dark Matter Trap": {
+            ItemName:   "dark-matter-crystal",
+            RecipeName: "Dark Matter Trap",
+            Output:     59.999996185302734,
+            Inputs:     {"dark-matter-residue":149.99998474121094, "time-crystal":29.999998092651367},
+        },
+    },
+    "dark-matter-residue": {
+        "AI Expansion Server": {
+            ItemName:   "dark-matter-residue",
+            RecipeName: "AI Expansion Server",
+            Output:     100,
+            Inputs:     {"excited-photonic-matter":100, "magnetic-field-generator":4, "neural-quantum-processor":4, "superposition-oscillator":4},
+        },
+        "Alien Power Matrix": {
+            ItemName:   "dark-matter-residue",
+            RecipeName: "Alien Power Matrix",
+            Output:     60,
+            Inputs:     {"excited-photonic-matter":60, "power-shard":7.5, "sam-fluctuator":12.5, "superposition-oscillator":7.5},
+        },
+        "Dark Matter Residue": {
+            ItemName:   "dark-matter-residue",
+            RecipeName: "Dark Matter Residue",
+            Output:     100,
+            Inputs:     {"reanimated-sam":50},
+        },
+        "Ficsonium Fuel Rod": {
+            ItemName:   "dark-matter-residue",
+            RecipeName: "Ficsonium Fuel Rod",
+            Output:     50,
+            Inputs:     {"electromagnetic-control-rod":5, "excited-photonic-matter":50, "ficsite-trigon":100, "ficsonium":5},
+        },
+        "Neural-Quantum Processor": {
+            ItemName:   "dark-matter-residue",
+            RecipeName: "Neural-Quantum Processor",
+            Output:     75,
+            Inputs:     {"excited-photonic-matter":75, "ficsite-trigon":45, "supercomputer":3, "time-crystal":15},
+        },
+        "Superposition Oscillator": {
+            ItemName:   "dark-matter-residue",
+            RecipeName: "Superposition Oscillator",
+            Output:     125,
+            Inputs:     {"alclad-aluminum-sheet":45, "crystal-oscillator":5, "dark-matter-crystal":30, "excited-photonic-matter":125},
+        },
+        "Synthetic Power Shard": {
+            ItemName:   "dark-matter-residue",
+            RecipeName: "Synthetic Power Shard",
+            Output:     60,
+            Inputs:     {"dark-matter-crystal":10, "excited-photonic-matter":60, "quartz-crystal":60, "time-crystal":10},
+        },
+    },
+    "diamonds": {
+        "Cloudy Diamonds": {
+            ItemName:   "diamonds",
+            RecipeName: "Cloudy Diamonds",
+            Output:     20,
+            Inputs:     {"coal":240, "limestone":480},
+        },
+        "Diamonds": {
+            ItemName:   "diamonds",
+            RecipeName: "Diamonds",
+            Output:     29.999998092651367,
+            Inputs:     {"coal":599.9999389648438},
+        },
+        "Oil-Based Diamonds": {
+            ItemName:   "diamonds",
+            RecipeName: "Oil-Based Diamonds",
+            Output:     40,
+            Inputs:     {"crude-oil":200},
+        },
+        "Petroleum Diamonds": {
+            ItemName:   "diamonds",
+            RecipeName: "Petroleum Diamonds",
+            Output:     29.999998092651367,
+            Inputs:     {"petroleum-coke":719.9999389648438},
+        },
+        "Pink Diamonds": {
+            ItemName:   "diamonds",
+            RecipeName: "Pink Diamonds",
+            Output:     14.999999046325684,
+            Inputs:     {"coal":119.99999237060547, "quartz-crystal":44.999996185302734},
+        },
+        "Turbo Diamonds": {
+            ItemName:   "diamonds",
+            RecipeName: "Turbo Diamonds",
+            Output:     60,
+            Inputs:     {"coal":600, "packaged-turbofuel":40},
+        },
+    },
+    "dissolved-silica": {
+        "Quartz Purification": {
+            ItemName:   "dissolved-silica",
+            RecipeName: "Quartz Purification",
+            Output:     60,
+            Inputs:     {"nitric-acid":10, "raw-quartz":120},
+        },
+    },
+    "electromagnetic-control-rod": {
+        "Electromagnetic Connection Rod": {
+            ItemName:   "electromagnetic-control-rod",
+            RecipeName: "Electromagnetic Connection Rod",
+            Output:     8,
+            Inputs:     {"high-speed-connector":4, "stator":8},
+        },
+        "Electromagnetic Control Rod": {
+            ItemName:   "electromagnetic-control-rod",
+            RecipeName: "Electromagnetic Control Rod",
+            Output:     4,
+            Inputs:     {"ai-limiter":4, "stator":6},
+        },
+    },
+    "empty-canister": {
+        "Coated Iron Canister": {
+            ItemName:   "empty-canister",
+            RecipeName: "Coated Iron Canister",
+            Output:     59.999996185302734,
+            Inputs:     {"copper-sheet":14.999999046325684, "iron-plate":29.999998092651367},
+        },
+        "Empty Canister": {
+            ItemName:   "empty-canister",
+            RecipeName: "Empty Canister",
+            Output:     59.999996185302734,
+            Inputs:     {"plastic":29.999998092651367},
+        },
+        "Steel Canister": {
+            ItemName:   "empty-canister",
+            RecipeName: "Steel Canister",
+            Output:     40,
+            Inputs:     {"steel-ingot":40},
+        },
+        "Unpackage Alumina Solution": {
+            ItemName:   "empty-canister",
+            RecipeName: "Unpackage Alumina Solution",
+            Output:     119.99999237060547,
+            Inputs:     {"packaged-alumina-solution":119.99999237060547},
+        },
+        "Unpackage Fuel": {
+            ItemName:   "empty-canister",
+            RecipeName: "Unpackage Fuel",
+            Output:     59.999996185302734,
+            Inputs:     {"packaged-fuel":59.999996185302734},
+        },
+        "Unpackage Heavy Oil Residue": {
+            ItemName:   "empty-canister",
+            RecipeName: "Unpackage Heavy Oil Residue",
+            Output:     20,
+            Inputs:     {"packaged-heavy-oil-residue":20},
+        },
+        "Unpackage Liquid Biofuel": {
+            ItemName:   "empty-canister",
+            RecipeName: "Unpackage Liquid Biofuel",
+            Output:     59.999996185302734,
+            Inputs:     {"packaged-liquid-biofuel":59.999996185302734},
+        },
+        "Unpackage Oil": {
+            ItemName:   "empty-canister",
+            RecipeName: "Unpackage Oil",
+            Output:     59.999996185302734,
+            Inputs:     {"packaged-oil":59.999996185302734},
+        },
+        "Unpackage Sulfuric Acid": {
+            ItemName:   "empty-canister",
+            RecipeName: "Unpackage Sulfuric Acid",
+            Output:     119.99999237060547,
+            Inputs:     {"packaged-sulfuric-acid":119.99999237060547},
+        },
+        "Unpackage Turbofuel": {
+            ItemName:   "empty-canister",
+            RecipeName: "Unpackage Turbofuel",
+            Output:     20,
+            Inputs:     {"packaged-turbofuel":20},
+        },
+        "Unpackage Water": {
+            ItemName:   "empty-canister",
+            RecipeName: "Unpackage Water",
+            Output:     119.99999237060547,
+            Inputs:     {"packaged-water":119.99999237060547},
+        },
+    },
+    "empty-fluid-tank": {
+        "Empty Fluid Tank": {
+            ItemName:   "empty-fluid-tank",
+            RecipeName: "Empty Fluid Tank",
+            Output:     59.999996185302734,
+            Inputs:     {"aluminum-ingot":59.999996185302734},
+        },
+        "Unpackage Ionized Fuel": {
+            ItemName:   "empty-fluid-tank",
+            RecipeName: "Unpackage Ionized Fuel",
+            Output:     40,
+            Inputs:     {"packaged-ionized-fuel":40},
+        },
+        "Unpackage Nitric Acid": {
+            ItemName:   "empty-fluid-tank",
+            RecipeName: "Unpackage Nitric Acid",
+            Output:     20,
+            Inputs:     {"packaged-nitric-acid":20},
+        },
+        "Unpackage Nitrogen Gas": {
+            ItemName:   "empty-fluid-tank",
+            RecipeName: "Unpackage Nitrogen Gas",
+            Output:     59.999996185302734,
+            Inputs:     {"packaged-nitrogen-gas":59.999996185302734},
+        },
+        "Unpackage Rocket Fuel": {
+            ItemName:   "empty-fluid-tank",
+            RecipeName: "Unpackage Rocket Fuel",
+            Output:     59.999996185302734,
+            Inputs:     {"packaged-rocket-fuel":59.999996185302734},
+        },
+    },
+    "encased-industrial-beam": {
+        "Encased Industrial Beam": {
+            ItemName:   "encased-industrial-beam",
+            RecipeName: "Encased Industrial Beam",
+            Output:     6,
+            Inputs:     {"concrete":36, "steel-beam":18},
+        },
+        "Encased Industrial Pipe": {
+            ItemName:   "encased-industrial-beam",
+            RecipeName: "Encased Industrial Pipe",
+            Output:     4,
+            Inputs:     {"concrete":20, "steel-pipe":24},
+        },
+    },
+    "encased-plutonium-cell": {
+        "Encased Plutonium Cell": {
+            ItemName:   "encased-plutonium-cell",
+            RecipeName: "Encased Plutonium Cell",
+            Output:     5,
+            Inputs:     {"concrete":20, "plutonium-pellet":10},
+        },
+        "Instant Plutonium Cell": {
+            ItemName:   "encased-plutonium-cell",
+            RecipeName: "Instant Plutonium Cell",
+            Output:     10,
+            Inputs:     {"aluminum-casing":10, "non-fissile-uranium":75},
+        },
+    },
+    "encased-uranium-cell": {
+        "Encased Uranium Cell": {
+            ItemName:   "encased-uranium-cell",
+            RecipeName: "Encased Uranium Cell",
+            Output:     25,
+            Inputs:     {"concrete":15, "sulfuric-acid":40, "uranium":50},
+        },
+        "Infused Uranium Cell": {
+            ItemName:   "encased-uranium-cell",
+            RecipeName: "Infused Uranium Cell",
+            Output:     20,
+            Inputs:     {"quickwire":75, "silica":15, "sulfur":25, "uranium":25},
+        },
+    },
+    "excited-photonic-matter": {
+        "Excited Photonic Matter": {
+            ItemName:   "excited-photonic-matter",
+            RecipeName: "Excited Photonic Matter",
+            Output:     200,
+            Inputs:     {},
+        },
+    },
+    "explosive-rebar": {
+        "Explosive Rebar": {
+            ItemName:   "explosive-rebar",
+            RecipeName: "Explosive Rebar",
+            Output:     5,
+            Inputs:     {"iron-rebar":10, "smokeless-powder":10, "steel-pipe":10},
+        },
+    },
+    "fabric": {
+        "Fabric": {
+            ItemName:   "fabric",
+            RecipeName: "Fabric",
+            Output:     14.999999046325684,
+            Inputs:     {"biomass":74.99999237060547, "mycelia":14.999999046325684},
+        },
+        "Polyester Fabric": {
+            ItemName:   "fabric",
+            RecipeName: "Polyester Fabric",
+            Output:     29.999998092651367,
+            Inputs:     {"polymer-resin":29.999998092651367, "water":29.999998092651367},
+        },
+    },
+    "ficsite-ingot": {
+        "Ficsite Ingot (Aluminum)": {
+            ItemName:   "ficsite-ingot",
+            RecipeName: "Ficsite Ingot (Aluminum)",
+            Output:     29.999998092651367,
+            Inputs:     {"aluminum-ingot":119.99999237060547, "reanimated-sam":59.999996185302734},
+        },
+        "Ficsite Ingot (Caterium)": {
+            ItemName:   "ficsite-ingot",
+            RecipeName: "Ficsite Ingot (Caterium)",
+            Output:     14.999999046325684,
+            Inputs:     {"caterium-ingot":59.999996185302734, "reanimated-sam":44.999996185302734},
+        },
+        "Ficsite Ingot (Iron)": {
+            ItemName:   "ficsite-ingot",
+            RecipeName: "Ficsite Ingot (Iron)",
+            Output:     10,
+            Inputs:     {"iron-ingot":240, "reanimated-sam":40},
+        },
+    },
+    "ficsite-trigon": {
+        "Ficsite Trigon": {
+            ItemName:   "ficsite-trigon",
+            RecipeName: "Ficsite Trigon",
+            Output:     30,
+            Inputs:     {"ficsite-ingot":10},
+        },
+    },
+    "ficsonium": {
+        "Ficsonium": {
+            ItemName:   "ficsonium",
+            RecipeName: "Ficsonium",
+            Output:     10,
+            Inputs:     {"dark-matter-residue":200, "plutonium-waste":10, "singularity-cell":10},
+        },
+    },
+    "ficsonium-fuel-rod": {
+        "Ficsonium Fuel Rod": {
+            ItemName:   "ficsonium-fuel-rod",
+            RecipeName: "Ficsonium Fuel Rod",
+            Output:     2.5,
+            Inputs:     {"electromagnetic-control-rod":5, "excited-photonic-matter":50, "ficsite-trigon":100, "ficsonium":5},
+        },
+    },
+    "fuel": {
+        "Diluted Fuel": {
+            ItemName:   "fuel",
+            RecipeName: "Diluted Fuel",
+            Output:     100,
+            Inputs:     {"heavy-oil-residue":50, "water":100},
+        },
+        "Fuel": {
+            ItemName:   "fuel",
+            RecipeName: "Fuel",
+            Output:     40,
+            Inputs:     {"crude-oil":60},
+        },
+        "Residual Fuel": {
+            ItemName:   "fuel",
+            RecipeName: "Residual Fuel",
+            Output:     40,
+            Inputs:     {"heavy-oil-residue":60},
+        },
+        "Unpackage Fuel": {
+            ItemName:   "fuel",
+            RecipeName: "Unpackage Fuel",
+            Output:     59.999996185302734,
+            Inputs:     {"packaged-fuel":59.999996185302734},
+        },
+    },
+    "fused-modular-frame": {
+        "Fused Modular Frame": {
+            ItemName:   "fused-modular-frame",
+            RecipeName: "Fused Modular Frame",
+            Output:     1.5,
+            Inputs:     {"aluminum-casing":75, "heavy-modular-frame":1.5, "nitrogen-gas":37.5},
+        },
+        "Heat-Fused Frame": {
+            ItemName:   "fused-modular-frame",
+            RecipeName: "Heat-Fused Frame",
+            Output:     3,
+            Inputs:     {"aluminum-ingot":150, "fuel":30, "heavy-modular-frame":3, "nitric-acid":24},
+        },
+    },
+    "gas-filter": {
+        "Gas Filter": {
+            ItemName:   "gas-filter",
+            RecipeName: "Gas Filter",
+            Output:     7.499999523162842,
+            Inputs:     {"coal":29.999998092651367, "fabric":14.999999046325684, "iron-plate":14.999999046325684},
+        },
+    },
+    "gas-nobelisk": {
+        "Gas Nobelisk": {
+            ItemName:   "gas-nobelisk",
+            RecipeName: "Gas Nobelisk",
+            Output:     5,
+            Inputs:     {"biomass":50, "nobelisk":5},
+        },
+    },
+    "heat-sink": {
+        "Heat Exchanger": {
+            ItemName:   "heat-sink",
+            RecipeName: "Heat Exchanger",
+            Output:     10,
+            Inputs:     {"aluminum-casing":30, "rubber":30},
+        },
+        "Heat Sink": {
+            ItemName:   "heat-sink",
+            RecipeName: "Heat Sink",
+            Output:     7.499999523162842,
+            Inputs:     {"alclad-aluminum-sheet":37.499996185302734, "copper-sheet":22.499998092651367},
+        },
+    },
+    "heavy-modular-frame": {
+        "Heavy Encased Frame": {
+            ItemName:   "heavy-modular-frame",
+            RecipeName: "Heavy Encased Frame",
+            Output:     2.812499761581421,
+            Inputs:     {"concrete":20.624998092651367, "encased-industrial-beam":9.374999046325684, "modular-frame":7.499999523162842, "steel-pipe":33.75},
+        },
+        "Heavy Flexible Frame": {
+            ItemName:   "heavy-modular-frame",
+            RecipeName: "Heavy Flexible Frame",
+            Output:     3.749999761581421,
+            Inputs:     {"encased-industrial-beam":11.249999046325684, "modular-frame":18.749998092651367, "rubber":74.99999237060547, "screw":389.9999694824219},
+        },
+        "Heavy Modular Frame": {
+            ItemName:   "heavy-modular-frame",
+            RecipeName: "Heavy Modular Frame",
+            Output:     2,
+            Inputs:     {"encased-industrial-beam":10, "modular-frame":10, "screw":240, "steel-pipe":40},
+        },
+    },
+    "heavy-oil-residue": {
+        "Heavy Oil Residue": {
+            ItemName:   "heavy-oil-residue",
+            RecipeName: "Heavy Oil Residue",
+            Output:     40,
+            Inputs:     {"crude-oil":30},
+        },
+        "Plastic": {
+            ItemName:   "heavy-oil-residue",
+            RecipeName: "Plastic",
+            Output:     10,
+            Inputs:     {"crude-oil":30},
+        },
+        "Polymer Resin": {
+            ItemName:   "heavy-oil-residue",
+            RecipeName: "Polymer Resin",
+            Output:     20,
+            Inputs:     {"crude-oil":60},
+        },
+        "Rubber": {
+            ItemName:   "heavy-oil-residue",
+            RecipeName: "Rubber",
+            Output:     20,
+            Inputs:     {"crude-oil":30},
+        },
+        "Unpackage Heavy Oil Residue": {
+            ItemName:   "heavy-oil-residue",
+            RecipeName: "Unpackage Heavy Oil Residue",
+            Output:     20,
+            Inputs:     {"packaged-heavy-oil-residue":20},
+        },
+    },
+    "high-speed-connector": {
+        "High-Speed Connector": {
+            ItemName:   "high-speed-connector",
+            RecipeName: "High-Speed Connector",
+            Output:     3.749999761581421,
+            Inputs:     {"cable":37.499996185302734, "circuit-board":3.749999761581421, "quickwire":209.99998474121094},
+        },
+        "Silicon High-Speed Connector": {
+            ItemName:   "high-speed-connector",
+            RecipeName: "Silicon High-Speed Connector",
+            Output:     3,
+            Inputs:     {"circuit-board":3, "quickwire":90, "silica":37.5},
+        },
+    },
+    "homing-rifle-ammo": {
+        "Homing Rifle Ammo": {
+            ItemName:   "homing-rifle-ammo",
+            RecipeName: "Homing Rifle Ammo",
+            Output:     25,
+            Inputs:     {"high-speed-connector":2.5, "rifle-cartridge":50},
+        },
+    },
+    "iodine-infused-filter": {
+        "Iodine-Infused Filter": {
+            ItemName:   "iodine-infused-filter",
+            RecipeName: "Iodine-Infused Filter",
+            Output:     3.749999761581421,
+            Inputs:     {"aluminum-casing":3.749999761581421, "gas-filter":3.749999761581421, "quickwire":29.999998092651367},
+        },
+    },
+    "ionized-fuel": {
+        "Dark-Ion Fuel": {
+            ItemName:   "ionized-fuel",
+            RecipeName: "Dark-Ion Fuel",
+            Output:     200,
+            Inputs:     {"dark-matter-crystal":80, "packaged-rocket-fuel":240},
+        },
+        "Ionized Fuel": {
+            ItemName:   "ionized-fuel",
+            RecipeName: "Ionized Fuel",
+            Output:     40,
+            Inputs:     {"power-shard":2.5, "rocket-fuel":40},
+        },
+        "Unpackage Ionized Fuel": {
+            ItemName:   "ionized-fuel",
+            RecipeName: "Unpackage Ionized Fuel",
+            Output:     80,
+            Inputs:     {"packaged-ionized-fuel":40},
+        },
+    },
+    "iron-ingot": {
+        "Basic Iron Ingot": {
+            ItemName:   "iron-ingot",
+            RecipeName: "Basic Iron Ingot",
+            Output:     50,
+            Inputs:     {"iron-ore":25, "limestone":40},
+        },
+        "Iron Alloy Ingot": {
+            ItemName:   "iron-ingot",
+            RecipeName: "Iron Alloy Ingot",
+            Output:     75,
+            Inputs:     {"copper-ore":10, "iron-ore":40},
+        },
+        "Iron Ingot": {
+            ItemName:   "iron-ingot",
+            RecipeName: "Iron Ingot",
+            Output:     29.999998092651367,
+            Inputs:     {"iron-ore":29.999998092651367},
+        },
+        "Leached Iron Ingot": {
+            ItemName:   "iron-ingot",
+            RecipeName: "Leached Iron Ingot",
+            Output:     100,
+            Inputs:     {"iron-ore":50, "sulfuric-acid":10},
+        },
+        "Pure Iron Ingot": {
+            ItemName:   "iron-ingot",
+            RecipeName: "Pure Iron Ingot",
+            Output:     65,
+            Inputs:     {"iron-ore":35, "water":20},
+        },
+    },
+    "iron-ore": {
+        "Iron Ore": {
+            ItemName:   "iron-ore",
+            RecipeName: "Iron Ore",
+            Output:     59.999996185302734,
+            Inputs:     {},
+        },
+        "Iron Ore (Limestone)": {
+            ItemName:   "iron-ore",
+            RecipeName: "Iron Ore (Limestone)",
+            Output:     120,
+            Inputs:     {"limestone":240, "reanimated-sam":10},
+        },
+    },
+    "iron-plate": {
+        "Coated Iron Plate": {
+            ItemName:   "iron-plate",
+            RecipeName: "Coated Iron Plate",
+            Output:     74.99999237060547,
+            Inputs:     {"iron-ingot":37.499996185302734, "plastic":7.499999523162842},
+        },
+        "Iron Plate": {
+            ItemName:   "iron-plate",
+            RecipeName: "Iron Plate",
+            Output:     20,
+            Inputs:     {"iron-ingot":30},
+        },
+        "Steel Cast Plate": {
+            ItemName:   "iron-plate",
+            RecipeName: "Steel Cast Plate",
+            Output:     44.999996185302734,
+            Inputs:     {"iron-ingot":14.999999046325684, "steel-ingot":14.999999046325684},
+        },
+    },
+    "iron-rebar": {
+        "Iron Rebar": {
+            ItemName:   "iron-rebar",
+            RecipeName: "Iron Rebar",
+            Output:     14.999999046325684,
+            Inputs:     {"iron-rod":14.999999046325684},
+        },
+    },
+    "iron-rod": {
+        "Aluminum Rod": {
+            ItemName:   "iron-rod",
+            RecipeName: "Aluminum Rod",
+            Output:     52.499996185302734,
+            Inputs:     {"aluminum-ingot":7.499999523162842},
+        },
+        "Iron Rod": {
+            ItemName:   "iron-rod",
+            RecipeName: "Iron Rod",
+            Output:     14.999999046325684,
+            Inputs:     {"iron-ingot":14.999999046325684},
+        },
+        "Steel Rod": {
+            ItemName:   "iron-rod",
+            RecipeName: "Steel Rod",
+            Output:     48,
+            Inputs:     {"steel-ingot":12},
+        },
+    },
+    "limestone": {
+        "Limestone": {
+            ItemName:   "limestone",
+            RecipeName: "Limestone",
+            Output:     59.999996185302734,
+            Inputs:     {},
+        },
+        "Limestone (Sulfur)": {
+            ItemName:   "limestone",
+            RecipeName: "Limestone (Sulfur)",
+            Output:     120,
+            Inputs:     {"reanimated-sam":10, "sulfur":20},
+        },
+    },
+    "liquid-biofuel": {
+        "Liquid Biofuel": {
+            ItemName:   "liquid-biofuel",
+            RecipeName: "Liquid Biofuel",
+            Output:     59.999996185302734,
+            Inputs:     {"solid-biofuel":89.99999237060547, "water":44.999996185302734},
+        },
+        "Unpackage Liquid Biofuel": {
+            ItemName:   "liquid-biofuel",
+            RecipeName: "Unpackage Liquid Biofuel",
+            Output:     59.999996185302734,
+            Inputs:     {"packaged-liquid-biofuel":59.999996185302734},
+        },
+    },
+    "magnetic-field-generator": {
+        "Magnetic Field Generator": {
+            ItemName:   "magnetic-field-generator",
+            RecipeName: "Magnetic Field Generator",
+            Output:     1,
+            Inputs:     {"electromagnetic-control-rod":1, "versatile-framework":2.5},
+        },
+    },
+    "modular-engine": {
+        "Modular Engine": {
+            ItemName:   "modular-engine",
+            RecipeName: "Modular Engine",
+            Output:     1,
+            Inputs:     {"motor":2, "rubber":15, "smart-plating":2},
+        },
+    },
+    "modular-frame": {
+        "Bolted Frame": {
+            ItemName:   "modular-frame",
+            RecipeName: "Bolted Frame",
+            Output:     5,
+            Inputs:     {"reinforced-iron-plate":7.5, "screw":140},
+        },
+        "Modular Frame": {
+            ItemName:   "modular-frame",
+            RecipeName: "Modular Frame",
+            Output:     2,
+            Inputs:     {"iron-rod":12, "reinforced-iron-plate":3},
+        },
+        "Steeled Frame": {
+            ItemName:   "modular-frame",
+            RecipeName: "Steeled Frame",
+            Output:     3,
+            Inputs:     {"reinforced-iron-plate":2, "steel-pipe":10},
+        },
+    },
+    "motor": {
+        "Electric Motor": {
+            ItemName:   "motor",
+            RecipeName: "Electric Motor",
+            Output:     7.499999523162842,
+            Inputs:     {"electromagnetic-control-rod":3.749999761581421, "rotor":7.499999523162842},
+        },
+        "Motor": {
+            ItemName:   "motor",
+            RecipeName: "Motor",
+            Output:     5,
+            Inputs:     {"rotor":10, "stator":10},
+        },
+        "Rigor Motor": {
+            ItemName:   "motor",
+            RecipeName: "Rigor Motor",
+            Output:     7.5,
+            Inputs:     {"crystal-oscillator":1.25, "rotor":3.75, "stator":3.75},
+        },
+    },
+    "neural-quantum-processor": {
+        "Neural-Quantum Processor": {
+            ItemName:   "neural-quantum-processor",
+            RecipeName: "Neural-Quantum Processor",
+            Output:     3,
+            Inputs:     {"excited-photonic-matter":75, "ficsite-trigon":45, "supercomputer":3, "time-crystal":15},
+        },
+    },
+    "nitric-acid": {
+        "Nitric Acid": {
+            ItemName:   "nitric-acid",
+            RecipeName: "Nitric Acid",
+            Output:     30,
+            Inputs:     {"iron-plate":10, "nitrogen-gas":120, "water":30},
+        },
+        "Unpackage Nitric Acid": {
+            ItemName:   "nitric-acid",
+            RecipeName: "Unpackage Nitric Acid",
+            Output:     20,
+            Inputs:     {"packaged-nitric-acid":20},
+        },
+    },
+    "nitrogen-gas": {
+        "Nitrogen Gas": {
+            ItemName:   "nitrogen-gas",
+            RecipeName: "Nitrogen Gas",
+            Output:     59.999996185302734,
+            Inputs:     {},
+        },
+        "Nitrogen Gas (Bauxite)": {
+            ItemName:   "nitrogen-gas",
+            RecipeName: "Nitrogen Gas (Bauxite)",
+            Output:     120,
+            Inputs:     {"bauxite":100, "reanimated-sam":10},
+        },
+        "Nitrogen Gas (Caterium)": {
+            ItemName:   "nitrogen-gas",
+            RecipeName: "Nitrogen Gas (Caterium)",
+            Output:     120,
+            Inputs:     {"caterium-ore":120, "reanimated-sam":10},
+        },
+        "Unpackage Nitrogen Gas": {
+            ItemName:   "nitrogen-gas",
+            RecipeName: "Unpackage Nitrogen Gas",
+            Output:     239.99998474121094,
+            Inputs:     {"packaged-nitrogen-gas":59.999996185302734},
+        },
+    },
+    "nobelisk": {
+        "Nobelisk": {
+            ItemName:   "nobelisk",
+            RecipeName: "Nobelisk",
+            Output:     10,
+            Inputs:     {"black-powder":20, "steel-pipe":20},
+        },
+    },
+    "non-fissile-uranium": {
+        "Fertile Uranium": {
+            ItemName:   "non-fissile-uranium",
+            RecipeName: "Fertile Uranium",
+            Output:     100,
+            Inputs:     {"nitric-acid":15, "sulfuric-acid":25, "uranium":25, "uranium-waste":25},
+        },
+        "Non-fissile Uranium": {
+            ItemName:   "non-fissile-uranium",
+            RecipeName: "Non-fissile Uranium",
+            Output:     50,
+            Inputs:     {"nitric-acid":15, "silica":25, "sulfuric-acid":15, "uranium-waste":37.5},
+        },
+    },
+    "nuclear-pasta": {
+        "Nuclear Pasta": {
+            ItemName:   "nuclear-pasta",
+            RecipeName: "Nuclear Pasta",
+            Output:     0.5,
+            Inputs:     {"copper-powder":100, "pressure-conversion-cube":0.5},
+        },
+    },
+    "nuke-nobelisk": {
+        "Nuke Nobelisk": {
+            ItemName:   "nuke-nobelisk",
+            RecipeName: "Nuke Nobelisk",
+            Output:     0.5,
+            Inputs:     {"ai-limiter":3, "encased-uranium-cell":10, "nobelisk":2.5, "smokeless-powder":5},
+        },
+    },
+    "packaged-alumina-solution": {
+        "Packaged Alumina Solution": {
+            ItemName:   "packaged-alumina-solution",
+            RecipeName: "Packaged Alumina Solution",
+            Output:     119.99999237060547,
+            Inputs:     {"alumina-solution":119.99999237060547, "empty-canister":119.99999237060547},
+        },
+    },
+    "packaged-fuel": {
+        "Diluted Packaged Fuel": {
+            ItemName:   "packaged-fuel",
+            RecipeName: "Diluted Packaged Fuel",
+            Output:     59.999996185302734,
+            Inputs:     {"heavy-oil-residue":29.999998092651367, "packaged-water":59.999996185302734},
+        },
+        "Packaged Fuel": {
+            ItemName:   "packaged-fuel",
+            RecipeName: "Packaged Fuel",
+            Output:     40,
+            Inputs:     {"empty-canister":40, "fuel":40},
+        },
+    },
+    "packaged-heavy-oil-residue": {
+        "Packaged Heavy Oil Residue": {
+            ItemName:   "packaged-heavy-oil-residue",
+            RecipeName: "Packaged Heavy Oil Residue",
+            Output:     29.999998092651367,
+            Inputs:     {"empty-canister":29.999998092651367, "heavy-oil-residue":29.999998092651367},
+        },
+    },
+    "packaged-ionized-fuel": {
+        "Packaged Ionized Fuel": {
+            ItemName:   "packaged-ionized-fuel",
+            RecipeName: "Packaged Ionized Fuel",
+            Output:     40,
+            Inputs:     {"empty-fluid-tank":40, "ionized-fuel":80},
+        },
+    },
+    "packaged-liquid-biofuel": {
+        "Packaged Liquid Biofuel": {
+            ItemName:   "packaged-liquid-biofuel",
+            RecipeName: "Packaged Liquid Biofuel",
+            Output:     40,
+            Inputs:     {"empty-canister":40, "liquid-biofuel":40},
+        },
+    },
+    "packaged-nitric-acid": {
+        "Packaged Nitric Acid": {
+            ItemName:   "packaged-nitric-acid",
+            RecipeName: "Packaged Nitric Acid",
+            Output:     29.999998092651367,
+            Inputs:     {"empty-fluid-tank":29.999998092651367, "nitric-acid":29.999998092651367},
+        },
+    },
+    "packaged-nitrogen-gas": {
+        "Packaged Nitrogen Gas": {
+            ItemName:   "packaged-nitrogen-gas",
+            RecipeName: "Packaged Nitrogen Gas",
+            Output:     59.999996185302734,
+            Inputs:     {"empty-fluid-tank":59.999996185302734, "nitrogen-gas":239.99998474121094},
+        },
+    },
+    "packaged-oil": {
+        "Packaged Oil": {
+            ItemName:   "packaged-oil",
+            RecipeName: "Packaged Oil",
+            Output:     29.999998092651367,
+            Inputs:     {"crude-oil":29.999998092651367, "empty-canister":29.999998092651367},
+        },
+    },
+    "packaged-rocket-fuel": {
+        "Packaged Rocket Fuel": {
+            ItemName:   "packaged-rocket-fuel",
+            RecipeName: "Packaged Rocket Fuel",
+            Output:     59.999996185302734,
+            Inputs:     {"empty-fluid-tank":59.999996185302734, "rocket-fuel":119.99999237060547},
+        },
+    },
+    "packaged-sulfuric-acid": {
+        "Packaged Sulfuric Acid": {
+            ItemName:   "packaged-sulfuric-acid",
+            RecipeName: "Packaged Sulfuric Acid",
+            Output:     40,
+            Inputs:     {"empty-canister":40, "sulfuric-acid":40},
+        },
+    },
+    "packaged-turbofuel": {
+        "Packaged Turbofuel": {
+            ItemName:   "packaged-turbofuel",
+            RecipeName: "Packaged Turbofuel",
+            Output:     20,
+            Inputs:     {"empty-canister":20, "turbofuel":20},
+        },
+    },
+    "packaged-water": {
+        "Packaged Water": {
+            ItemName:   "packaged-water",
+            RecipeName: "Packaged Water",
+            Output:     59.999996185302734,
+            Inputs:     {"empty-canister":59.999996185302734, "water":59.999996185302734},
+        },
+    },
+    "petroleum-coke": {
+        "Petroleum Coke": {
+            ItemName:   "petroleum-coke",
+            RecipeName: "Petroleum Coke",
+            Output:     120,
+            Inputs:     {"heavy-oil-residue":40},
+        },
+    },
+    "plastic": {
+        "Plastic": {
+            ItemName:   "plastic",
+            RecipeName: "Plastic",
+            Output:     20,
+            Inputs:     {"crude-oil":30},
+        },
+        "Recycled Plastic": {
+            ItemName:   "plastic",
+            RecipeName: "Recycled Plastic",
+            Output:     60,
+            Inputs:     {"fuel":30, "rubber":30},
+        },
+        "Residual Plastic": {
+            ItemName:   "plastic",
+            RecipeName: "Residual Plastic",
+            Output:     20,
+            Inputs:     {"polymer-resin":60, "water":20},
+        },
+    },
+    "plutonium-fuel-rod": {
+        "Plutonium Fuel Rod": {
+            ItemName:   "plutonium-fuel-rod",
+            RecipeName: "Plutonium Fuel Rod",
+            Output:     0.25,
+            Inputs:     {"electromagnetic-control-rod":1.5, "encased-plutonium-cell":7.5, "heat-sink":2.5, "steel-beam":4.5},
+        },
+        "Plutonium Fuel Unit": {
+            ItemName:   "plutonium-fuel-rod",
+            RecipeName: "Plutonium Fuel Unit",
+            Output:     0.5,
+            Inputs:     {"encased-plutonium-cell":10, "pressure-conversion-cube":0.5},
+        },
+    },
+    "plutonium-pellet": {
+        "Plutonium Pellet": {
+            ItemName:   "plutonium-pellet",
+            RecipeName: "Plutonium Pellet",
+            Output:     30,
+            Inputs:     {"non-fissile-uranium":100, "uranium-waste":25},
+        },
+    },
+    "plutonium-waste": {
+        "Plutonium Waste": {
+            ItemName:   "plutonium-waste",
+            RecipeName: "Plutonium Waste",
+            Output:     1,
+            Inputs:     {"plutonium-fuel-rod":0.10000000149011612, "water":240},
+        },
+    },
+    "polymer-resin": {
+        "Fuel": {
+            ItemName:   "polymer-resin",
+            RecipeName: "Fuel",
+            Output:     30,
+            Inputs:     {"crude-oil":60},
+        },
+        "Heavy Oil Residue": {
+            ItemName:   "polymer-resin",
+            RecipeName: "Heavy Oil Residue",
+            Output:     20,
+            Inputs:     {"crude-oil":30},
+        },
+        "Polymer Resin": {
+            ItemName:   "polymer-resin",
+            RecipeName: "Polymer Resin",
+            Output:     130,
+            Inputs:     {"crude-oil":60},
+        },
+    },
+    "portable-miner": {
+        "Automated Miner": {
+            ItemName:   "portable-miner",
+            RecipeName: "Automated Miner",
+            Output:     1,
+            Inputs:     {"iron-plate":4, "steel-pipe":4},
+        },
+    },
+    "power-shard": {
+        "Power Shard (1)": {
+            ItemName:   "power-shard",
+            RecipeName: "Power Shard (1)",
+            Output:     7.499999523162842,
+            Inputs:     {"blue-power-slug":7.499999523162842},
+        },
+        "Power Shard (2)": {
+            ItemName:   "power-shard",
+            RecipeName: "Power Shard (2)",
+            Output:     10,
+            Inputs:     {"yellow-power-slug":5},
+        },
+        "Power Shard (5)": {
+            ItemName:   "power-shard",
+            RecipeName: "Power Shard (5)",
+            Output:     12.5,
+            Inputs:     {"purple-power-slug":2.5},
+        },
+        "Synthetic Power Shard": {
+            ItemName:   "power-shard",
+            RecipeName: "Synthetic Power Shard",
+            Output:     5,
+            Inputs:     {"dark-matter-crystal":10, "excited-photonic-matter":60, "quartz-crystal":60, "time-crystal":10},
+        },
+    },
+    "pressure-conversion-cube": {
+        "Pressure Conversion Cube": {
+            ItemName:   "pressure-conversion-cube",
+            RecipeName: "Pressure Conversion Cube",
+            Output:     1,
+            Inputs:     {"fused-modular-frame":1, "radio-control-unit":2},
+        },
+    },
+    "pulse-nobelisk": {
+        "Pulse Nobelisk": {
+            ItemName:   "pulse-nobelisk",
+            RecipeName: "Pulse Nobelisk",
+            Output:     5,
+            Inputs:     {"crystal-oscillator":1, "nobelisk":5},
+        },
+    },
+    "quartz-crystal": {
+        "Fused Quartz Crystal": {
+            ItemName:   "quartz-crystal",
+            RecipeName: "Fused Quartz Crystal",
+            Output:     54,
+            Inputs:     {"coal":36, "raw-quartz":75},
+        },
+        "Pure Quartz Crystal": {
+            ItemName:   "quartz-crystal",
+            RecipeName: "Pure Quartz Crystal",
+            Output:     52.499996185302734,
+            Inputs:     {"raw-quartz":67.5, "water":37.499996185302734},
+        },
+        "Quartz Crystal": {
+            ItemName:   "quartz-crystal",
+            RecipeName: "Quartz Crystal",
+            Output:     22.499998092651367,
+            Inputs:     {"raw-quartz":37.499996185302734},
+        },
+        "Quartz Purification": {
+            ItemName:   "quartz-crystal",
+            RecipeName: "Quartz Purification",
+            Output:     75,
+            Inputs:     {"nitric-acid":10, "raw-quartz":120},
+        },
+    },
+    "quickwire": {
+        "Fused Quickwire": {
+            ItemName:   "quickwire",
+            RecipeName: "Fused Quickwire",
+            Output:     89.99999237060547,
+            Inputs:     {"caterium-ingot":7.499999523162842, "copper-ingot":37.499996185302734},
+        },
+        "Quickwire": {
+            ItemName:   "quickwire",
+            RecipeName: "Quickwire",
+            Output:     60,
+            Inputs:     {"caterium-ingot":12},
+        },
+    },
+    "radio-control-unit": {
+        "Radio Connection Unit": {
+            ItemName:   "radio-control-unit",
+            RecipeName: "Radio Connection Unit",
+            Output:     3.749999761581421,
+            Inputs:     {"heat-sink":14.999999046325684, "high-speed-connector":7.499999523162842, "quartz-crystal":44.999996185302734},
+        },
+        "Radio Control System": {
+            ItemName:   "radio-control-unit",
+            RecipeName: "Radio Control System",
+            Output:     4.5,
+            Inputs:     {"aluminum-casing":90, "circuit-board":15, "crystal-oscillator":1.5, "rubber":45},
+        },
+        "Radio Control Unit": {
+            ItemName:   "radio-control-unit",
+            RecipeName: "Radio Control Unit",
+            Output:     2.5,
+            Inputs:     {"aluminum-casing":40, "computer":2.5, "crystal-oscillator":1.25},
+        },
+    },
+    "raw-quartz": {
+        "Raw Quartz": {
+            ItemName:   "raw-quartz",
+            RecipeName: "Raw Quartz",
+            Output:     59.999996185302734,
+            Inputs:     {},
+        },
+        "Raw Quartz (Bauxite)": {
+            ItemName:   "raw-quartz",
+            RecipeName: "Raw Quartz (Bauxite)",
+            Output:     120,
+            Inputs:     {"bauxite":100, "reanimated-sam":10},
+        },
+        "Raw Quartz (Coal)": {
+            ItemName:   "raw-quartz",
+            RecipeName: "Raw Quartz (Coal)",
+            Output:     120,
+            Inputs:     {"coal":240, "reanimated-sam":10},
+        },
+    },
+    "reanimated-sam": {
+        "Reanimated SAM": {
+            ItemName:   "reanimated-sam",
+            RecipeName: "Reanimated SAM",
+            Output:     29.999998092651367,
+            Inputs:     {"sam-ore":119.99999237060547},
+        },
+    },
+    "reinforced-iron-plate": {
+        "Adhered Iron Plate": {
+            ItemName:   "reinforced-iron-plate",
+            RecipeName: "Adhered Iron Plate",
+            Output:     3.749999761581421,
+            Inputs:     {"iron-plate":11.249999046325684, "rubber":3.749999761581421},
+        },
+        "Bolted Iron Plate": {
+            ItemName:   "reinforced-iron-plate",
+            RecipeName: "Bolted Iron Plate",
+            Output:     15,
+            Inputs:     {"iron-plate":90, "screw":250},
+        },
+        "Reinforced Iron Plate": {
+            ItemName:   "reinforced-iron-plate",
+            RecipeName: "Reinforced Iron Plate",
+            Output:     5,
+            Inputs:     {"iron-plate":30, "screw":60},
+        },
+        "Stitched Iron Plate": {
+            ItemName:   "reinforced-iron-plate",
+            RecipeName: "Stitched Iron Plate",
+            Output:     5.624999523162842,
+            Inputs:     {"iron-plate":18.749998092651367, "wire":37.499996185302734},
+        },
+    },
+    "rifle-cartridge": {
+        "Rifle Ammo": {
+            ItemName:   "rifle-cartridge",
+            RecipeName: "Rifle Ammo",
+            Output:     75,
+            Inputs:     {"copper-sheet":15, "smokeless-powder":10},
+        },
+    },
+    "rocket-fuel": {
+        "Nitro Rocket Fuel": {
+            ItemName:   "rocket-fuel",
+            RecipeName: "Nitro Rocket Fuel",
+            Output:     +Inf,
+            Inputs:     {"coal":+Inf, "fuel":+Inf, "nitrogen-gas":+Inf, "sulfur":+Inf},
+        },
+        "Rocket Fuel": {
+            ItemName:   "rocket-fuel",
+            RecipeName: "Rocket Fuel",
+            Output:     100,
+            Inputs:     {"nitric-acid":10, "turbofuel":60},
+        },
+        "Unpackage Rocket Fuel": {
+            ItemName:   "rocket-fuel",
+            RecipeName: "Unpackage Rocket Fuel",
+            Output:     119.99999237060547,
+            Inputs:     {"packaged-rocket-fuel":59.999996185302734},
+        },
+    },
+    "rotor": {
+        "Copper Rotor": {
+            ItemName:   "rotor",
+            RecipeName: "Copper Rotor",
+            Output:     11.249999046325684,
+            Inputs:     {"copper-sheet":22.499998092651367, "screw":194.99998474121094},
+        },
+        "Rotor": {
+            ItemName:   "rotor",
+            RecipeName: "Rotor",
+            Output:     4,
+            Inputs:     {"iron-rod":20, "screw":100},
+        },
+        "Steel Rotor": {
+            ItemName:   "rotor",
+            RecipeName: "Steel Rotor",
+            Output:     5,
+            Inputs:     {"steel-pipe":10, "wire":30},
+        },
+    },
+    "rubber": {
+        "Recycled Rubber": {
+            ItemName:   "rubber",
+            RecipeName: "Recycled Rubber",
+            Output:     60,
+            Inputs:     {"fuel":30, "plastic":30},
+        },
+        "Residual Rubber": {
+            ItemName:   "rubber",
+            RecipeName: "Residual Rubber",
+            Output:     20,
+            Inputs:     {"polymer-resin":40, "water":40},
+        },
+        "Rubber": {
+            ItemName:   "rubber",
+            RecipeName: "Rubber",
+            Output:     20,
+            Inputs:     {"crude-oil":30},
+        },
+    },
+    "sam-fluctuator": {
+        "SAM Fluctuator": {
+            ItemName:   "sam-fluctuator",
+            RecipeName: "SAM Fluctuator",
+            Output:     10,
+            Inputs:     {"reanimated-sam":60, "steel-pipe":30, "wire":50},
+        },
+    },
+    "sam-ore": {
+        "SAM Ore": {
+            ItemName:   "sam-ore",
+            RecipeName: "SAM Ore",
+            Output:     59.999996185302734,
+            Inputs:     {},
+        },
+    },
+    "screw": {
+        "Cast Screw": {
+            ItemName:   "screw",
+            RecipeName: "Cast Screw",
+            Output:     50,
+            Inputs:     {"iron-ingot":12.5},
+        },
+        "Screw": {
+            ItemName:   "screw",
+            RecipeName: "Screw",
+            Output:     40,
+            Inputs:     {"iron-rod":10},
+        },
+        "Steel Screw": {
+            ItemName:   "screw",
+            RecipeName: "Steel Screw",
+            Output:     260,
+            Inputs:     {"steel-beam":5},
+        },
+    },
+    "shatter-rebar": {
+        "Shatter Rebar": {
+            ItemName:   "shatter-rebar",
+            RecipeName: "Shatter Rebar",
+            Output:     5,
+            Inputs:     {"iron-rebar":10, "quartz-crystal":15},
+        },
+    },
+    "silica": {
+        "Alumina Solution": {
+            ItemName:   "silica",
+            RecipeName: "Alumina Solution",
+            Output:     50,
+            Inputs:     {"bauxite":120, "water":180},
+        },
+        "Cheap Silica": {
+            ItemName:   "silica",
+            RecipeName: "Cheap Silica",
+            Output:     52.499996185302734,
+            Inputs:     {"limestone":37.499996185302734, "raw-quartz":22.499998092651367},
+        },
+        "Distilled Silica": {
+            ItemName:   "silica",
+            RecipeName: "Distilled Silica",
+            Output:     270,
+            Inputs:     {"dissolved-silica":120, "limestone":50, "water":100},
+        },
+        "Silica": {
+            ItemName:   "silica",
+            RecipeName: "Silica",
+            Output:     37.499996185302734,
+            Inputs:     {"raw-quartz":22.499998092651367},
+        },
+    },
+    "singularity-cell": {
+        "Singularity Cell": {
+            ItemName:   "singularity-cell",
+            RecipeName: "Singularity Cell",
+            Output:     10,
+            Inputs:     {"concrete":200, "dark-matter-crystal":20, "iron-plate":100, "nuclear-pasta":1},
+        },
+    },
+    "smart-plating": {
+        "Plastic Smart Plating": {
+            ItemName:   "smart-plating",
+            RecipeName: "Plastic Smart Plating",
+            Output:     5,
+            Inputs:     {"plastic":7.5, "reinforced-iron-plate":2.5, "rotor":2.5},
+        },
+        "Smart Plating": {
+            ItemName:   "smart-plating",
+            RecipeName: "Smart Plating",
+            Output:     2,
+            Inputs:     {"reinforced-iron-plate":2, "rotor":2},
+        },
+    },
+    "smokeless-powder": {
+        "Smokeless Powder": {
+            ItemName:   "smokeless-powder",
+            RecipeName: "Smokeless Powder",
+            Output:     20,
+            Inputs:     {"black-powder":20, "heavy-oil-residue":10},
+        },
+    },
+    "solid-biofuel": {
+        "Solid Biofuel": {
+            ItemName:   "solid-biofuel",
+            RecipeName: "Solid Biofuel",
+            Output:     59.999996185302734,
+            Inputs:     {"biomass":119.99999237060547},
+        },
+    },
+    "stator": {
+        "Quickwire Stator": {
+            ItemName:   "stator",
+            RecipeName: "Quickwire Stator",
+            Output:     8,
+            Inputs:     {"quickwire":60, "steel-pipe":16},
+        },
+        "Stator": {
+            ItemName:   "stator",
+            RecipeName: "Stator",
+            Output:     5,
+            Inputs:     {"steel-pipe":15, "wire":40},
+        },
+    },
+    "steel-beam": {
+        "Aluminum Beam": {
+            ItemName:   "steel-beam",
+            RecipeName: "Aluminum Beam",
+            Output:     22.499998092651367,
+            Inputs:     {"aluminum-ingot":22.499998092651367},
+        },
+        "Molded Beam": {
+            ItemName:   "steel-beam",
+            RecipeName: "Molded Beam",
+            Output:     45,
+            Inputs:     {"concrete":80, "steel-ingot":120},
+        },
+        "Steel Beam": {
+            ItemName:   "steel-beam",
+            RecipeName: "Steel Beam",
+            Output:     14.999999046325684,
+            Inputs:     {"steel-ingot":59.999996185302734},
+        },
+    },
+    "steel-ingot": {
+        "Coke Steel Ingot": {
+            ItemName:   "steel-ingot",
+            RecipeName: "Coke Steel Ingot",
+            Output:     100,
+            Inputs:     {"iron-ore":75, "petroleum-coke":75},
+        },
+        "Compacted Steel Ingot": {
+            ItemName:   "steel-ingot",
+            RecipeName: "Compacted Steel Ingot",
+            Output:     10,
+            Inputs:     {"compacted-coal":2.5, "iron-ore":5},
+        },
+        "Solid Steel Ingot": {
+            ItemName:   "steel-ingot",
+            RecipeName: "Solid Steel Ingot",
+            Output:     60,
+            Inputs:     {"coal":40, "iron-ingot":40},
+        },
+        "Steel Ingot": {
+            ItemName:   "steel-ingot",
+            RecipeName: "Steel Ingot",
+            Output:     44.999996185302734,
+            Inputs:     {"coal":44.999996185302734, "iron-ore":44.999996185302734},
+        },
+    },
+    "steel-pipe": {
+        "Iron Pipe": {
+            ItemName:   "steel-pipe",
+            RecipeName: "Iron Pipe",
+            Output:     25,
+            Inputs:     {"iron-ingot":100},
+        },
+        "Molded Steel Pipe": {
+            ItemName:   "steel-pipe",
+            RecipeName: "Molded Steel Pipe",
+            Output:     50,
+            Inputs:     {"concrete":30, "steel-ingot":50},
+        },
+        "Steel Pipe": {
+            ItemName:   "steel-pipe",
+            RecipeName: "Steel Pipe",
+            Output:     20,
+            Inputs:     {"steel-ingot":30},
+        },
+    },
+    "stun-rebar": {
+        "Stun Rebar": {
+            ItemName:   "stun-rebar",
+            RecipeName: "Stun Rebar",
+            Output:     10,
+            Inputs:     {"iron-rebar":10, "quickwire":50},
+        },
+    },
+    "sulfur": {
+        "Sulfur": {
+            ItemName:   "sulfur",
+            RecipeName: "Sulfur",
+            Output:     59.999996185302734,
+            Inputs:     {},
+        },
+        "Sulfur (Coal)": {
+            ItemName:   "sulfur",
+            RecipeName: "Sulfur (Coal)",
+            Output:     120,
+            Inputs:     {"coal":200, "reanimated-sam":10},
+        },
+        "Sulfur (Iron)": {
+            ItemName:   "sulfur",
+            RecipeName: "Sulfur (Iron)",
+            Output:     120,
+            Inputs:     {"iron-ore":300, "reanimated-sam":10},
+        },
+    },
+    "sulfuric-acid": {
+        "Encased Uranium Cell": {
+            ItemName:   "sulfuric-acid",
+            RecipeName: "Encased Uranium Cell",
+            Output:     10,
+            Inputs:     {"concrete":15, "sulfuric-acid":40, "uranium":50},
+        },
+        "Sulfuric Acid": {
+            ItemName:   "sulfuric-acid",
+            RecipeName: "Sulfuric Acid",
+            Output:     50,
+            Inputs:     {"sulfur":50, "water":50},
+        },
+        "Unpackage Sulfuric Acid": {
+            ItemName:   "sulfuric-acid",
+            RecipeName: "Unpackage Sulfuric Acid",
+            Output:     119.99999237060547,
+            Inputs:     {"packaged-sulfuric-acid":119.99999237060547},
+        },
+    },
+    "supercomputer": {
+        "OC Supercomputer": {
+            ItemName:   "supercomputer",
+            RecipeName: "OC Supercomputer",
+            Output:     3,
+            Inputs:     {"cooling-system":6, "radio-control-unit":6},
+        },
+        "Super-State Computer": {
+            ItemName:   "supercomputer",
+            RecipeName: "Super-State Computer",
+            Output:     2.4000000953674316,
+            Inputs:     {"battery":24, "computer":7.200000286102295, "electromagnetic-control-rod":2.4000000953674316, "wire":60},
+        },
+        "Supercomputer": {
+            ItemName:   "supercomputer",
+            RecipeName: "Supercomputer",
+            Output:     1.8749998807907104,
+            Inputs:     {"ai-limiter":3.749999761581421, "computer":7.499999523162842, "high-speed-connector":5.624999523162842, "plastic":52.499996185302734},
+        },
+    },
+    "superposition-oscillator": {
+        "Superposition Oscillator": {
+            ItemName:   "superposition-oscillator",
+            RecipeName: "Superposition Oscillator",
+            Output:     5,
+            Inputs:     {"alclad-aluminum-sheet":45, "crystal-oscillator":5, "dark-matter-crystal":30, "excited-photonic-matter":125},
+        },
+    },
+    "thermal-propulsion-rocket": {
+        "Thermal Propulsion Rocket": {
+            ItemName:   "thermal-propulsion-rocket",
+            RecipeName: "Thermal Propulsion Rocket",
+            Output:     1,
+            Inputs:     {"cooling-system":3, "fused-modular-frame":1, "modular-engine":2.5, "turbo-motor":1},
+        },
+    },
+    "time-crystal": {
+        "Time Crystal": {
+            ItemName:   "time-crystal",
+            RecipeName: "Time Crystal",
+            Output:     6,
+            Inputs:     {"diamonds":12},
+        },
+    },
+    "turbo-motor": {
+        "Turbo Electric Motor": {
+            ItemName:   "turbo-motor",
+            RecipeName: "Turbo Electric Motor",
+            Output:     2.812499761581421,
+            Inputs:     {"electromagnetic-control-rod":4.687499523162842, "motor":6.562499523162842, "radio-control-unit":8.4375, "rotor":6.562499523162842},
+        },
+        "Turbo Motor": {
+            ItemName:   "turbo-motor",
+            RecipeName: "Turbo Motor",
+            Output:     1.8749998807907104,
+            Inputs:     {"cooling-system":7.499999523162842, "motor":7.499999523162842, "radio-control-unit":3.749999761581421, "rubber":44.999996185302734},
+        },
+        "Turbo Pressure Motor": {
+            ItemName:   "turbo-motor",
+            RecipeName: "Turbo Pressure Motor",
+            Output:     3.749999761581421,
+            Inputs:     {"motor":7.499999523162842, "packaged-nitrogen-gas":44.999996185302734, "pressure-conversion-cube":1.8749998807907104, "stator":14.999999046325684},
+        },
+    },
+    "turbo-rifle-ammo": {
+        "Turbo Rifle Ammo": {
+            ItemName:   "turbo-rifle-ammo",
+            RecipeName: "Turbo Rifle Ammo",
+            Output:     250,
+            Inputs:     {"aluminum-casing":15, "packaged-turbofuel":15, "rifle-cartridge":125},
+        },
+        "Turbo Rifle Ammo (Blender)": {
+            ItemName:   "turbo-rifle-ammo",
+            RecipeName: "Turbo Rifle Ammo (Blender)",
+            Output:     250,
+            Inputs:     {"aluminum-casing":15, "rifle-cartridge":125, "turbofuel":15},
+        },
+    },
+    "turbofuel": {
+        "Turbo Blend Fuel": {
+            ItemName:   "turbofuel",
+            RecipeName: "Turbo Blend Fuel",
+            Output:     44.999996185302734,
+            Inputs:     {"fuel":14.999999046325684, "heavy-oil-residue":29.999998092651367, "petroleum-coke":22.499998092651367, "sulfur":22.499998092651367},
+        },
+        "Turbo Heavy Fuel": {
+            ItemName:   "turbofuel",
+            RecipeName: "Turbo Heavy Fuel",
+            Output:     29.999998092651367,
+            Inputs:     {"compacted-coal":29.999998092651367, "heavy-oil-residue":37.499996185302734},
+        },
+        "Turbofuel": {
+            ItemName:   "turbofuel",
+            RecipeName: "Turbofuel",
+            Output:     18.749998092651367,
+            Inputs:     {"compacted-coal":14.999999046325684, "fuel":22.499998092651367},
+        },
+        "Unpackage Turbofuel": {
+            ItemName:   "turbofuel",
+            RecipeName: "Unpackage Turbofuel",
+            Output:     20,
+            Inputs:     {"packaged-turbofuel":20},
+        },
+    },
+    "uranium": {
+        "Uranium Ore": {
+            ItemName:   "uranium",
+            RecipeName: "Uranium Ore",
+            Output:     59.999996185302734,
+            Inputs:     {},
+        },
+        "Uranium Ore (Bauxite)": {
+            ItemName:   "uranium",
+            RecipeName: "Uranium Ore (Bauxite)",
+            Output:     120,
+            Inputs:     {"bauxite":480, "reanimated-sam":10},
+        },
+    },
+    "uranium-fuel-rod": {
+        "Uranium Fuel Rod": {
+            ItemName:   "uranium-fuel-rod",
+            RecipeName: "Uranium Fuel Rod",
+            Output:     0.4000000059604645,
+            Inputs:     {"electromagnetic-control-rod":2, "encased-industrial-beam":1.2000000476837158, "encased-uranium-cell":20},
+        },
+        "Uranium Fuel Unit": {
+            ItemName:   "uranium-fuel-rod",
+            RecipeName: "Uranium Fuel Unit",
+            Output:     0.6000000238418579,
+            Inputs:     {"crystal-oscillator":0.6000000238418579, "electromagnetic-control-rod":2, "encased-uranium-cell":20, "rotor":2},
+        },
+    },
+    "uranium-waste": {
+        "Uranium Waste": {
+            ItemName:   "uranium-waste",
+            RecipeName: "Uranium Waste",
+            Output:     10,
+            Inputs:     {"uranium-fuel-rod":0.20000000298023224, "water":240},
+        },
+    },
+    "versatile-framework": {
+        "Flexible Framework": {
+            ItemName:   "versatile-framework",
+            RecipeName: "Flexible Framework",
+            Output:     7.499999523162842,
+            Inputs:     {"modular-frame":3.749999761581421, "rubber":29.999998092651367, "steel-beam":22.499998092651367},
+        },
+        "Versatile Framework": {
+            ItemName:   "versatile-framework",
+            RecipeName: "Versatile Framework",
+            Output:     5,
+            Inputs:     {"modular-frame":2.5, "steel-beam":30},
+        },
+    },
+    "water": {
+        "Aluminum Scrap": {
+            ItemName:   "water",
+            RecipeName: "Aluminum Scrap",
+            Output:     119.99999237060547,
+            Inputs:     {"alumina-solution":239.99998474121094, "coal":119.99999237060547},
+        },
+        "Battery": {
+            ItemName:   "water",
+            RecipeName: "Battery",
+            Output:     0,
+            Inputs:     {"alumina-solution":40, "aluminum-casing":20, "sulfuric-acid":0},
+        },
+        "Distilled Silica": {
+            ItemName:   "water",
+            RecipeName: "Distilled Silica",
+            Output:     80,
+            Inputs:     {"dissolved-silica":120, "limestone":50, "water":100},
+        },
+        "Electrode Aluminum Scrap": {
+            ItemName:   "water",
+            RecipeName: "Electrode Aluminum Scrap",
+            Output:     104.99999237060547,
+            Inputs:     {"alumina-solution":179.99998474121094, "petroleum-coke":59.999996185302734},
+        },
+        "Fertile Uranium": {
+            ItemName:   "water",
+            RecipeName: "Fertile Uranium",
+            Output:     40,
+            Inputs:     {"nitric-acid":15, "sulfuric-acid":25, "uranium":25, "uranium-waste":25},
+        },
+        "Instant Scrap": {
+            ItemName:   "water",
+            RecipeName: "Instant Scrap",
+            Output:     50,
+            Inputs:     {"bauxite":150, "coal":100, "sulfuric-acid":50, "water":60},
+        },
+        "Non-fissile Uranium": {
+            ItemName:   "water",
+            RecipeName: "Non-fissile Uranium",
+            Output:     15,
+            Inputs:     {"nitric-acid":15, "silica":25, "sulfuric-acid":15, "uranium-waste":37.5},
+        },
+        "Unpackage Water": {
+            ItemName:   "water",
+            RecipeName: "Unpackage Water",
+            Output:     119.99999237060547,
+            Inputs:     {"packaged-water":119.99999237060547},
+        },
+        "Water": {
+            ItemName:   "water",
+            RecipeName: "Water",
+            Output:     59.999996185302734,
+            Inputs:     {},
+        },
+    },
+    "wire": {
+        "Caterium Wire": {
+            ItemName:   "wire",
+            RecipeName: "Caterium Wire",
+            Output:     119.99999237060547,
+            Inputs:     {"caterium-ingot":14.999999046325684},
+        },
+        "Fused Wire": {
+            ItemName:   "wire",
+            RecipeName: "Fused Wire",
+            Output:     90,
+            Inputs:     {"caterium-ingot":3, "copper-ingot":12},
+        },
+        "Iron Wire": {
+            ItemName:   "wire",
+            RecipeName: "Iron Wire",
+            Output:     22.5,
+            Inputs:     {"iron-ingot":12.5},
+        },
+        "Wire": {
+            ItemName:   "wire",
+            RecipeName: "Wire",
+            Output:     29.999998092651367,
+            Inputs:     {"copper-ingot":14.999999046325684},
+        },
+    },
+}
+PASS
+ok  	satisfactory-calc/lib/satisfactory_calc	0.161s

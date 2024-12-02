@@ -30,7 +30,7 @@ type Factory struct {
 
     // total requirements of this factory. calculated by multiplying
     // inputs per builder by builder count.
-    Inputs InputsDict
+    TotalInputs InputsDict
 
     // sub factories that feed into this factory.
     // these sub factories should be properly scaled to meet this factory's specified
@@ -51,8 +51,9 @@ func createFactory(recp ItemRecipe) Factory {
         OutputPerBuilder: recp.Output,
         TotalOutput: recp.Output,
         InputsPerBuilder: recp.Inputs,
-        Inputs: recp.Inputs,
+        TotalInputs: recp.Inputs,
         SubFactories: []Factory{},
+        Recipe: recp,
     }
 }
 
@@ -81,5 +82,30 @@ func scaleFactory(factory Factory,targetOutputAmount float32) Factory {
         ClockRate: builderClockRate,
         OutputPerBuilder: buildOutputNeededPerBuilder,
         TotalOutput: targetOutputAmount,
+        InputsPerBuilder: scaleInputsToClockrate(
+            factory.Recipe.Inputs,
+            builderClockRate,
+            1,
+        ),
+        TotalInputs: scaleInputsToClockrate(
+            factory.Recipe.Inputs,
+            builderClockRate,
+            factoriesNeeded,
+        ),
+        SubFactories: factory.SubFactories,
+        Recipe: factory.Recipe,
     }
+}
+
+// scale inputs dict to a certain clock rate
+func scaleInputsToClockrate(inputs InputsDict,clockRate float32,builders int) InputsDict {
+    var result InputsDict=InputsDict{}
+
+    var item string
+    var amount float32
+    for item,amount = range inputs {
+        result[item]=amount*clockRate*float32(builders)
+    }
+
+    return result
 }
