@@ -5,6 +5,12 @@ package satisfactory_calc
 // collection of recipes, sorted by item/recipe
 // key: item name
 // val: the recipe as dict of all its alternates
+// essentially, a 2-level grouped dict
+// {
+//   [itemname]:{
+//     [recipename]:<the recipe>
+//   }
+// }
 type RecipesDict map[string]AlternatesDict
 
 // collection of alternate recipes for 1 item
@@ -30,4 +36,9 @@ type ItemRecipe struct {
 
     Output float32
     Inputs InputsDict
+}
+
+// produce organised recipes dict from recipes list
+func groupRecipesIntoDict(recps []ItemRecipe) RecipesDict {
+
 }
