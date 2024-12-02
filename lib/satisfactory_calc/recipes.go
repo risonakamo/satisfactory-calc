@@ -20,7 +20,7 @@ type AlternatesDict map[string]ItemRecipe
 
 // dict that defines inputs requirements.
 // key: name of item. should exist in recipes dict
-// val: amount required
+// val: amount required (items per minute)
 type InputsDict map[string]float32
 
 // a single item's recipe specifications.
@@ -34,6 +34,7 @@ type ItemRecipe struct {
     // name of recipe
     RecipeName string
 
+    // items per minute
     Output float32
     Inputs InputsDict
 }
