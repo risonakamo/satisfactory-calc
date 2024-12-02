@@ -31,7 +31,7 @@ type Recipe struct {
 }
 
 // read factory lab json file
-func readFactoryLabJson(filename string) FactorylabJson {
+func ReadFactoryLabJson(filename string) FactorylabJson {
     var result FactorylabJson
     var e error
     result,e=utils.ReadJson[FactorylabJson](filename)

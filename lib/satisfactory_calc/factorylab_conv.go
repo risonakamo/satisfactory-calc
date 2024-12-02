@@ -5,6 +5,18 @@ package satisfactory_calc
 
 import "satisfactory-calc/lib/factorylab"
 
+// convert list of fac lab recps to our item recps
+func convertFacLabRecps(recps []factorylab.Recipe) []ItemRecipe {
+    var result []ItemRecipe
+
+    var recp factorylab.Recipe
+    for _,recp = range recps {
+        result=append(result,facLabRecpToItemRecp(recp)...)
+    }
+
+    return result
+}
+
 // given a number of items produced per N seconds, compute
 // items produced per minute.
 // can also be used for inputs per minute:
@@ -14,20 +26,30 @@ func itemsPerMinute(
     outputAmount int,
     secondsToProduce int,
 ) float32 {
-    return float32(outputAmount)/float32(secondsToProduce)/60
+    return float32(outputAmount)/(float32(secondsToProduce)/60)
 }
 
-// convert fac lab recipe to our item recipe
-func facLabRecpToItemRecp(facLabRecp factorylab.Recipe) ItemRecipe {
-    return ItemRecipe{
-        ItemName:facLabRecp.Id,
-        RecipeName:facLabRecp.Name,
-        Output:itemsPerMinute(
-            facLabRecp.Out[facLabRecp.Id],
-            facLabRecp.Time,
-        ),
-        Inputs:facLabInputsToInputsDict(facLabRecp.In,facLabRecp.Time),
+// convert fac lab recipe to our item recipe. factorylab recp can produce more than
+// 1 recp, as our recipes are always for a single item, while faclab recipes
+// match the game which can produce multiple outputs
+func facLabRecpToItemRecp(facLabRecp factorylab.Recipe) []ItemRecipe {
+    var result []ItemRecipe
+
+    var outputItemName string
+    var outputAmount int
+    for outputItemName,outputAmount = range facLabRecp.Out {
+        result=append(result,ItemRecipe{
+            ItemName:outputItemName,
+            RecipeName:facLabRecp.Name,
+            Output:itemsPerMinute(
+                outputAmount,
+                facLabRecp.Time,
+            ),
+            Inputs:facLabInputsToInputsDict(facLabRecp.In,facLabRecp.Time),
+        })
     }
+
+    return result
 }
 
 // convert fac lab inputs dict to our inputs dict

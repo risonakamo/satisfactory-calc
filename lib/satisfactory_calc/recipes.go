@@ -17,7 +17,11 @@ type AlternatesDict map[string]ItemRecipe
 // val: amount required
 type InputsDict map[string]float32
 
-// a single item's recipe specifications
+// a single item's recipe specifications.
+// there can be multiple recipes for the same item - all recipes
+// will share the ItemName, but RecipeName will be different.
+// recipe name might also be shared as some recipes produce multiple items.
+// thus, to uniquely identify a recipe, must use both itemname and recipe.
 type ItemRecipe struct {
     // name of item
     ItemName string
