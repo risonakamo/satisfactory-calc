@@ -40,5 +40,19 @@ type ItemRecipe struct {
 
 // produce organised recipes dict from recipes list
 func groupRecipesIntoDict(recps []ItemRecipe) RecipesDict {
+    var result RecipesDict=RecipesDict{}
 
+    var recp ItemRecipe
+    for _,recp = range recps {
+        var in bool
+        _,in=result[recp.ItemName]
+
+        if !in {
+            result[recp.ItemName]=AlternatesDict{}
+        }
+
+        result[recp.ItemName][recp.RecipeName]=recp
+    }
+
+    return result
 }
