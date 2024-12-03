@@ -92,12 +92,6 @@ satisfactory_calc.RecipesDict{
             Output:     240,
             Inputs:     {"bauxite":200, "water":200},
         },
-        "Unpackage Alumina Solution": {
-            ItemName:   "alumina-solution",
-            RecipeName: "Unpackage Alumina Solution",
-            Output:     119.99999237060547,
-            Inputs:     {"packaged-alumina-solution":119.99999237060547},
-        },
     },
     "aluminum-casing": {
         "Alclad Casing": {
@@ -197,18 +191,6 @@ satisfactory_calc.RecipesDict{
             RecipeName: "Bauxite",
             Output:     59.999996185302734,
             Inputs:     {},
-        },
-        "Bauxite (Caterium)": {
-            ItemName:   "bauxite",
-            RecipeName: "Bauxite (Caterium)",
-            Output:     120,
-            Inputs:     {"caterium-ore":150, "reanimated-sam":10},
-        },
-        "Bauxite (Copper)": {
-            ItemName:   "bauxite",
-            RecipeName: "Bauxite (Copper)",
-            Output:     120,
-            Inputs:     {"copper-ore":180, "reanimated-sam":10},
         },
     },
     "biochemical-sculptor": {
@@ -318,18 +300,6 @@ satisfactory_calc.RecipesDict{
             Output:     59.999996185302734,
             Inputs:     {},
         },
-        "Caterium Ore (Copper)": {
-            ItemName:   "caterium-ore",
-            RecipeName: "Caterium Ore (Copper)",
-            Output:     120,
-            Inputs:     {"copper-ore":150, "reanimated-sam":10},
-        },
-        "Caterium Ore (Quartz)": {
-            ItemName:   "caterium-ore",
-            RecipeName: "Caterium Ore (Quartz)",
-            Output:     120,
-            Inputs:     {"raw-quartz":120, "reanimated-sam":10},
-        },
     },
     "circuit-board": {
         "Caterium Circuit Board": {
@@ -366,35 +336,11 @@ satisfactory_calc.RecipesDict{
         },
     },
     "coal": {
-        "Biocoal": {
-            ItemName:   "coal",
-            RecipeName: "Biocoal",
-            Output:     44.999996185302734,
-            Inputs:     {"biomass":37.499996185302734},
-        },
-        "Charcoal": {
-            ItemName:   "coal",
-            RecipeName: "Charcoal",
-            Output:     149.99998474121094,
-            Inputs:     {"wood":14.999999046325684},
-        },
         "Coal": {
             ItemName:   "coal",
             RecipeName: "Coal",
             Output:     59.999996185302734,
             Inputs:     {},
-        },
-        "Coal (Iron)": {
-            ItemName:   "coal",
-            RecipeName: "Coal (Iron)",
-            Output:     120,
-            Inputs:     {"iron-ore":180, "reanimated-sam":10},
-        },
-        "Coal (Limestone)": {
-            ItemName:   "coal",
-            RecipeName: "Coal (Limestone)",
-            Output:     120,
-            Inputs:     {"limestone":360, "reanimated-sam":10},
         },
     },
     "color-cartridge": {
@@ -411,12 +357,6 @@ satisfactory_calc.RecipesDict{
             RecipeName: "Compacted Coal",
             Output:     25,
             Inputs:     {"coal":25, "sulfur":25},
-        },
-        "Dark-Ion Fuel": {
-            ItemName:   "compacted-coal",
-            RecipeName: "Dark-Ion Fuel",
-            Output:     40,
-            Inputs:     {"dark-matter-crystal":80, "packaged-rocket-fuel":240},
         },
         "Ionized Fuel": {
             ItemName:   "compacted-coal",
@@ -536,18 +476,6 @@ satisfactory_calc.RecipesDict{
             Output:     59.999996185302734,
             Inputs:     {},
         },
-        "Copper Ore (Quartz)": {
-            ItemName:   "copper-ore",
-            RecipeName: "Copper Ore (Quartz)",
-            Output:     120,
-            Inputs:     {"raw-quartz":100, "reanimated-sam":10},
-        },
-        "Copper Ore (Sulfur)": {
-            ItemName:   "copper-ore",
-            RecipeName: "Copper Ore (Sulfur)",
-            Output:     120,
-            Inputs:     {"reanimated-sam":10, "sulfur":120},
-        },
     },
     "copper-powder": {
         "Copper Powder": {
@@ -577,12 +505,6 @@ satisfactory_calc.RecipesDict{
             RecipeName: "Crude Oil",
             Output:     59.999996185302734,
             Inputs:     {},
-        },
-        "Unpackage Oil": {
-            ItemName:   "crude-oil",
-            RecipeName: "Unpackage Oil",
-            Output:     59.999996185302734,
-            Inputs:     {"packaged-oil":59.999996185302734},
         },
     },
     "crystal-oscillator": {
@@ -631,12 +553,6 @@ satisfactory_calc.RecipesDict{
             RecipeName: "Alien Power Matrix",
             Output:     60,
             Inputs:     {"excited-photonic-matter":60, "power-shard":7.5, "sam-fluctuator":12.5, "superposition-oscillator":7.5},
-        },
-        "Dark Matter Residue": {
-            ItemName:   "dark-matter-residue",
-            RecipeName: "Dark Matter Residue",
-            Output:     100,
-            Inputs:     {"reanimated-sam":50},
         },
         "Ficsonium Fuel Rod": {
             ItemName:   "dark-matter-residue",
@@ -688,12 +604,6 @@ satisfactory_calc.RecipesDict{
             Output:     29.999998092651367,
             Inputs:     {"petroleum-coke":719.9999389648438},
         },
-        "Pink Diamonds": {
-            ItemName:   "diamonds",
-            RecipeName: "Pink Diamonds",
-            Output:     14.999999046325684,
-            Inputs:     {"coal":119.99999237060547, "quartz-crystal":44.999996185302734},
-        },
         "Turbo Diamonds": {
             ItemName:   "diamonds",
             RecipeName: "Turbo Diamonds",
@@ -742,54 +652,6 @@ satisfactory_calc.RecipesDict{
             Output:     40,
             Inputs:     {"steel-ingot":40},
         },
-        "Unpackage Alumina Solution": {
-            ItemName:   "empty-canister",
-            RecipeName: "Unpackage Alumina Solution",
-            Output:     119.99999237060547,
-            Inputs:     {"packaged-alumina-solution":119.99999237060547},
-        },
-        "Unpackage Fuel": {
-            ItemName:   "empty-canister",
-            RecipeName: "Unpackage Fuel",
-            Output:     59.999996185302734,
-            Inputs:     {"packaged-fuel":59.999996185302734},
-        },
-        "Unpackage Heavy Oil Residue": {
-            ItemName:   "empty-canister",
-            RecipeName: "Unpackage Heavy Oil Residue",
-            Output:     20,
-            Inputs:     {"packaged-heavy-oil-residue":20},
-        },
-        "Unpackage Liquid Biofuel": {
-            ItemName:   "empty-canister",
-            RecipeName: "Unpackage Liquid Biofuel",
-            Output:     59.999996185302734,
-            Inputs:     {"packaged-liquid-biofuel":59.999996185302734},
-        },
-        "Unpackage Oil": {
-            ItemName:   "empty-canister",
-            RecipeName: "Unpackage Oil",
-            Output:     59.999996185302734,
-            Inputs:     {"packaged-oil":59.999996185302734},
-        },
-        "Unpackage Sulfuric Acid": {
-            ItemName:   "empty-canister",
-            RecipeName: "Unpackage Sulfuric Acid",
-            Output:     119.99999237060547,
-            Inputs:     {"packaged-sulfuric-acid":119.99999237060547},
-        },
-        "Unpackage Turbofuel": {
-            ItemName:   "empty-canister",
-            RecipeName: "Unpackage Turbofuel",
-            Output:     20,
-            Inputs:     {"packaged-turbofuel":20},
-        },
-        "Unpackage Water": {
-            ItemName:   "empty-canister",
-            RecipeName: "Unpackage Water",
-            Output:     119.99999237060547,
-            Inputs:     {"packaged-water":119.99999237060547},
-        },
     },
     "empty-fluid-tank": {
         "Empty Fluid Tank": {
@@ -797,30 +659,6 @@ satisfactory_calc.RecipesDict{
             RecipeName: "Empty Fluid Tank",
             Output:     59.999996185302734,
             Inputs:     {"aluminum-ingot":59.999996185302734},
-        },
-        "Unpackage Ionized Fuel": {
-            ItemName:   "empty-fluid-tank",
-            RecipeName: "Unpackage Ionized Fuel",
-            Output:     40,
-            Inputs:     {"packaged-ionized-fuel":40},
-        },
-        "Unpackage Nitric Acid": {
-            ItemName:   "empty-fluid-tank",
-            RecipeName: "Unpackage Nitric Acid",
-            Output:     20,
-            Inputs:     {"packaged-nitric-acid":20},
-        },
-        "Unpackage Nitrogen Gas": {
-            ItemName:   "empty-fluid-tank",
-            RecipeName: "Unpackage Nitrogen Gas",
-            Output:     59.999996185302734,
-            Inputs:     {"packaged-nitrogen-gas":59.999996185302734},
-        },
-        "Unpackage Rocket Fuel": {
-            ItemName:   "empty-fluid-tank",
-            RecipeName: "Unpackage Rocket Fuel",
-            Output:     59.999996185302734,
-            Inputs:     {"packaged-rocket-fuel":59.999996185302734},
         },
     },
     "encased-industrial-beam": {
@@ -865,14 +703,6 @@ satisfactory_calc.RecipesDict{
             Inputs:     {"quickwire":75, "silica":15, "sulfur":25, "uranium":25},
         },
     },
-    "excited-photonic-matter": {
-        "Excited Photonic Matter": {
-            ItemName:   "excited-photonic-matter",
-            RecipeName: "Excited Photonic Matter",
-            Output:     200,
-            Inputs:     {},
-        },
-    },
     "explosive-rebar": {
         "Explosive Rebar": {
             ItemName:   "explosive-rebar",
@@ -893,26 +723,6 @@ satisfactory_calc.RecipesDict{
             RecipeName: "Polyester Fabric",
             Output:     29.999998092651367,
             Inputs:     {"polymer-resin":29.999998092651367, "water":29.999998092651367},
-        },
-    },
-    "ficsite-ingot": {
-        "Ficsite Ingot (Aluminum)": {
-            ItemName:   "ficsite-ingot",
-            RecipeName: "Ficsite Ingot (Aluminum)",
-            Output:     29.999998092651367,
-            Inputs:     {"aluminum-ingot":119.99999237060547, "reanimated-sam":59.999996185302734},
-        },
-        "Ficsite Ingot (Caterium)": {
-            ItemName:   "ficsite-ingot",
-            RecipeName: "Ficsite Ingot (Caterium)",
-            Output:     14.999999046325684,
-            Inputs:     {"caterium-ingot":59.999996185302734, "reanimated-sam":44.999996185302734},
-        },
-        "Ficsite Ingot (Iron)": {
-            ItemName:   "ficsite-ingot",
-            RecipeName: "Ficsite Ingot (Iron)",
-            Output:     10,
-            Inputs:     {"iron-ingot":240, "reanimated-sam":40},
         },
     },
     "ficsite-trigon": {
@@ -957,12 +767,6 @@ satisfactory_calc.RecipesDict{
             RecipeName: "Residual Fuel",
             Output:     40,
             Inputs:     {"heavy-oil-residue":60},
-        },
-        "Unpackage Fuel": {
-            ItemName:   "fuel",
-            RecipeName: "Unpackage Fuel",
-            Output:     59.999996185302734,
-            Inputs:     {"packaged-fuel":59.999996185302734},
         },
     },
     "fused-modular-frame": {
@@ -1054,12 +858,6 @@ satisfactory_calc.RecipesDict{
             Output:     20,
             Inputs:     {"crude-oil":30},
         },
-        "Unpackage Heavy Oil Residue": {
-            ItemName:   "heavy-oil-residue",
-            RecipeName: "Unpackage Heavy Oil Residue",
-            Output:     20,
-            Inputs:     {"packaged-heavy-oil-residue":20},
-        },
     },
     "high-speed-connector": {
         "High-Speed Connector": {
@@ -1092,23 +890,11 @@ satisfactory_calc.RecipesDict{
         },
     },
     "ionized-fuel": {
-        "Dark-Ion Fuel": {
-            ItemName:   "ionized-fuel",
-            RecipeName: "Dark-Ion Fuel",
-            Output:     200,
-            Inputs:     {"dark-matter-crystal":80, "packaged-rocket-fuel":240},
-        },
         "Ionized Fuel": {
             ItemName:   "ionized-fuel",
             RecipeName: "Ionized Fuel",
             Output:     40,
             Inputs:     {"power-shard":2.5, "rocket-fuel":40},
-        },
-        "Unpackage Ionized Fuel": {
-            ItemName:   "ionized-fuel",
-            RecipeName: "Unpackage Ionized Fuel",
-            Output:     80,
-            Inputs:     {"packaged-ionized-fuel":40},
         },
     },
     "iron-ingot": {
@@ -1149,12 +935,6 @@ satisfactory_calc.RecipesDict{
             RecipeName: "Iron Ore",
             Output:     59.999996185302734,
             Inputs:     {},
-        },
-        "Iron Ore (Limestone)": {
-            ItemName:   "iron-ore",
-            RecipeName: "Iron Ore (Limestone)",
-            Output:     120,
-            Inputs:     {"limestone":240, "reanimated-sam":10},
         },
     },
     "iron-plate": {
@@ -1212,12 +992,6 @@ satisfactory_calc.RecipesDict{
             Output:     59.999996185302734,
             Inputs:     {},
         },
-        "Limestone (Sulfur)": {
-            ItemName:   "limestone",
-            RecipeName: "Limestone (Sulfur)",
-            Output:     120,
-            Inputs:     {"reanimated-sam":10, "sulfur":20},
-        },
     },
     "liquid-biofuel": {
         "Liquid Biofuel": {
@@ -1225,12 +999,6 @@ satisfactory_calc.RecipesDict{
             RecipeName: "Liquid Biofuel",
             Output:     59.999996185302734,
             Inputs:     {"solid-biofuel":89.99999237060547, "water":44.999996185302734},
-        },
-        "Unpackage Liquid Biofuel": {
-            ItemName:   "liquid-biofuel",
-            RecipeName: "Unpackage Liquid Biofuel",
-            Output:     59.999996185302734,
-            Inputs:     {"packaged-liquid-biofuel":59.999996185302734},
         },
     },
     "magnetic-field-generator": {
@@ -1304,12 +1072,6 @@ satisfactory_calc.RecipesDict{
             Output:     30,
             Inputs:     {"iron-plate":10, "nitrogen-gas":120, "water":30},
         },
-        "Unpackage Nitric Acid": {
-            ItemName:   "nitric-acid",
-            RecipeName: "Unpackage Nitric Acid",
-            Output:     20,
-            Inputs:     {"packaged-nitric-acid":20},
-        },
     },
     "nitrogen-gas": {
         "Nitrogen Gas": {
@@ -1317,24 +1079,6 @@ satisfactory_calc.RecipesDict{
             RecipeName: "Nitrogen Gas",
             Output:     59.999996185302734,
             Inputs:     {},
-        },
-        "Nitrogen Gas (Bauxite)": {
-            ItemName:   "nitrogen-gas",
-            RecipeName: "Nitrogen Gas (Bauxite)",
-            Output:     120,
-            Inputs:     {"bauxite":100, "reanimated-sam":10},
-        },
-        "Nitrogen Gas (Caterium)": {
-            ItemName:   "nitrogen-gas",
-            RecipeName: "Nitrogen Gas (Caterium)",
-            Output:     120,
-            Inputs:     {"caterium-ore":120, "reanimated-sam":10},
-        },
-        "Unpackage Nitrogen Gas": {
-            ItemName:   "nitrogen-gas",
-            RecipeName: "Unpackage Nitrogen Gas",
-            Output:     239.99998474121094,
-            Inputs:     {"packaged-nitrogen-gas":59.999996185302734},
         },
     },
     "nobelisk": {
@@ -1375,106 +1119,12 @@ satisfactory_calc.RecipesDict{
             Inputs:     {"ai-limiter":3, "encased-uranium-cell":10, "nobelisk":2.5, "smokeless-powder":5},
         },
     },
-    "packaged-alumina-solution": {
-        "Packaged Alumina Solution": {
-            ItemName:   "packaged-alumina-solution",
-            RecipeName: "Packaged Alumina Solution",
-            Output:     119.99999237060547,
-            Inputs:     {"alumina-solution":119.99999237060547, "empty-canister":119.99999237060547},
-        },
-    },
     "packaged-fuel": {
         "Diluted Packaged Fuel": {
             ItemName:   "packaged-fuel",
             RecipeName: "Diluted Packaged Fuel",
             Output:     59.999996185302734,
             Inputs:     {"heavy-oil-residue":29.999998092651367, "packaged-water":59.999996185302734},
-        },
-        "Packaged Fuel": {
-            ItemName:   "packaged-fuel",
-            RecipeName: "Packaged Fuel",
-            Output:     40,
-            Inputs:     {"empty-canister":40, "fuel":40},
-        },
-    },
-    "packaged-heavy-oil-residue": {
-        "Packaged Heavy Oil Residue": {
-            ItemName:   "packaged-heavy-oil-residue",
-            RecipeName: "Packaged Heavy Oil Residue",
-            Output:     29.999998092651367,
-            Inputs:     {"empty-canister":29.999998092651367, "heavy-oil-residue":29.999998092651367},
-        },
-    },
-    "packaged-ionized-fuel": {
-        "Packaged Ionized Fuel": {
-            ItemName:   "packaged-ionized-fuel",
-            RecipeName: "Packaged Ionized Fuel",
-            Output:     40,
-            Inputs:     {"empty-fluid-tank":40, "ionized-fuel":80},
-        },
-    },
-    "packaged-liquid-biofuel": {
-        "Packaged Liquid Biofuel": {
-            ItemName:   "packaged-liquid-biofuel",
-            RecipeName: "Packaged Liquid Biofuel",
-            Output:     40,
-            Inputs:     {"empty-canister":40, "liquid-biofuel":40},
-        },
-    },
-    "packaged-nitric-acid": {
-        "Packaged Nitric Acid": {
-            ItemName:   "packaged-nitric-acid",
-            RecipeName: "Packaged Nitric Acid",
-            Output:     29.999998092651367,
-            Inputs:     {"empty-fluid-tank":29.999998092651367, "nitric-acid":29.999998092651367},
-        },
-    },
-    "packaged-nitrogen-gas": {
-        "Packaged Nitrogen Gas": {
-            ItemName:   "packaged-nitrogen-gas",
-            RecipeName: "Packaged Nitrogen Gas",
-            Output:     59.999996185302734,
-            Inputs:     {"empty-fluid-tank":59.999996185302734, "nitrogen-gas":239.99998474121094},
-        },
-    },
-    "packaged-oil": {
-        "Packaged Oil": {
-            ItemName:   "packaged-oil",
-            RecipeName: "Packaged Oil",
-            Output:     29.999998092651367,
-            Inputs:     {"crude-oil":29.999998092651367, "empty-canister":29.999998092651367},
-        },
-    },
-    "packaged-rocket-fuel": {
-        "Packaged Rocket Fuel": {
-            ItemName:   "packaged-rocket-fuel",
-            RecipeName: "Packaged Rocket Fuel",
-            Output:     59.999996185302734,
-            Inputs:     {"empty-fluid-tank":59.999996185302734, "rocket-fuel":119.99999237060547},
-        },
-    },
-    "packaged-sulfuric-acid": {
-        "Packaged Sulfuric Acid": {
-            ItemName:   "packaged-sulfuric-acid",
-            RecipeName: "Packaged Sulfuric Acid",
-            Output:     40,
-            Inputs:     {"empty-canister":40, "sulfuric-acid":40},
-        },
-    },
-    "packaged-turbofuel": {
-        "Packaged Turbofuel": {
-            ItemName:   "packaged-turbofuel",
-            RecipeName: "Packaged Turbofuel",
-            Output:     20,
-            Inputs:     {"empty-canister":20, "turbofuel":20},
-        },
-    },
-    "packaged-water": {
-        "Packaged Water": {
-            ItemName:   "packaged-water",
-            RecipeName: "Packaged Water",
-            Output:     59.999996185302734,
-            Inputs:     {"empty-canister":59.999996185302734, "water":59.999996185302734},
         },
     },
     "petroleum-coke": {
@@ -1672,18 +1322,6 @@ satisfactory_calc.RecipesDict{
             Output:     59.999996185302734,
             Inputs:     {},
         },
-        "Raw Quartz (Bauxite)": {
-            ItemName:   "raw-quartz",
-            RecipeName: "Raw Quartz (Bauxite)",
-            Output:     120,
-            Inputs:     {"bauxite":100, "reanimated-sam":10},
-        },
-        "Raw Quartz (Coal)": {
-            ItemName:   "raw-quartz",
-            RecipeName: "Raw Quartz (Coal)",
-            Output:     120,
-            Inputs:     {"coal":240, "reanimated-sam":10},
-        },
     },
     "reanimated-sam": {
         "Reanimated SAM": {
@@ -1739,12 +1377,6 @@ satisfactory_calc.RecipesDict{
             RecipeName: "Rocket Fuel",
             Output:     100,
             Inputs:     {"nitric-acid":10, "turbofuel":60},
-        },
-        "Unpackage Rocket Fuel": {
-            ItemName:   "rocket-fuel",
-            RecipeName: "Unpackage Rocket Fuel",
-            Output:     119.99999237060547,
-            Inputs:     {"packaged-rocket-fuel":59.999996185302734},
         },
     },
     "rotor": {
@@ -1990,18 +1622,6 @@ satisfactory_calc.RecipesDict{
             Output:     59.999996185302734,
             Inputs:     {},
         },
-        "Sulfur (Coal)": {
-            ItemName:   "sulfur",
-            RecipeName: "Sulfur (Coal)",
-            Output:     120,
-            Inputs:     {"coal":200, "reanimated-sam":10},
-        },
-        "Sulfur (Iron)": {
-            ItemName:   "sulfur",
-            RecipeName: "Sulfur (Iron)",
-            Output:     120,
-            Inputs:     {"iron-ore":300, "reanimated-sam":10},
-        },
     },
     "sulfuric-acid": {
         "Encased Uranium Cell": {
@@ -2015,12 +1635,6 @@ satisfactory_calc.RecipesDict{
             RecipeName: "Sulfuric Acid",
             Output:     50,
             Inputs:     {"sulfur":50, "water":50},
-        },
-        "Unpackage Sulfuric Acid": {
-            ItemName:   "sulfuric-acid",
-            RecipeName: "Unpackage Sulfuric Acid",
-            Output:     119.99999237060547,
-            Inputs:     {"packaged-sulfuric-acid":119.99999237060547},
         },
     },
     "supercomputer": {
@@ -2057,14 +1671,6 @@ satisfactory_calc.RecipesDict{
             RecipeName: "Thermal Propulsion Rocket",
             Output:     1,
             Inputs:     {"cooling-system":3, "fused-modular-frame":1, "modular-engine":2.5, "turbo-motor":1},
-        },
-    },
-    "time-crystal": {
-        "Time Crystal": {
-            ItemName:   "time-crystal",
-            RecipeName: "Time Crystal",
-            Output:     6,
-            Inputs:     {"diamonds":12},
         },
     },
     "turbo-motor": {
@@ -2120,12 +1726,6 @@ satisfactory_calc.RecipesDict{
             Output:     18.749998092651367,
             Inputs:     {"compacted-coal":14.999999046325684, "fuel":22.499998092651367},
         },
-        "Unpackage Turbofuel": {
-            ItemName:   "turbofuel",
-            RecipeName: "Unpackage Turbofuel",
-            Output:     20,
-            Inputs:     {"packaged-turbofuel":20},
-        },
     },
     "uranium": {
         "Uranium Ore": {
@@ -2133,12 +1733,6 @@ satisfactory_calc.RecipesDict{
             RecipeName: "Uranium Ore",
             Output:     59.999996185302734,
             Inputs:     {},
-        },
-        "Uranium Ore (Bauxite)": {
-            ItemName:   "uranium",
-            RecipeName: "Uranium Ore (Bauxite)",
-            Output:     120,
-            Inputs:     {"bauxite":480, "reanimated-sam":10},
         },
     },
     "uranium-fuel-rod": {
@@ -2220,12 +1814,6 @@ satisfactory_calc.RecipesDict{
             Output:     15,
             Inputs:     {"nitric-acid":15, "silica":25, "sulfuric-acid":15, "uranium-waste":37.5},
         },
-        "Unpackage Water": {
-            ItemName:   "water",
-            RecipeName: "Unpackage Water",
-            Output:     119.99999237060547,
-            Inputs:     {"packaged-water":119.99999237060547},
-        },
         "Water": {
             ItemName:   "water",
             RecipeName: "Water",
@@ -2261,4 +1849,4 @@ satisfactory_calc.RecipesDict{
     },
 }
 PASS
-ok  	satisfactory-calc/lib/satisfactory_calc	0.161s
+ok  	satisfactory-calc/lib/satisfactory_calc	0.271s

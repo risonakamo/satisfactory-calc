@@ -10,7 +10,7 @@ import (
 func Test_recpConv(t *testing.T) {
     facLabData:=factorylab.ReadFactoryLabJson("../../data/factorylab_data.json")
 
-    result:=convertFacLabRecps(facLabData.Recipes,PresetExcludedProducers)
+    result:=convertFacLabRecps(facLabData.Recipes,PresetExcludedProducers,PresetPreferredRecipes)
 
     // pp.Print(result)
     pretty.Println(result)

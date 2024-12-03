@@ -8,11 +8,18 @@ import (
 	"slices"
 )
 
+// declare for certain items a single perferred recipe.
+// when outputting recipes for a item that has a preferred recipe, only output
+// the recipe that matches the preferred recipe. this causes the item with a preferred
+// recipe to only have 1 recipe (the one that was marked preferred)
+type PreferredRecpsDict map[string]string
+
 // convert list of fac lab recps to our item recps.
 // set excluded producers to exlcude recipes that use certain producers
 func convertFacLabRecps(
     recps []factorylab.Recipe,
     excludedProducers []string,
+    preferredRecps PreferredRecpsDict,
 ) []ItemRecipe {
     var result []ItemRecipe
 
@@ -25,7 +32,24 @@ func convertFacLabRecps(
             continue
         }
 
-        result=append(result,facLabRecpToItemRecp(recp)...)
+        // parse the factory lab recp into item recipes
+        var madeRecps []ItemRecipe=facLabRecpToItemRecp(recp)
+
+        // for each newly made item recipe, check if the item it is producing has a preferred
+        // recipe. if it does, only push onto the result if it is the preferred recipe.
+        var aMadeRecipe ItemRecipe
+        for _,aMadeRecipe = range madeRecps {
+            var preferredRecipeName string
+            var hasAPreferredRecipe bool
+            preferredRecipeName,hasAPreferredRecipe=preferredRecps[aMadeRecipe.ItemName]
+
+            // don't push into result recipes if it is not a preferred recipe
+            if hasAPreferredRecipe && preferredRecipeName!=aMadeRecipe.RecipeName {
+                continue
+            }
+
+            result=append(result,aMadeRecipe)
+        }
     }
 
     return result
@@ -55,6 +79,7 @@ func facLabRecpToItemRecp(facLabRecp factorylab.Recipe) []ItemRecipe {
         result=append(result,ItemRecipe{
             ItemName:outputItemName,
             RecipeName:facLabRecp.Name,
+            Producers: facLabRecp.Producers,
             Output:itemsPerMinute(
                 outputAmount,
                 facLabRecp.Time,
