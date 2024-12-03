@@ -2,7 +2,22 @@
 
 package satisfactory_calc
 
-import "math"
+import (
+	"fmt"
+	"math"
+)
+
+// factories all for a single item grouped by recipe name.
+// all factories in this dict should produce the same itema
+// key: recipe name
+// val: factory producing an item following the keyed recipe
+type FactorybyRecipe map[string]Factory
+
+// collection of factories to match an inputs dict.
+// key: name of item that should also exist in inputs dict
+// val: dict of factories (grouped by recipe) which produce for the corresponding
+// inputs dict
+type SubFactoriesDict map[string]FactorybyRecipe
 
 // defines a single factory which builds 1 thing. factory consists
 // of multiple builders
@@ -35,7 +50,7 @@ type Factory struct {
     // sub factories that feed into this factory.
     // these sub factories should be properly scaled to meet this factory's specified
     // total inputs
-    SubFactories []Factory
+    SubFactories SubFactoriesDict
 
     Recipe ItemRecipe
 }
@@ -52,7 +67,7 @@ func createFactory(recp ItemRecipe) Factory {
         TotalOutput: recp.Output,
         InputsPerBuilder: recp.Inputs,
         TotalInputs: recp.Inputs,
-        SubFactories: []Factory{},
+        SubFactories: SubFactoriesDict{},
         Recipe: recp,
     }
 }
@@ -108,4 +123,36 @@ func scaleInputsToClockrate(inputs InputsDict,clockRate float32,builders int) In
     }
 
     return result
+}
+
+// calculate all sub factories for a given factory.
+// the factory should be scaled to the desired amount before
+// calling this function
+func constructFactory(fact Factory,recps RecipesDict) Factory {
+    var subFactories SubFactoriesDict=SubFactoriesDict{}
+
+    var item string
+    var neededAmount float32
+    for item,neededAmount = range fact.TotalInputs {
+        var alternateRecps AlternatesDict=recps[item]
+
+        subFactories[item]=FactorybyRecipe{}
+
+        var subRecipeName string
+        var subRecipe ItemRecipe
+        for subRecipeName,subRecipe = range alternateRecps {
+            fmt.Println("calculating",subRecipeName)
+            subFactories[item][subRecipeName]=constructFactory(
+                scaleFactory(
+                    createFactory(subRecipe),
+                    neededAmount,
+                ),
+                recps,
+            )
+        }
+    }
+
+    fact.SubFactories=subFactories
+
+    return fact
 }

@@ -30,3 +30,11 @@ func Test_factoryCreate(t *testing.T) {
         t.Errorf("wrong result")
     }
 }
+
+func Test_factoryConstruct(t *testing.T) {
+    data:=loadRecipesDict("../../data/factorylab_data.json")
+    fac:=createFactory(data["heavy-modular-frame"]["Heavy Modular Frame"])
+    fac=constructFactory(fac,data)
+
+    pp.Println(fac)
+}
