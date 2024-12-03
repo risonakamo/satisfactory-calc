@@ -41,6 +41,13 @@ type ItemRecipe struct {
     Inputs InputsDict
 }
 
+// preset producers to exclude to prevent infinite loops. might figure out way to
+// handle these latera
+var PresetExcludedProducers []string=[]string{
+    "converter",
+    "packager",
+}
+
 // produce organised recipes dict from recipes list
 func groupRecipesIntoDict(recps []ItemRecipe) RecipesDict {
     var result RecipesDict=RecipesDict{}
@@ -60,10 +67,10 @@ func groupRecipesIntoDict(recps []ItemRecipe) RecipesDict {
     return result
 }
 
-// get recipes dict from factory lab data json
+// get recipes dict from factory lab data json. uses preset producers for now.
 func loadRecipesDict(path string) RecipesDict {
     var facLabData factorylab.FactorylabJson=factorylab.ReadFactoryLabJson(path)
     return groupRecipesIntoDict(
-        convertFacLabRecps(facLabData.Recipes),
+        convertFacLabRecps(facLabData.Recipes,PresetExcludedProducers),
     )
 }

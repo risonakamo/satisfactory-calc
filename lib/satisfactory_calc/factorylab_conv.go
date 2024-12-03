@@ -3,14 +3,28 @@
 
 package satisfactory_calc
 
-import "satisfactory-calc/lib/factorylab"
+import (
+	"satisfactory-calc/lib/factorylab"
+	"slices"
+)
 
-// convert list of fac lab recps to our item recps
-func convertFacLabRecps(recps []factorylab.Recipe) []ItemRecipe {
+// convert list of fac lab recps to our item recps.
+// set excluded producers to exlcude recipes that use certain producers
+func convertFacLabRecps(
+    recps []factorylab.Recipe,
+    excludedProducers []string,
+) []ItemRecipe {
     var result []ItemRecipe
 
     var recp factorylab.Recipe
     for _,recp = range recps {
+        // skip this recp if it is produced by one of the excluded producers
+        if slices.ContainsFunc(recp.Producers,func(producer string) bool {
+            return slices.Contains(excludedProducers,producer)
+        }) {
+            continue
+        }
+
         result=append(result,facLabRecpToItemRecp(recp)...)
     }
 

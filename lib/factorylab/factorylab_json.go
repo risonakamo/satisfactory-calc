@@ -26,6 +26,9 @@ type Recipe struct {
     // seconds to produce N items (see output for number produced)
     Time int
 
+    // list of buildings that produce this recipe
+    Producers []string
+
     In InputsDict
     Out InputsDict
 }
