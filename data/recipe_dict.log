@@ -3,28 +3,23 @@ satisfactory_calc.RecipesDict{
         "Adaptive Control Unit": {
             ItemName:   "adaptive-control-unit",
             RecipeName: "Adaptive Control Unit",
+            Producers:  {"manufacturer"},
             Output:     1,
             Inputs:     {"automated-wiring":5, "circuit-board":5, "computer":2, "heavy-modular-frame":1},
-        },
-    },
-    "ai-expansion-server": {
-        "AI Expansion Server": {
-            ItemName:   "ai-expansion-server",
-            RecipeName: "AI Expansion Server",
-            Output:     4,
-            Inputs:     {"excited-photonic-matter":100, "magnetic-field-generator":4, "neural-quantum-processor":4, "superposition-oscillator":4},
         },
     },
     "ai-limiter": {
         "AI Limiter": {
             ItemName:   "ai-limiter",
             RecipeName: "AI Limiter",
+            Producers:  {"assembler"},
             Output:     5,
             Inputs:     {"copper-sheet":25, "quickwire":100},
         },
         "Plastic AI Limiter": {
             ItemName:   "ai-limiter",
             RecipeName: "Plastic AI Limiter",
+            Producers:  {"assembler"},
             Output:     8,
             Inputs:     {"plastic":28, "quickwire":120},
         },
@@ -33,6 +28,7 @@ satisfactory_calc.RecipesDict{
         "Alclad Aluminum Sheet": {
             ItemName:   "alclad-aluminum-sheet",
             RecipeName: "Alclad Aluminum Sheet",
+            Producers:  {"assembler"},
             Output:     30,
             Inputs:     {"aluminum-ingot":30, "copper-ingot":10},
         },
@@ -41,40 +37,37 @@ satisfactory_calc.RecipesDict{
         "Alien DNA Capsule": {
             ItemName:   "alien-dna-capsule",
             RecipeName: "Alien DNA Capsule",
+            Producers:  {"constructor-id"},
             Output:     10,
             Inputs:     {"alien-protein":10},
-        },
-    },
-    "alien-power-matrix": {
-        "Alien Power Matrix": {
-            ItemName:   "alien-power-matrix",
-            RecipeName: "Alien Power Matrix",
-            Output:     2.5,
-            Inputs:     {"excited-photonic-matter":60, "power-shard":7.5, "sam-fluctuator":12.5, "superposition-oscillator":7.5},
         },
     },
     "alien-protein": {
         "Hatcher Protein": {
             ItemName:   "alien-protein",
             RecipeName: "Hatcher Protein",
+            Producers:  {"constructor-id"},
             Output:     20,
             Inputs:     {"hatcher-remains":20},
         },
         "Hog Protein": {
             ItemName:   "alien-protein",
             RecipeName: "Hog Protein",
+            Producers:  {"constructor-id"},
             Output:     20,
             Inputs:     {"hog-remains":20},
         },
         "Spitter Protein": {
             ItemName:   "alien-protein",
             RecipeName: "Spitter Protein",
+            Producers:  {"constructor-id"},
             Output:     20,
             Inputs:     {"spitter-remains":20},
         },
         "Stinger Protein": {
             ItemName:   "alien-protein",
             RecipeName: "Stinger Protein",
+            Producers:  {"constructor-id"},
             Output:     20,
             Inputs:     {"stinger-remains":20},
         },
@@ -83,12 +76,14 @@ satisfactory_calc.RecipesDict{
         "Alumina Solution": {
             ItemName:   "alumina-solution",
             RecipeName: "Alumina Solution",
+            Producers:  {"refinery"},
             Output:     120,
             Inputs:     {"bauxite":120, "water":180},
         },
         "Sloppy Alumina": {
             ItemName:   "alumina-solution",
             RecipeName: "Sloppy Alumina",
+            Producers:  {"refinery"},
             Output:     240,
             Inputs:     {"bauxite":200, "water":200},
         },
@@ -97,12 +92,14 @@ satisfactory_calc.RecipesDict{
         "Alclad Casing": {
             ItemName:   "aluminum-casing",
             RecipeName: "Alclad Casing",
+            Producers:  {"assembler"},
             Output:     112.49999237060547,
             Inputs:     {"aluminum-ingot":149.99998474121094, "copper-ingot":74.99999237060547},
         },
         "Aluminum Casing": {
             ItemName:   "aluminum-casing",
             RecipeName: "Aluminum Casing",
+            Producers:  {"constructor-id"},
             Output:     59.999996185302734,
             Inputs:     {"aluminum-ingot":89.99999237060547},
         },
@@ -111,12 +108,14 @@ satisfactory_calc.RecipesDict{
         "Aluminum Ingot": {
             ItemName:   "aluminum-ingot",
             RecipeName: "Aluminum Ingot",
+            Producers:  {"foundry"},
             Output:     59.999996185302734,
             Inputs:     {"aluminum-scrap":89.99999237060547, "silica":74.99999237060547},
         },
         "Pure Aluminum Ingot": {
             ItemName:   "aluminum-ingot",
             RecipeName: "Pure Aluminum Ingot",
+            Producers:  {"smelter"},
             Output:     29.999998092651367,
             Inputs:     {"aluminum-scrap":59.999996185302734},
         },
@@ -125,26 +124,23 @@ satisfactory_calc.RecipesDict{
         "Aluminum Scrap": {
             ItemName:   "aluminum-scrap",
             RecipeName: "Aluminum Scrap",
+            Producers:  {"refinery"},
             Output:     359.9999694824219,
             Inputs:     {"alumina-solution":239.99998474121094, "coal":119.99999237060547},
         },
         "Electrode Aluminum Scrap": {
             ItemName:   "aluminum-scrap",
             RecipeName: "Electrode Aluminum Scrap",
+            Producers:  {"refinery"},
             Output:     299.9999694824219,
             Inputs:     {"alumina-solution":179.99998474121094, "petroleum-coke":59.999996185302734},
-        },
-        "Instant Scrap": {
-            ItemName:   "aluminum-scrap",
-            RecipeName: "Instant Scrap",
-            Output:     300,
-            Inputs:     {"bauxite":150, "coal":100, "sulfuric-acid":50, "water":60},
         },
     },
     "assembly-director-system": {
         "Assembly Director System": {
             ItemName:   "assembly-director-system",
             RecipeName: "Assembly Director System",
+            Producers:  {"assembler"},
             Output:     0.75,
             Inputs:     {"adaptive-control-unit":1.5, "supercomputer":0.75},
         },
@@ -153,12 +149,14 @@ satisfactory_calc.RecipesDict{
         "Automated Speed Wiring": {
             ItemName:   "automated-wiring",
             RecipeName: "Automated Speed Wiring",
+            Producers:  {"manufacturer"},
             Output:     7.499999523162842,
             Inputs:     {"high-speed-connector":1.8749998807907104, "stator":3.749999761581421, "wire":74.99999237060547},
         },
         "Automated Wiring": {
             ItemName:   "automated-wiring",
             RecipeName: "Automated Wiring",
+            Producers:  {"assembler"},
             Output:     2.5,
             Inputs:     {"cable":50, "stator":2.5},
         },
@@ -167,20 +165,16 @@ satisfactory_calc.RecipesDict{
         "Ballistic Warp Drive": {
             ItemName:   "ballistic-warp-drive",
             RecipeName: "Ballistic Warp Drive",
+            Producers:  {"manufacturer"},
             Output:     1,
             Inputs:     {"dark-matter-crystal":40, "singularity-cell":5, "superposition-oscillator":2, "thermal-propulsion-rocket":1},
         },
     },
     "battery": {
-        "Battery": {
-            ItemName:   "battery",
-            RecipeName: "Battery",
-            Output:     20,
-            Inputs:     {"alumina-solution":40, "aluminum-casing":20, "sulfuric-acid":0},
-        },
         "Classic Battery": {
             ItemName:   "battery",
             RecipeName: "Classic Battery",
+            Producers:  {"manufacturer"},
             Output:     29.999998092651367,
             Inputs:     {"alclad-aluminum-sheet":52.499996185302734, "plastic":59.999996185302734, "sulfur":44.999996185302734, "wire":89.99999237060547},
         },
@@ -189,40 +183,37 @@ satisfactory_calc.RecipesDict{
         "Bauxite": {
             ItemName:   "bauxite",
             RecipeName: "Bauxite",
+            Producers:  {"miner-mk1", "miner-mk2", "miner-mk3"},
             Output:     59.999996185302734,
             Inputs:     {},
-        },
-    },
-    "biochemical-sculptor": {
-        "Biochemical Sculptor": {
-            ItemName:   "biochemical-sculptor",
-            RecipeName: "Biochemical Sculptor",
-            Output:     2,
-            Inputs:     {"assembly-director-system":0.5, "ficsite-trigon":40, "water":10},
         },
     },
     "biomass": {
         "Biomass (Alien Protein)": {
             ItemName:   "biomass",
             RecipeName: "Biomass (Alien Protein)",
+            Producers:  {"constructor-id"},
             Output:     1499.9998779296875,
             Inputs:     {"alien-protein":14.999999046325684},
         },
         "Biomass (Leaves)": {
             ItemName:   "biomass",
             RecipeName: "Biomass (Leaves)",
+            Producers:  {"constructor-id"},
             Output:     60,
             Inputs:     {"leaves":120},
         },
         "Biomass (Mycelia)": {
             ItemName:   "biomass",
             RecipeName: "Biomass (Mycelia)",
+            Producers:  {"constructor-id"},
             Output:     149.99998474121094,
             Inputs:     {"mycelia":14.999999046325684},
         },
         "Biomass (Wood)": {
             ItemName:   "biomass",
             RecipeName: "Biomass (Wood)",
+            Producers:  {"constructor-id"},
             Output:     299.9999694824219,
             Inputs:     {"wood":59.999996185302734},
         },
@@ -231,12 +222,14 @@ satisfactory_calc.RecipesDict{
         "Black Powder": {
             ItemName:   "black-powder",
             RecipeName: "Black Powder",
+            Producers:  {"assembler"},
             Output:     29.999998092651367,
             Inputs:     {"coal":14.999999046325684, "sulfur":14.999999046325684},
         },
         "Fine Black Powder": {
             ItemName:   "black-powder",
             RecipeName: "Fine Black Powder",
+            Producers:  {"assembler"},
             Output:     44.999996185302734,
             Inputs:     {"compacted-coal":14.999999046325684, "sulfur":7.499999523162842},
         },
@@ -245,24 +238,28 @@ satisfactory_calc.RecipesDict{
         "Cable": {
             ItemName:   "cable",
             RecipeName: "Cable",
+            Producers:  {"constructor-id"},
             Output:     29.999998092651367,
             Inputs:     {"wire":59.999996185302734},
         },
         "Coated Cable": {
             ItemName:   "cable",
             RecipeName: "Coated Cable",
+            Producers:  {"refinery"},
             Output:     67.5,
             Inputs:     {"heavy-oil-residue":14.999999046325684, "wire":37.499996185302734},
         },
         "Insulated Cable": {
             ItemName:   "cable",
             RecipeName: "Insulated Cable",
+            Producers:  {"assembler"},
             Output:     100,
             Inputs:     {"rubber":30, "wire":45},
         },
         "Quickwire Cable": {
             ItemName:   "cable",
             RecipeName: "Quickwire Cable",
+            Producers:  {"assembler"},
             Output:     27.5,
             Inputs:     {"quickwire":7.5, "rubber":5},
         },
@@ -271,24 +268,28 @@ satisfactory_calc.RecipesDict{
         "Caterium Ingot": {
             ItemName:   "caterium-ingot",
             RecipeName: "Caterium Ingot",
+            Producers:  {"smelter"},
             Output:     14.999999046325684,
             Inputs:     {"caterium-ore":44.999996185302734},
         },
         "Leached Caterium Ingot": {
             ItemName:   "caterium-ingot",
             RecipeName: "Leached Caterium Ingot",
+            Producers:  {"refinery"},
             Output:     36,
             Inputs:     {"caterium-ore":54, "sulfuric-acid":30},
         },
         "Pure Caterium Ingot": {
             ItemName:   "caterium-ingot",
             RecipeName: "Pure Caterium Ingot",
+            Producers:  {"refinery"},
             Output:     12,
             Inputs:     {"caterium-ore":24, "water":24},
         },
         "Tempered Caterium Ingot": {
             ItemName:   "caterium-ingot",
             RecipeName: "Tempered Caterium Ingot",
+            Producers:  {"foundry"},
             Output:     22.499998092651367,
             Inputs:     {"caterium-ore":44.999996185302734, "petroleum-coke":14.999999046325684},
         },
@@ -297,6 +298,7 @@ satisfactory_calc.RecipesDict{
         "Caterium Ore": {
             ItemName:   "caterium-ore",
             RecipeName: "Caterium Ore",
+            Producers:  {"miner-mk1", "miner-mk2", "miner-mk3"},
             Output:     59.999996185302734,
             Inputs:     {},
         },
@@ -305,24 +307,28 @@ satisfactory_calc.RecipesDict{
         "Caterium Circuit Board": {
             ItemName:   "circuit-board",
             RecipeName: "Caterium Circuit Board",
+            Producers:  {"assembler"},
             Output:     8.75,
             Inputs:     {"plastic":12.5, "quickwire":37.5},
         },
         "Circuit Board": {
             ItemName:   "circuit-board",
             RecipeName: "Circuit Board",
+            Producers:  {"assembler"},
             Output:     7.499999523162842,
             Inputs:     {"copper-sheet":14.999999046325684, "plastic":29.999998092651367},
         },
         "Electrode Circuit Board": {
             ItemName:   "circuit-board",
             RecipeName: "Electrode Circuit Board",
+            Producers:  {"assembler"},
             Output:     5,
             Inputs:     {"petroleum-coke":40, "rubber":20},
         },
         "Silicon Circuit Board": {
             ItemName:   "circuit-board",
             RecipeName: "Silicon Circuit Board",
+            Producers:  {"assembler"},
             Output:     12.5,
             Inputs:     {"copper-sheet":27.5, "silica":27.5},
         },
@@ -331,14 +337,30 @@ satisfactory_calc.RecipesDict{
         "Cluster Nobelisk": {
             ItemName:   "cluster-nobelisk",
             RecipeName: "Cluster Nobelisk",
+            Producers:  {"assembler"},
             Output:     2.5,
             Inputs:     {"nobelisk":7.5, "smokeless-powder":10},
         },
     },
     "coal": {
+        "Biocoal": {
+            ItemName:   "coal",
+            RecipeName: "Biocoal",
+            Producers:  {"constructor-id"},
+            Output:     44.999996185302734,
+            Inputs:     {"biomass":37.499996185302734},
+        },
+        "Charcoal": {
+            ItemName:   "coal",
+            RecipeName: "Charcoal",
+            Producers:  {"constructor-id"},
+            Output:     149.99998474121094,
+            Inputs:     {"wood":14.999999046325684},
+        },
         "Coal": {
             ItemName:   "coal",
             RecipeName: "Coal",
+            Producers:  {"miner-mk1", "miner-mk2", "miner-mk3"},
             Output:     59.999996185302734,
             Inputs:     {},
         },
@@ -347,6 +369,7 @@ satisfactory_calc.RecipesDict{
         "Color Cartridge": {
             ItemName:   "color-cartridge",
             RecipeName: "Color Cartridge",
+            Producers:  {"constructor-id"},
             Output:     74.99999237060547,
             Inputs:     {"flower-petals":37.499996185302734},
         },
@@ -355,44 +378,37 @@ satisfactory_calc.RecipesDict{
         "Compacted Coal": {
             ItemName:   "compacted-coal",
             RecipeName: "Compacted Coal",
+            Producers:  {"assembler"},
             Output:     25,
             Inputs:     {"coal":25, "sulfur":25},
         },
         "Ionized Fuel": {
             ItemName:   "compacted-coal",
             RecipeName: "Ionized Fuel",
+            Producers:  {"refinery"},
             Output:     5,
             Inputs:     {"power-shard":2.5, "rocket-fuel":40},
-        },
-        "Nitro Rocket Fuel": {
-            ItemName:   "compacted-coal",
-            RecipeName: "Nitro Rocket Fuel",
-            Output:     +Inf,
-            Inputs:     {"coal":+Inf, "fuel":+Inf, "nitrogen-gas":+Inf, "sulfur":+Inf},
-        },
-        "Rocket Fuel": {
-            ItemName:   "compacted-coal",
-            RecipeName: "Rocket Fuel",
-            Output:     10,
-            Inputs:     {"nitric-acid":10, "turbofuel":60},
         },
     },
     "computer": {
         "Caterium Computer": {
             ItemName:   "computer",
             RecipeName: "Caterium Computer",
+            Producers:  {"manufacturer"},
             Output:     3.749999761581421,
             Inputs:     {"circuit-board":14.999999046325684, "quickwire":52.499996185302734, "rubber":22.499998092651367},
         },
         "Computer": {
             ItemName:   "computer",
             RecipeName: "Computer",
+            Producers:  {"manufacturer"},
             Output:     2.5,
             Inputs:     {"cable":20, "circuit-board":10, "plastic":40},
         },
         "Crystal Computer": {
             ItemName:   "computer",
             RecipeName: "Crystal Computer",
+            Producers:  {"assembler"},
             Output:     3.3333332538604736,
             Inputs:     {"circuit-board":5, "crystal-oscillator":1.6666666269302368},
         },
@@ -401,70 +417,65 @@ satisfactory_calc.RecipesDict{
         "Concrete": {
             ItemName:   "concrete",
             RecipeName: "Concrete",
+            Producers:  {"constructor-id"},
             Output:     14.999999046325684,
             Inputs:     {"limestone":44.999996185302734},
         },
         "Fine Concrete": {
             ItemName:   "concrete",
             RecipeName: "Fine Concrete",
+            Producers:  {"assembler"},
             Output:     50,
             Inputs:     {"limestone":60, "silica":15},
         },
         "Rubber Concrete": {
             ItemName:   "concrete",
             RecipeName: "Rubber Concrete",
+            Producers:  {"assembler"},
             Output:     90,
             Inputs:     {"limestone":100, "rubber":20},
         },
         "Wet Concrete": {
             ItemName:   "concrete",
             RecipeName: "Wet Concrete",
+            Producers:  {"refinery"},
             Output:     80,
             Inputs:     {"limestone":120, "water":100},
-        },
-    },
-    "cooling-system": {
-        "Cooling Device": {
-            ItemName:   "cooling-system",
-            RecipeName: "Cooling Device",
-            Output:     5,
-            Inputs:     {"heat-sink":10, "motor":2.5, "nitrogen-gas":60},
-        },
-        "Cooling System": {
-            ItemName:   "cooling-system",
-            RecipeName: "Cooling System",
-            Output:     6,
-            Inputs:     {"heat-sink":12, "nitrogen-gas":150, "rubber":12, "water":30},
         },
     },
     "copper-ingot": {
         "Copper Alloy Ingot": {
             ItemName:   "copper-ingot",
             RecipeName: "Copper Alloy Ingot",
+            Producers:  {"foundry"},
             Output:     100,
             Inputs:     {"copper-ore":50, "iron-ore":50},
         },
         "Copper Ingot": {
             ItemName:   "copper-ingot",
             RecipeName: "Copper Ingot",
+            Producers:  {"smelter"},
             Output:     29.999998092651367,
             Inputs:     {"copper-ore":29.999998092651367},
         },
         "Leached Copper Ingot": {
             ItemName:   "copper-ingot",
             RecipeName: "Leached Copper Ingot",
+            Producers:  {"refinery"},
             Output:     110,
             Inputs:     {"copper-ore":45, "sulfuric-acid":25},
         },
         "Pure Copper Ingot": {
             ItemName:   "copper-ingot",
             RecipeName: "Pure Copper Ingot",
+            Producers:  {"refinery"},
             Output:     37.5,
             Inputs:     {"copper-ore":15, "water":10},
         },
         "Tempered Copper Ingot": {
             ItemName:   "copper-ingot",
             RecipeName: "Tempered Copper Ingot",
+            Producers:  {"foundry"},
             Output:     60,
             Inputs:     {"copper-ore":25, "petroleum-coke":40},
         },
@@ -473,6 +484,7 @@ satisfactory_calc.RecipesDict{
         "Copper Ore": {
             ItemName:   "copper-ore",
             RecipeName: "Copper Ore",
+            Producers:  {"miner-mk1", "miner-mk2", "miner-mk3"},
             Output:     59.999996185302734,
             Inputs:     {},
         },
@@ -481,6 +493,7 @@ satisfactory_calc.RecipesDict{
         "Copper Powder": {
             ItemName:   "copper-powder",
             RecipeName: "Copper Powder",
+            Producers:  {"constructor-id"},
             Output:     50,
             Inputs:     {"copper-ingot":300},
         },
@@ -489,12 +502,14 @@ satisfactory_calc.RecipesDict{
         "Copper Sheet": {
             ItemName:   "copper-sheet",
             RecipeName: "Copper Sheet",
+            Producers:  {"constructor-id"},
             Output:     10,
             Inputs:     {"copper-ingot":20},
         },
         "Steamed Copper Sheet": {
             ItemName:   "copper-sheet",
             RecipeName: "Steamed Copper Sheet",
+            Producers:  {"refinery"},
             Output:     22.499998092651367,
             Inputs:     {"copper-ingot":22.499998092651367, "water":22.499998092651367},
         },
@@ -503,6 +518,7 @@ satisfactory_calc.RecipesDict{
         "Crude Oil": {
             ItemName:   "crude-oil",
             RecipeName: "Crude Oil",
+            Producers:  {"oil-extractor", "resource-well-extractor"},
             Output:     59.999996185302734,
             Inputs:     {},
         },
@@ -511,12 +527,14 @@ satisfactory_calc.RecipesDict{
         "Crystal Oscillator": {
             ItemName:   "crystal-oscillator",
             RecipeName: "Crystal Oscillator",
+            Producers:  {"manufacturer"},
             Output:     1,
             Inputs:     {"cable":14, "quartz-crystal":18, "reinforced-iron-plate":2.5},
         },
         "Insulated Crystal Oscillator": {
             ItemName:   "crystal-oscillator",
             RecipeName: "Insulated Crystal Oscillator",
+            Producers:  {"manufacturer"},
             Output:     1.8749998807907104,
             Inputs:     {"ai-limiter":1.8749998807907104, "quartz-crystal":18.749998092651367, "rubber":13.124999046325684},
         },
@@ -525,88 +543,58 @@ satisfactory_calc.RecipesDict{
         "Dark Matter Crystal": {
             ItemName:   "dark-matter-crystal",
             RecipeName: "Dark Matter Crystal",
+            Producers:  {"particle-accelerator"},
             Output:     29.999998092651367,
             Inputs:     {"dark-matter-residue":149.99998474121094, "diamonds":29.999998092651367},
         },
         "Dark Matter Crystallization": {
             ItemName:   "dark-matter-crystal",
             RecipeName: "Dark Matter Crystallization",
+            Producers:  {"particle-accelerator"},
             Output:     20,
             Inputs:     {"dark-matter-residue":200},
         },
         "Dark Matter Trap": {
             ItemName:   "dark-matter-crystal",
             RecipeName: "Dark Matter Trap",
+            Producers:  {"particle-accelerator"},
             Output:     59.999996185302734,
             Inputs:     {"dark-matter-residue":149.99998474121094, "time-crystal":29.999998092651367},
-        },
-    },
-    "dark-matter-residue": {
-        "AI Expansion Server": {
-            ItemName:   "dark-matter-residue",
-            RecipeName: "AI Expansion Server",
-            Output:     100,
-            Inputs:     {"excited-photonic-matter":100, "magnetic-field-generator":4, "neural-quantum-processor":4, "superposition-oscillator":4},
-        },
-        "Alien Power Matrix": {
-            ItemName:   "dark-matter-residue",
-            RecipeName: "Alien Power Matrix",
-            Output:     60,
-            Inputs:     {"excited-photonic-matter":60, "power-shard":7.5, "sam-fluctuator":12.5, "superposition-oscillator":7.5},
-        },
-        "Ficsonium Fuel Rod": {
-            ItemName:   "dark-matter-residue",
-            RecipeName: "Ficsonium Fuel Rod",
-            Output:     50,
-            Inputs:     {"electromagnetic-control-rod":5, "excited-photonic-matter":50, "ficsite-trigon":100, "ficsonium":5},
-        },
-        "Neural-Quantum Processor": {
-            ItemName:   "dark-matter-residue",
-            RecipeName: "Neural-Quantum Processor",
-            Output:     75,
-            Inputs:     {"excited-photonic-matter":75, "ficsite-trigon":45, "supercomputer":3, "time-crystal":15},
-        },
-        "Superposition Oscillator": {
-            ItemName:   "dark-matter-residue",
-            RecipeName: "Superposition Oscillator",
-            Output:     125,
-            Inputs:     {"alclad-aluminum-sheet":45, "crystal-oscillator":5, "dark-matter-crystal":30, "excited-photonic-matter":125},
-        },
-        "Synthetic Power Shard": {
-            ItemName:   "dark-matter-residue",
-            RecipeName: "Synthetic Power Shard",
-            Output:     60,
-            Inputs:     {"dark-matter-crystal":10, "excited-photonic-matter":60, "quartz-crystal":60, "time-crystal":10},
         },
     },
     "diamonds": {
         "Cloudy Diamonds": {
             ItemName:   "diamonds",
             RecipeName: "Cloudy Diamonds",
+            Producers:  {"particle-accelerator"},
             Output:     20,
             Inputs:     {"coal":240, "limestone":480},
         },
         "Diamonds": {
             ItemName:   "diamonds",
             RecipeName: "Diamonds",
+            Producers:  {"particle-accelerator"},
             Output:     29.999998092651367,
             Inputs:     {"coal":599.9999389648438},
         },
         "Oil-Based Diamonds": {
             ItemName:   "diamonds",
             RecipeName: "Oil-Based Diamonds",
+            Producers:  {"particle-accelerator"},
             Output:     40,
             Inputs:     {"crude-oil":200},
         },
         "Petroleum Diamonds": {
             ItemName:   "diamonds",
             RecipeName: "Petroleum Diamonds",
+            Producers:  {"particle-accelerator"},
             Output:     29.999998092651367,
             Inputs:     {"petroleum-coke":719.9999389648438},
         },
         "Turbo Diamonds": {
             ItemName:   "diamonds",
             RecipeName: "Turbo Diamonds",
+            Producers:  {"particle-accelerator"},
             Output:     60,
             Inputs:     {"coal":600, "packaged-turbofuel":40},
         },
@@ -615,6 +603,7 @@ satisfactory_calc.RecipesDict{
         "Quartz Purification": {
             ItemName:   "dissolved-silica",
             RecipeName: "Quartz Purification",
+            Producers:  {"refinery"},
             Output:     60,
             Inputs:     {"nitric-acid":10, "raw-quartz":120},
         },
@@ -623,12 +612,14 @@ satisfactory_calc.RecipesDict{
         "Electromagnetic Connection Rod": {
             ItemName:   "electromagnetic-control-rod",
             RecipeName: "Electromagnetic Connection Rod",
+            Producers:  {"assembler"},
             Output:     8,
             Inputs:     {"high-speed-connector":4, "stator":8},
         },
         "Electromagnetic Control Rod": {
             ItemName:   "electromagnetic-control-rod",
             RecipeName: "Electromagnetic Control Rod",
+            Producers:  {"assembler"},
             Output:     4,
             Inputs:     {"ai-limiter":4, "stator":6},
         },
@@ -637,18 +628,21 @@ satisfactory_calc.RecipesDict{
         "Coated Iron Canister": {
             ItemName:   "empty-canister",
             RecipeName: "Coated Iron Canister",
+            Producers:  {"assembler"},
             Output:     59.999996185302734,
             Inputs:     {"copper-sheet":14.999999046325684, "iron-plate":29.999998092651367},
         },
         "Empty Canister": {
             ItemName:   "empty-canister",
             RecipeName: "Empty Canister",
+            Producers:  {"constructor-id"},
             Output:     59.999996185302734,
             Inputs:     {"plastic":29.999998092651367},
         },
         "Steel Canister": {
             ItemName:   "empty-canister",
             RecipeName: "Steel Canister",
+            Producers:  {"constructor-id"},
             Output:     40,
             Inputs:     {"steel-ingot":40},
         },
@@ -657,6 +651,7 @@ satisfactory_calc.RecipesDict{
         "Empty Fluid Tank": {
             ItemName:   "empty-fluid-tank",
             RecipeName: "Empty Fluid Tank",
+            Producers:  {"constructor-id"},
             Output:     59.999996185302734,
             Inputs:     {"aluminum-ingot":59.999996185302734},
         },
@@ -665,12 +660,14 @@ satisfactory_calc.RecipesDict{
         "Encased Industrial Beam": {
             ItemName:   "encased-industrial-beam",
             RecipeName: "Encased Industrial Beam",
+            Producers:  {"assembler"},
             Output:     6,
             Inputs:     {"concrete":36, "steel-beam":18},
         },
         "Encased Industrial Pipe": {
             ItemName:   "encased-industrial-beam",
             RecipeName: "Encased Industrial Pipe",
+            Producers:  {"assembler"},
             Output:     4,
             Inputs:     {"concrete":20, "steel-pipe":24},
         },
@@ -679,26 +676,23 @@ satisfactory_calc.RecipesDict{
         "Encased Plutonium Cell": {
             ItemName:   "encased-plutonium-cell",
             RecipeName: "Encased Plutonium Cell",
+            Producers:  {"assembler"},
             Output:     5,
             Inputs:     {"concrete":20, "plutonium-pellet":10},
         },
         "Instant Plutonium Cell": {
             ItemName:   "encased-plutonium-cell",
             RecipeName: "Instant Plutonium Cell",
+            Producers:  {"particle-accelerator"},
             Output:     10,
             Inputs:     {"aluminum-casing":10, "non-fissile-uranium":75},
         },
     },
     "encased-uranium-cell": {
-        "Encased Uranium Cell": {
-            ItemName:   "encased-uranium-cell",
-            RecipeName: "Encased Uranium Cell",
-            Output:     25,
-            Inputs:     {"concrete":15, "sulfuric-acid":40, "uranium":50},
-        },
         "Infused Uranium Cell": {
             ItemName:   "encased-uranium-cell",
             RecipeName: "Infused Uranium Cell",
+            Producers:  {"manufacturer"},
             Output:     20,
             Inputs:     {"quickwire":75, "silica":15, "sulfur":25, "uranium":25},
         },
@@ -707,6 +701,7 @@ satisfactory_calc.RecipesDict{
         "Explosive Rebar": {
             ItemName:   "explosive-rebar",
             RecipeName: "Explosive Rebar",
+            Producers:  {"manufacturer"},
             Output:     5,
             Inputs:     {"iron-rebar":10, "smokeless-powder":10, "steel-pipe":10},
         },
@@ -715,12 +710,14 @@ satisfactory_calc.RecipesDict{
         "Fabric": {
             ItemName:   "fabric",
             RecipeName: "Fabric",
+            Producers:  {"assembler"},
             Output:     14.999999046325684,
             Inputs:     {"biomass":74.99999237060547, "mycelia":14.999999046325684},
         },
         "Polyester Fabric": {
             ItemName:   "fabric",
             RecipeName: "Polyester Fabric",
+            Producers:  {"refinery"},
             Output:     29.999998092651367,
             Inputs:     {"polymer-resin":29.999998092651367, "water":29.999998092651367},
         },
@@ -729,6 +726,7 @@ satisfactory_calc.RecipesDict{
         "Ficsite Trigon": {
             ItemName:   "ficsite-trigon",
             RecipeName: "Ficsite Trigon",
+            Producers:  {"constructor-id"},
             Output:     30,
             Inputs:     {"ficsite-ingot":10},
         },
@@ -737,56 +735,32 @@ satisfactory_calc.RecipesDict{
         "Ficsonium": {
             ItemName:   "ficsonium",
             RecipeName: "Ficsonium",
+            Producers:  {"particle-accelerator"},
             Output:     10,
             Inputs:     {"dark-matter-residue":200, "plutonium-waste":10, "singularity-cell":10},
         },
     },
-    "ficsonium-fuel-rod": {
-        "Ficsonium Fuel Rod": {
-            ItemName:   "ficsonium-fuel-rod",
-            RecipeName: "Ficsonium Fuel Rod",
-            Output:     2.5,
-            Inputs:     {"electromagnetic-control-rod":5, "excited-photonic-matter":50, "ficsite-trigon":100, "ficsonium":5},
-        },
-    },
     "fuel": {
-        "Diluted Fuel": {
-            ItemName:   "fuel",
-            RecipeName: "Diluted Fuel",
-            Output:     100,
-            Inputs:     {"heavy-oil-residue":50, "water":100},
-        },
         "Fuel": {
             ItemName:   "fuel",
             RecipeName: "Fuel",
+            Producers:  {"refinery"},
             Output:     40,
             Inputs:     {"crude-oil":60},
         },
         "Residual Fuel": {
             ItemName:   "fuel",
             RecipeName: "Residual Fuel",
+            Producers:  {"refinery"},
             Output:     40,
             Inputs:     {"heavy-oil-residue":60},
-        },
-    },
-    "fused-modular-frame": {
-        "Fused Modular Frame": {
-            ItemName:   "fused-modular-frame",
-            RecipeName: "Fused Modular Frame",
-            Output:     1.5,
-            Inputs:     {"aluminum-casing":75, "heavy-modular-frame":1.5, "nitrogen-gas":37.5},
-        },
-        "Heat-Fused Frame": {
-            ItemName:   "fused-modular-frame",
-            RecipeName: "Heat-Fused Frame",
-            Output:     3,
-            Inputs:     {"aluminum-ingot":150, "fuel":30, "heavy-modular-frame":3, "nitric-acid":24},
         },
     },
     "gas-filter": {
         "Gas Filter": {
             ItemName:   "gas-filter",
             RecipeName: "Gas Filter",
+            Producers:  {"manufacturer"},
             Output:     7.499999523162842,
             Inputs:     {"coal":29.999998092651367, "fabric":14.999999046325684, "iron-plate":14.999999046325684},
         },
@@ -795,6 +769,7 @@ satisfactory_calc.RecipesDict{
         "Gas Nobelisk": {
             ItemName:   "gas-nobelisk",
             RecipeName: "Gas Nobelisk",
+            Producers:  {"assembler"},
             Output:     5,
             Inputs:     {"biomass":50, "nobelisk":5},
         },
@@ -803,12 +778,14 @@ satisfactory_calc.RecipesDict{
         "Heat Exchanger": {
             ItemName:   "heat-sink",
             RecipeName: "Heat Exchanger",
+            Producers:  {"assembler"},
             Output:     10,
             Inputs:     {"aluminum-casing":30, "rubber":30},
         },
         "Heat Sink": {
             ItemName:   "heat-sink",
             RecipeName: "Heat Sink",
+            Producers:  {"assembler"},
             Output:     7.499999523162842,
             Inputs:     {"alclad-aluminum-sheet":37.499996185302734, "copper-sheet":22.499998092651367},
         },
@@ -817,18 +794,21 @@ satisfactory_calc.RecipesDict{
         "Heavy Encased Frame": {
             ItemName:   "heavy-modular-frame",
             RecipeName: "Heavy Encased Frame",
+            Producers:  {"manufacturer"},
             Output:     2.812499761581421,
             Inputs:     {"concrete":20.624998092651367, "encased-industrial-beam":9.374999046325684, "modular-frame":7.499999523162842, "steel-pipe":33.75},
         },
         "Heavy Flexible Frame": {
             ItemName:   "heavy-modular-frame",
             RecipeName: "Heavy Flexible Frame",
+            Producers:  {"manufacturer"},
             Output:     3.749999761581421,
             Inputs:     {"encased-industrial-beam":11.249999046325684, "modular-frame":18.749998092651367, "rubber":74.99999237060547, "screw":389.9999694824219},
         },
         "Heavy Modular Frame": {
             ItemName:   "heavy-modular-frame",
             RecipeName: "Heavy Modular Frame",
+            Producers:  {"manufacturer"},
             Output:     2,
             Inputs:     {"encased-industrial-beam":10, "modular-frame":10, "screw":240, "steel-pipe":40},
         },
@@ -837,24 +817,28 @@ satisfactory_calc.RecipesDict{
         "Heavy Oil Residue": {
             ItemName:   "heavy-oil-residue",
             RecipeName: "Heavy Oil Residue",
+            Producers:  {"refinery"},
             Output:     40,
             Inputs:     {"crude-oil":30},
         },
         "Plastic": {
             ItemName:   "heavy-oil-residue",
             RecipeName: "Plastic",
+            Producers:  {"refinery"},
             Output:     10,
             Inputs:     {"crude-oil":30},
         },
         "Polymer Resin": {
             ItemName:   "heavy-oil-residue",
             RecipeName: "Polymer Resin",
+            Producers:  {"refinery"},
             Output:     20,
             Inputs:     {"crude-oil":60},
         },
         "Rubber": {
             ItemName:   "heavy-oil-residue",
             RecipeName: "Rubber",
+            Producers:  {"refinery"},
             Output:     20,
             Inputs:     {"crude-oil":30},
         },
@@ -863,12 +847,14 @@ satisfactory_calc.RecipesDict{
         "High-Speed Connector": {
             ItemName:   "high-speed-connector",
             RecipeName: "High-Speed Connector",
+            Producers:  {"manufacturer"},
             Output:     3.749999761581421,
             Inputs:     {"cable":37.499996185302734, "circuit-board":3.749999761581421, "quickwire":209.99998474121094},
         },
         "Silicon High-Speed Connector": {
             ItemName:   "high-speed-connector",
             RecipeName: "Silicon High-Speed Connector",
+            Producers:  {"manufacturer"},
             Output:     3,
             Inputs:     {"circuit-board":3, "quickwire":90, "silica":37.5},
         },
@@ -877,6 +863,7 @@ satisfactory_calc.RecipesDict{
         "Homing Rifle Ammo": {
             ItemName:   "homing-rifle-ammo",
             RecipeName: "Homing Rifle Ammo",
+            Producers:  {"assembler"},
             Output:     25,
             Inputs:     {"high-speed-connector":2.5, "rifle-cartridge":50},
         },
@@ -885,6 +872,7 @@ satisfactory_calc.RecipesDict{
         "Iodine-Infused Filter": {
             ItemName:   "iodine-infused-filter",
             RecipeName: "Iodine-Infused Filter",
+            Producers:  {"manufacturer"},
             Output:     3.749999761581421,
             Inputs:     {"aluminum-casing":3.749999761581421, "gas-filter":3.749999761581421, "quickwire":29.999998092651367},
         },
@@ -893,6 +881,7 @@ satisfactory_calc.RecipesDict{
         "Ionized Fuel": {
             ItemName:   "ionized-fuel",
             RecipeName: "Ionized Fuel",
+            Producers:  {"refinery"},
             Output:     40,
             Inputs:     {"power-shard":2.5, "rocket-fuel":40},
         },
@@ -901,30 +890,35 @@ satisfactory_calc.RecipesDict{
         "Basic Iron Ingot": {
             ItemName:   "iron-ingot",
             RecipeName: "Basic Iron Ingot",
+            Producers:  {"foundry"},
             Output:     50,
             Inputs:     {"iron-ore":25, "limestone":40},
         },
         "Iron Alloy Ingot": {
             ItemName:   "iron-ingot",
             RecipeName: "Iron Alloy Ingot",
+            Producers:  {"foundry"},
             Output:     75,
             Inputs:     {"copper-ore":10, "iron-ore":40},
         },
         "Iron Ingot": {
             ItemName:   "iron-ingot",
             RecipeName: "Iron Ingot",
+            Producers:  {"smelter"},
             Output:     29.999998092651367,
             Inputs:     {"iron-ore":29.999998092651367},
         },
         "Leached Iron Ingot": {
             ItemName:   "iron-ingot",
             RecipeName: "Leached Iron Ingot",
+            Producers:  {"refinery"},
             Output:     100,
             Inputs:     {"iron-ore":50, "sulfuric-acid":10},
         },
         "Pure Iron Ingot": {
             ItemName:   "iron-ingot",
             RecipeName: "Pure Iron Ingot",
+            Producers:  {"refinery"},
             Output:     65,
             Inputs:     {"iron-ore":35, "water":20},
         },
@@ -933,6 +927,7 @@ satisfactory_calc.RecipesDict{
         "Iron Ore": {
             ItemName:   "iron-ore",
             RecipeName: "Iron Ore",
+            Producers:  {"miner-mk1", "miner-mk2", "miner-mk3"},
             Output:     59.999996185302734,
             Inputs:     {},
         },
@@ -941,18 +936,21 @@ satisfactory_calc.RecipesDict{
         "Coated Iron Plate": {
             ItemName:   "iron-plate",
             RecipeName: "Coated Iron Plate",
+            Producers:  {"assembler"},
             Output:     74.99999237060547,
             Inputs:     {"iron-ingot":37.499996185302734, "plastic":7.499999523162842},
         },
         "Iron Plate": {
             ItemName:   "iron-plate",
             RecipeName: "Iron Plate",
+            Producers:  {"constructor-id"},
             Output:     20,
             Inputs:     {"iron-ingot":30},
         },
         "Steel Cast Plate": {
             ItemName:   "iron-plate",
             RecipeName: "Steel Cast Plate",
+            Producers:  {"foundry"},
             Output:     44.999996185302734,
             Inputs:     {"iron-ingot":14.999999046325684, "steel-ingot":14.999999046325684},
         },
@@ -961,6 +959,7 @@ satisfactory_calc.RecipesDict{
         "Iron Rebar": {
             ItemName:   "iron-rebar",
             RecipeName: "Iron Rebar",
+            Producers:  {"constructor-id"},
             Output:     14.999999046325684,
             Inputs:     {"iron-rod":14.999999046325684},
         },
@@ -969,18 +968,21 @@ satisfactory_calc.RecipesDict{
         "Aluminum Rod": {
             ItemName:   "iron-rod",
             RecipeName: "Aluminum Rod",
+            Producers:  {"constructor-id"},
             Output:     52.499996185302734,
             Inputs:     {"aluminum-ingot":7.499999523162842},
         },
         "Iron Rod": {
             ItemName:   "iron-rod",
             RecipeName: "Iron Rod",
+            Producers:  {"constructor-id"},
             Output:     14.999999046325684,
             Inputs:     {"iron-ingot":14.999999046325684},
         },
         "Steel Rod": {
             ItemName:   "iron-rod",
             RecipeName: "Steel Rod",
+            Producers:  {"constructor-id"},
             Output:     48,
             Inputs:     {"steel-ingot":12},
         },
@@ -989,6 +991,7 @@ satisfactory_calc.RecipesDict{
         "Limestone": {
             ItemName:   "limestone",
             RecipeName: "Limestone",
+            Producers:  {"miner-mk1", "miner-mk2", "miner-mk3"},
             Output:     59.999996185302734,
             Inputs:     {},
         },
@@ -997,6 +1000,7 @@ satisfactory_calc.RecipesDict{
         "Liquid Biofuel": {
             ItemName:   "liquid-biofuel",
             RecipeName: "Liquid Biofuel",
+            Producers:  {"refinery"},
             Output:     59.999996185302734,
             Inputs:     {"solid-biofuel":89.99999237060547, "water":44.999996185302734},
         },
@@ -1005,6 +1009,7 @@ satisfactory_calc.RecipesDict{
         "Magnetic Field Generator": {
             ItemName:   "magnetic-field-generator",
             RecipeName: "Magnetic Field Generator",
+            Producers:  {"assembler"},
             Output:     1,
             Inputs:     {"electromagnetic-control-rod":1, "versatile-framework":2.5},
         },
@@ -1013,6 +1018,7 @@ satisfactory_calc.RecipesDict{
         "Modular Engine": {
             ItemName:   "modular-engine",
             RecipeName: "Modular Engine",
+            Producers:  {"manufacturer"},
             Output:     1,
             Inputs:     {"motor":2, "rubber":15, "smart-plating":2},
         },
@@ -1021,18 +1027,21 @@ satisfactory_calc.RecipesDict{
         "Bolted Frame": {
             ItemName:   "modular-frame",
             RecipeName: "Bolted Frame",
+            Producers:  {"assembler"},
             Output:     5,
             Inputs:     {"reinforced-iron-plate":7.5, "screw":140},
         },
         "Modular Frame": {
             ItemName:   "modular-frame",
             RecipeName: "Modular Frame",
+            Producers:  {"assembler"},
             Output:     2,
             Inputs:     {"iron-rod":12, "reinforced-iron-plate":3},
         },
         "Steeled Frame": {
             ItemName:   "modular-frame",
             RecipeName: "Steeled Frame",
+            Producers:  {"assembler"},
             Output:     3,
             Inputs:     {"reinforced-iron-plate":2, "steel-pipe":10},
         },
@@ -1041,42 +1050,30 @@ satisfactory_calc.RecipesDict{
         "Electric Motor": {
             ItemName:   "motor",
             RecipeName: "Electric Motor",
+            Producers:  {"assembler"},
             Output:     7.499999523162842,
             Inputs:     {"electromagnetic-control-rod":3.749999761581421, "rotor":7.499999523162842},
         },
         "Motor": {
             ItemName:   "motor",
             RecipeName: "Motor",
+            Producers:  {"assembler"},
             Output:     5,
             Inputs:     {"rotor":10, "stator":10},
         },
         "Rigor Motor": {
             ItemName:   "motor",
             RecipeName: "Rigor Motor",
+            Producers:  {"manufacturer"},
             Output:     7.5,
             Inputs:     {"crystal-oscillator":1.25, "rotor":3.75, "stator":3.75},
-        },
-    },
-    "neural-quantum-processor": {
-        "Neural-Quantum Processor": {
-            ItemName:   "neural-quantum-processor",
-            RecipeName: "Neural-Quantum Processor",
-            Output:     3,
-            Inputs:     {"excited-photonic-matter":75, "ficsite-trigon":45, "supercomputer":3, "time-crystal":15},
-        },
-    },
-    "nitric-acid": {
-        "Nitric Acid": {
-            ItemName:   "nitric-acid",
-            RecipeName: "Nitric Acid",
-            Output:     30,
-            Inputs:     {"iron-plate":10, "nitrogen-gas":120, "water":30},
         },
     },
     "nitrogen-gas": {
         "Nitrogen Gas": {
             ItemName:   "nitrogen-gas",
             RecipeName: "Nitrogen Gas",
+            Producers:  {"resource-well-extractor"},
             Output:     59.999996185302734,
             Inputs:     {},
         },
@@ -1085,28 +1082,16 @@ satisfactory_calc.RecipesDict{
         "Nobelisk": {
             ItemName:   "nobelisk",
             RecipeName: "Nobelisk",
+            Producers:  {"assembler"},
             Output:     10,
             Inputs:     {"black-powder":20, "steel-pipe":20},
-        },
-    },
-    "non-fissile-uranium": {
-        "Fertile Uranium": {
-            ItemName:   "non-fissile-uranium",
-            RecipeName: "Fertile Uranium",
-            Output:     100,
-            Inputs:     {"nitric-acid":15, "sulfuric-acid":25, "uranium":25, "uranium-waste":25},
-        },
-        "Non-fissile Uranium": {
-            ItemName:   "non-fissile-uranium",
-            RecipeName: "Non-fissile Uranium",
-            Output:     50,
-            Inputs:     {"nitric-acid":15, "silica":25, "sulfuric-acid":15, "uranium-waste":37.5},
         },
     },
     "nuclear-pasta": {
         "Nuclear Pasta": {
             ItemName:   "nuclear-pasta",
             RecipeName: "Nuclear Pasta",
+            Producers:  {"particle-accelerator"},
             Output:     0.5,
             Inputs:     {"copper-powder":100, "pressure-conversion-cube":0.5},
         },
@@ -1115,6 +1100,7 @@ satisfactory_calc.RecipesDict{
         "Nuke Nobelisk": {
             ItemName:   "nuke-nobelisk",
             RecipeName: "Nuke Nobelisk",
+            Producers:  {"manufacturer"},
             Output:     0.5,
             Inputs:     {"ai-limiter":3, "encased-uranium-cell":10, "nobelisk":2.5, "smokeless-powder":5},
         },
@@ -1123,6 +1109,7 @@ satisfactory_calc.RecipesDict{
         "Diluted Packaged Fuel": {
             ItemName:   "packaged-fuel",
             RecipeName: "Diluted Packaged Fuel",
+            Producers:  {"refinery"},
             Output:     59.999996185302734,
             Inputs:     {"heavy-oil-residue":29.999998092651367, "packaged-water":59.999996185302734},
         },
@@ -1131,6 +1118,7 @@ satisfactory_calc.RecipesDict{
         "Petroleum Coke": {
             ItemName:   "petroleum-coke",
             RecipeName: "Petroleum Coke",
+            Producers:  {"refinery"},
             Output:     120,
             Inputs:     {"heavy-oil-residue":40},
         },
@@ -1139,18 +1127,21 @@ satisfactory_calc.RecipesDict{
         "Plastic": {
             ItemName:   "plastic",
             RecipeName: "Plastic",
+            Producers:  {"refinery"},
             Output:     20,
             Inputs:     {"crude-oil":30},
         },
         "Recycled Plastic": {
             ItemName:   "plastic",
             RecipeName: "Recycled Plastic",
+            Producers:  {"refinery"},
             Output:     60,
             Inputs:     {"fuel":30, "rubber":30},
         },
         "Residual Plastic": {
             ItemName:   "plastic",
             RecipeName: "Residual Plastic",
+            Producers:  {"refinery"},
             Output:     20,
             Inputs:     {"polymer-resin":60, "water":20},
         },
@@ -1159,12 +1150,14 @@ satisfactory_calc.RecipesDict{
         "Plutonium Fuel Rod": {
             ItemName:   "plutonium-fuel-rod",
             RecipeName: "Plutonium Fuel Rod",
+            Producers:  {"manufacturer"},
             Output:     0.25,
             Inputs:     {"electromagnetic-control-rod":1.5, "encased-plutonium-cell":7.5, "heat-sink":2.5, "steel-beam":4.5},
         },
         "Plutonium Fuel Unit": {
             ItemName:   "plutonium-fuel-rod",
             RecipeName: "Plutonium Fuel Unit",
+            Producers:  {"assembler"},
             Output:     0.5,
             Inputs:     {"encased-plutonium-cell":10, "pressure-conversion-cube":0.5},
         },
@@ -1173,6 +1166,7 @@ satisfactory_calc.RecipesDict{
         "Plutonium Pellet": {
             ItemName:   "plutonium-pellet",
             RecipeName: "Plutonium Pellet",
+            Producers:  {"particle-accelerator"},
             Output:     30,
             Inputs:     {"non-fissile-uranium":100, "uranium-waste":25},
         },
@@ -1181,6 +1175,7 @@ satisfactory_calc.RecipesDict{
         "Plutonium Waste": {
             ItemName:   "plutonium-waste",
             RecipeName: "Plutonium Waste",
+            Producers:  {"nuclear-power-plant"},
             Output:     1,
             Inputs:     {"plutonium-fuel-rod":0.10000000149011612, "water":240},
         },
@@ -1189,18 +1184,21 @@ satisfactory_calc.RecipesDict{
         "Fuel": {
             ItemName:   "polymer-resin",
             RecipeName: "Fuel",
+            Producers:  {"refinery"},
             Output:     30,
             Inputs:     {"crude-oil":60},
         },
         "Heavy Oil Residue": {
             ItemName:   "polymer-resin",
             RecipeName: "Heavy Oil Residue",
+            Producers:  {"refinery"},
             Output:     20,
             Inputs:     {"crude-oil":30},
         },
         "Polymer Resin": {
             ItemName:   "polymer-resin",
             RecipeName: "Polymer Resin",
+            Producers:  {"refinery"},
             Output:     130,
             Inputs:     {"crude-oil":60},
         },
@@ -1209,6 +1207,7 @@ satisfactory_calc.RecipesDict{
         "Automated Miner": {
             ItemName:   "portable-miner",
             RecipeName: "Automated Miner",
+            Producers:  {"assembler"},
             Output:     1,
             Inputs:     {"iron-plate":4, "steel-pipe":4},
         },
@@ -1217,32 +1216,30 @@ satisfactory_calc.RecipesDict{
         "Power Shard (1)": {
             ItemName:   "power-shard",
             RecipeName: "Power Shard (1)",
+            Producers:  {"constructor-id"},
             Output:     7.499999523162842,
             Inputs:     {"blue-power-slug":7.499999523162842},
         },
         "Power Shard (2)": {
             ItemName:   "power-shard",
             RecipeName: "Power Shard (2)",
+            Producers:  {"constructor-id"},
             Output:     10,
             Inputs:     {"yellow-power-slug":5},
         },
         "Power Shard (5)": {
             ItemName:   "power-shard",
             RecipeName: "Power Shard (5)",
+            Producers:  {"constructor-id"},
             Output:     12.5,
             Inputs:     {"purple-power-slug":2.5},
-        },
-        "Synthetic Power Shard": {
-            ItemName:   "power-shard",
-            RecipeName: "Synthetic Power Shard",
-            Output:     5,
-            Inputs:     {"dark-matter-crystal":10, "excited-photonic-matter":60, "quartz-crystal":60, "time-crystal":10},
         },
     },
     "pressure-conversion-cube": {
         "Pressure Conversion Cube": {
             ItemName:   "pressure-conversion-cube",
             RecipeName: "Pressure Conversion Cube",
+            Producers:  {"assembler"},
             Output:     1,
             Inputs:     {"fused-modular-frame":1, "radio-control-unit":2},
         },
@@ -1251,6 +1248,7 @@ satisfactory_calc.RecipesDict{
         "Pulse Nobelisk": {
             ItemName:   "pulse-nobelisk",
             RecipeName: "Pulse Nobelisk",
+            Producers:  {"assembler"},
             Output:     5,
             Inputs:     {"crystal-oscillator":1, "nobelisk":5},
         },
@@ -1259,24 +1257,28 @@ satisfactory_calc.RecipesDict{
         "Fused Quartz Crystal": {
             ItemName:   "quartz-crystal",
             RecipeName: "Fused Quartz Crystal",
+            Producers:  {"foundry"},
             Output:     54,
             Inputs:     {"coal":36, "raw-quartz":75},
         },
         "Pure Quartz Crystal": {
             ItemName:   "quartz-crystal",
             RecipeName: "Pure Quartz Crystal",
+            Producers:  {"refinery"},
             Output:     52.499996185302734,
             Inputs:     {"raw-quartz":67.5, "water":37.499996185302734},
         },
         "Quartz Crystal": {
             ItemName:   "quartz-crystal",
             RecipeName: "Quartz Crystal",
+            Producers:  {"constructor-id"},
             Output:     22.499998092651367,
             Inputs:     {"raw-quartz":37.499996185302734},
         },
         "Quartz Purification": {
             ItemName:   "quartz-crystal",
             RecipeName: "Quartz Purification",
+            Producers:  {"refinery"},
             Output:     75,
             Inputs:     {"nitric-acid":10, "raw-quartz":120},
         },
@@ -1285,12 +1287,14 @@ satisfactory_calc.RecipesDict{
         "Fused Quickwire": {
             ItemName:   "quickwire",
             RecipeName: "Fused Quickwire",
+            Producers:  {"assembler"},
             Output:     89.99999237060547,
             Inputs:     {"caterium-ingot":7.499999523162842, "copper-ingot":37.499996185302734},
         },
         "Quickwire": {
             ItemName:   "quickwire",
             RecipeName: "Quickwire",
+            Producers:  {"constructor-id"},
             Output:     60,
             Inputs:     {"caterium-ingot":12},
         },
@@ -1299,18 +1303,21 @@ satisfactory_calc.RecipesDict{
         "Radio Connection Unit": {
             ItemName:   "radio-control-unit",
             RecipeName: "Radio Connection Unit",
+            Producers:  {"manufacturer"},
             Output:     3.749999761581421,
             Inputs:     {"heat-sink":14.999999046325684, "high-speed-connector":7.499999523162842, "quartz-crystal":44.999996185302734},
         },
         "Radio Control System": {
             ItemName:   "radio-control-unit",
             RecipeName: "Radio Control System",
+            Producers:  {"manufacturer"},
             Output:     4.5,
             Inputs:     {"aluminum-casing":90, "circuit-board":15, "crystal-oscillator":1.5, "rubber":45},
         },
         "Radio Control Unit": {
             ItemName:   "radio-control-unit",
             RecipeName: "Radio Control Unit",
+            Producers:  {"manufacturer"},
             Output:     2.5,
             Inputs:     {"aluminum-casing":40, "computer":2.5, "crystal-oscillator":1.25},
         },
@@ -1319,6 +1326,7 @@ satisfactory_calc.RecipesDict{
         "Raw Quartz": {
             ItemName:   "raw-quartz",
             RecipeName: "Raw Quartz",
+            Producers:  {"miner-mk1", "miner-mk2", "miner-mk3"},
             Output:     59.999996185302734,
             Inputs:     {},
         },
@@ -1327,6 +1335,7 @@ satisfactory_calc.RecipesDict{
         "Reanimated SAM": {
             ItemName:   "reanimated-sam",
             RecipeName: "Reanimated SAM",
+            Producers:  {"constructor-id"},
             Output:     29.999998092651367,
             Inputs:     {"sam-ore":119.99999237060547},
         },
@@ -1335,24 +1344,28 @@ satisfactory_calc.RecipesDict{
         "Adhered Iron Plate": {
             ItemName:   "reinforced-iron-plate",
             RecipeName: "Adhered Iron Plate",
+            Producers:  {"assembler"},
             Output:     3.749999761581421,
             Inputs:     {"iron-plate":11.249999046325684, "rubber":3.749999761581421},
         },
         "Bolted Iron Plate": {
             ItemName:   "reinforced-iron-plate",
             RecipeName: "Bolted Iron Plate",
+            Producers:  {"assembler"},
             Output:     15,
             Inputs:     {"iron-plate":90, "screw":250},
         },
         "Reinforced Iron Plate": {
             ItemName:   "reinforced-iron-plate",
             RecipeName: "Reinforced Iron Plate",
+            Producers:  {"assembler"},
             Output:     5,
             Inputs:     {"iron-plate":30, "screw":60},
         },
         "Stitched Iron Plate": {
             ItemName:   "reinforced-iron-plate",
             RecipeName: "Stitched Iron Plate",
+            Producers:  {"assembler"},
             Output:     5.624999523162842,
             Inputs:     {"iron-plate":18.749998092651367, "wire":37.499996185302734},
         },
@@ -1361,40 +1374,30 @@ satisfactory_calc.RecipesDict{
         "Rifle Ammo": {
             ItemName:   "rifle-cartridge",
             RecipeName: "Rifle Ammo",
+            Producers:  {"assembler"},
             Output:     75,
             Inputs:     {"copper-sheet":15, "smokeless-powder":10},
-        },
-    },
-    "rocket-fuel": {
-        "Nitro Rocket Fuel": {
-            ItemName:   "rocket-fuel",
-            RecipeName: "Nitro Rocket Fuel",
-            Output:     +Inf,
-            Inputs:     {"coal":+Inf, "fuel":+Inf, "nitrogen-gas":+Inf, "sulfur":+Inf},
-        },
-        "Rocket Fuel": {
-            ItemName:   "rocket-fuel",
-            RecipeName: "Rocket Fuel",
-            Output:     100,
-            Inputs:     {"nitric-acid":10, "turbofuel":60},
         },
     },
     "rotor": {
         "Copper Rotor": {
             ItemName:   "rotor",
             RecipeName: "Copper Rotor",
+            Producers:  {"assembler"},
             Output:     11.249999046325684,
             Inputs:     {"copper-sheet":22.499998092651367, "screw":194.99998474121094},
         },
         "Rotor": {
             ItemName:   "rotor",
             RecipeName: "Rotor",
+            Producers:  {"assembler"},
             Output:     4,
             Inputs:     {"iron-rod":20, "screw":100},
         },
         "Steel Rotor": {
             ItemName:   "rotor",
             RecipeName: "Steel Rotor",
+            Producers:  {"assembler"},
             Output:     5,
             Inputs:     {"steel-pipe":10, "wire":30},
         },
@@ -1403,18 +1406,21 @@ satisfactory_calc.RecipesDict{
         "Recycled Rubber": {
             ItemName:   "rubber",
             RecipeName: "Recycled Rubber",
+            Producers:  {"refinery"},
             Output:     60,
             Inputs:     {"fuel":30, "plastic":30},
         },
         "Residual Rubber": {
             ItemName:   "rubber",
             RecipeName: "Residual Rubber",
+            Producers:  {"refinery"},
             Output:     20,
             Inputs:     {"polymer-resin":40, "water":40},
         },
         "Rubber": {
             ItemName:   "rubber",
             RecipeName: "Rubber",
+            Producers:  {"refinery"},
             Output:     20,
             Inputs:     {"crude-oil":30},
         },
@@ -1423,6 +1429,7 @@ satisfactory_calc.RecipesDict{
         "SAM Fluctuator": {
             ItemName:   "sam-fluctuator",
             RecipeName: "SAM Fluctuator",
+            Producers:  {"manufacturer"},
             Output:     10,
             Inputs:     {"reanimated-sam":60, "steel-pipe":30, "wire":50},
         },
@@ -1431,6 +1438,7 @@ satisfactory_calc.RecipesDict{
         "SAM Ore": {
             ItemName:   "sam-ore",
             RecipeName: "SAM Ore",
+            Producers:  {"miner-mk1", "miner-mk2", "miner-mk3"},
             Output:     59.999996185302734,
             Inputs:     {},
         },
@@ -1439,18 +1447,21 @@ satisfactory_calc.RecipesDict{
         "Cast Screw": {
             ItemName:   "screw",
             RecipeName: "Cast Screw",
+            Producers:  {"constructor-id"},
             Output:     50,
             Inputs:     {"iron-ingot":12.5},
         },
         "Screw": {
             ItemName:   "screw",
             RecipeName: "Screw",
+            Producers:  {"constructor-id"},
             Output:     40,
             Inputs:     {"iron-rod":10},
         },
         "Steel Screw": {
             ItemName:   "screw",
             RecipeName: "Steel Screw",
+            Producers:  {"constructor-id"},
             Output:     260,
             Inputs:     {"steel-beam":5},
         },
@@ -1459,6 +1470,7 @@ satisfactory_calc.RecipesDict{
         "Shatter Rebar": {
             ItemName:   "shatter-rebar",
             RecipeName: "Shatter Rebar",
+            Producers:  {"assembler"},
             Output:     5,
             Inputs:     {"iron-rebar":10, "quartz-crystal":15},
         },
@@ -1467,24 +1479,21 @@ satisfactory_calc.RecipesDict{
         "Alumina Solution": {
             ItemName:   "silica",
             RecipeName: "Alumina Solution",
+            Producers:  {"refinery"},
             Output:     50,
             Inputs:     {"bauxite":120, "water":180},
         },
         "Cheap Silica": {
             ItemName:   "silica",
             RecipeName: "Cheap Silica",
+            Producers:  {"assembler"},
             Output:     52.499996185302734,
             Inputs:     {"limestone":37.499996185302734, "raw-quartz":22.499998092651367},
-        },
-        "Distilled Silica": {
-            ItemName:   "silica",
-            RecipeName: "Distilled Silica",
-            Output:     270,
-            Inputs:     {"dissolved-silica":120, "limestone":50, "water":100},
         },
         "Silica": {
             ItemName:   "silica",
             RecipeName: "Silica",
+            Producers:  {"constructor-id"},
             Output:     37.499996185302734,
             Inputs:     {"raw-quartz":22.499998092651367},
         },
@@ -1493,6 +1502,7 @@ satisfactory_calc.RecipesDict{
         "Singularity Cell": {
             ItemName:   "singularity-cell",
             RecipeName: "Singularity Cell",
+            Producers:  {"manufacturer"},
             Output:     10,
             Inputs:     {"concrete":200, "dark-matter-crystal":20, "iron-plate":100, "nuclear-pasta":1},
         },
@@ -1501,12 +1511,14 @@ satisfactory_calc.RecipesDict{
         "Plastic Smart Plating": {
             ItemName:   "smart-plating",
             RecipeName: "Plastic Smart Plating",
+            Producers:  {"manufacturer"},
             Output:     5,
             Inputs:     {"plastic":7.5, "reinforced-iron-plate":2.5, "rotor":2.5},
         },
         "Smart Plating": {
             ItemName:   "smart-plating",
             RecipeName: "Smart Plating",
+            Producers:  {"assembler"},
             Output:     2,
             Inputs:     {"reinforced-iron-plate":2, "rotor":2},
         },
@@ -1515,6 +1527,7 @@ satisfactory_calc.RecipesDict{
         "Smokeless Powder": {
             ItemName:   "smokeless-powder",
             RecipeName: "Smokeless Powder",
+            Producers:  {"refinery"},
             Output:     20,
             Inputs:     {"black-powder":20, "heavy-oil-residue":10},
         },
@@ -1523,6 +1536,7 @@ satisfactory_calc.RecipesDict{
         "Solid Biofuel": {
             ItemName:   "solid-biofuel",
             RecipeName: "Solid Biofuel",
+            Producers:  {"constructor-id"},
             Output:     59.999996185302734,
             Inputs:     {"biomass":119.99999237060547},
         },
@@ -1531,12 +1545,14 @@ satisfactory_calc.RecipesDict{
         "Quickwire Stator": {
             ItemName:   "stator",
             RecipeName: "Quickwire Stator",
+            Producers:  {"assembler"},
             Output:     8,
             Inputs:     {"quickwire":60, "steel-pipe":16},
         },
         "Stator": {
             ItemName:   "stator",
             RecipeName: "Stator",
+            Producers:  {"assembler"},
             Output:     5,
             Inputs:     {"steel-pipe":15, "wire":40},
         },
@@ -1545,18 +1561,21 @@ satisfactory_calc.RecipesDict{
         "Aluminum Beam": {
             ItemName:   "steel-beam",
             RecipeName: "Aluminum Beam",
+            Producers:  {"constructor-id"},
             Output:     22.499998092651367,
             Inputs:     {"aluminum-ingot":22.499998092651367},
         },
         "Molded Beam": {
             ItemName:   "steel-beam",
             RecipeName: "Molded Beam",
+            Producers:  {"foundry"},
             Output:     45,
             Inputs:     {"concrete":80, "steel-ingot":120},
         },
         "Steel Beam": {
             ItemName:   "steel-beam",
             RecipeName: "Steel Beam",
+            Producers:  {"constructor-id"},
             Output:     14.999999046325684,
             Inputs:     {"steel-ingot":59.999996185302734},
         },
@@ -1565,24 +1584,28 @@ satisfactory_calc.RecipesDict{
         "Coke Steel Ingot": {
             ItemName:   "steel-ingot",
             RecipeName: "Coke Steel Ingot",
+            Producers:  {"foundry"},
             Output:     100,
             Inputs:     {"iron-ore":75, "petroleum-coke":75},
         },
         "Compacted Steel Ingot": {
             ItemName:   "steel-ingot",
             RecipeName: "Compacted Steel Ingot",
+            Producers:  {"foundry"},
             Output:     10,
             Inputs:     {"compacted-coal":2.5, "iron-ore":5},
         },
         "Solid Steel Ingot": {
             ItemName:   "steel-ingot",
             RecipeName: "Solid Steel Ingot",
+            Producers:  {"foundry"},
             Output:     60,
             Inputs:     {"coal":40, "iron-ingot":40},
         },
         "Steel Ingot": {
             ItemName:   "steel-ingot",
             RecipeName: "Steel Ingot",
+            Producers:  {"foundry"},
             Output:     44.999996185302734,
             Inputs:     {"coal":44.999996185302734, "iron-ore":44.999996185302734},
         },
@@ -1591,18 +1614,21 @@ satisfactory_calc.RecipesDict{
         "Iron Pipe": {
             ItemName:   "steel-pipe",
             RecipeName: "Iron Pipe",
+            Producers:  {"constructor-id"},
             Output:     25,
             Inputs:     {"iron-ingot":100},
         },
         "Molded Steel Pipe": {
             ItemName:   "steel-pipe",
             RecipeName: "Molded Steel Pipe",
+            Producers:  {"foundry"},
             Output:     50,
             Inputs:     {"concrete":30, "steel-ingot":50},
         },
         "Steel Pipe": {
             ItemName:   "steel-pipe",
             RecipeName: "Steel Pipe",
+            Producers:  {"constructor-id"},
             Output:     20,
             Inputs:     {"steel-ingot":30},
         },
@@ -1611,6 +1637,7 @@ satisfactory_calc.RecipesDict{
         "Stun Rebar": {
             ItemName:   "stun-rebar",
             RecipeName: "Stun Rebar",
+            Producers:  {"assembler"},
             Output:     10,
             Inputs:     {"iron-rebar":10, "quickwire":50},
         },
@@ -1619,20 +1646,16 @@ satisfactory_calc.RecipesDict{
         "Sulfur": {
             ItemName:   "sulfur",
             RecipeName: "Sulfur",
+            Producers:  {"miner-mk1", "miner-mk2", "miner-mk3"},
             Output:     59.999996185302734,
             Inputs:     {},
         },
     },
     "sulfuric-acid": {
-        "Encased Uranium Cell": {
-            ItemName:   "sulfuric-acid",
-            RecipeName: "Encased Uranium Cell",
-            Output:     10,
-            Inputs:     {"concrete":15, "sulfuric-acid":40, "uranium":50},
-        },
         "Sulfuric Acid": {
             ItemName:   "sulfuric-acid",
             RecipeName: "Sulfuric Acid",
+            Producers:  {"refinery"},
             Output:     50,
             Inputs:     {"sulfur":50, "water":50},
         },
@@ -1641,34 +1664,30 @@ satisfactory_calc.RecipesDict{
         "OC Supercomputer": {
             ItemName:   "supercomputer",
             RecipeName: "OC Supercomputer",
+            Producers:  {"assembler"},
             Output:     3,
             Inputs:     {"cooling-system":6, "radio-control-unit":6},
         },
         "Super-State Computer": {
             ItemName:   "supercomputer",
             RecipeName: "Super-State Computer",
+            Producers:  {"manufacturer"},
             Output:     2.4000000953674316,
             Inputs:     {"battery":24, "computer":7.200000286102295, "electromagnetic-control-rod":2.4000000953674316, "wire":60},
         },
         "Supercomputer": {
             ItemName:   "supercomputer",
             RecipeName: "Supercomputer",
+            Producers:  {"manufacturer"},
             Output:     1.8749998807907104,
             Inputs:     {"ai-limiter":3.749999761581421, "computer":7.499999523162842, "high-speed-connector":5.624999523162842, "plastic":52.499996185302734},
-        },
-    },
-    "superposition-oscillator": {
-        "Superposition Oscillator": {
-            ItemName:   "superposition-oscillator",
-            RecipeName: "Superposition Oscillator",
-            Output:     5,
-            Inputs:     {"alclad-aluminum-sheet":45, "crystal-oscillator":5, "dark-matter-crystal":30, "excited-photonic-matter":125},
         },
     },
     "thermal-propulsion-rocket": {
         "Thermal Propulsion Rocket": {
             ItemName:   "thermal-propulsion-rocket",
             RecipeName: "Thermal Propulsion Rocket",
+            Producers:  {"manufacturer"},
             Output:     1,
             Inputs:     {"cooling-system":3, "fused-modular-frame":1, "modular-engine":2.5, "turbo-motor":1},
         },
@@ -1677,18 +1696,21 @@ satisfactory_calc.RecipesDict{
         "Turbo Electric Motor": {
             ItemName:   "turbo-motor",
             RecipeName: "Turbo Electric Motor",
+            Producers:  {"manufacturer"},
             Output:     2.812499761581421,
             Inputs:     {"electromagnetic-control-rod":4.687499523162842, "motor":6.562499523162842, "radio-control-unit":8.4375, "rotor":6.562499523162842},
         },
         "Turbo Motor": {
             ItemName:   "turbo-motor",
             RecipeName: "Turbo Motor",
+            Producers:  {"manufacturer"},
             Output:     1.8749998807907104,
             Inputs:     {"cooling-system":7.499999523162842, "motor":7.499999523162842, "radio-control-unit":3.749999761581421, "rubber":44.999996185302734},
         },
         "Turbo Pressure Motor": {
             ItemName:   "turbo-motor",
             RecipeName: "Turbo Pressure Motor",
+            Producers:  {"manufacturer"},
             Output:     3.749999761581421,
             Inputs:     {"motor":7.499999523162842, "packaged-nitrogen-gas":44.999996185302734, "pressure-conversion-cube":1.8749998807907104, "stator":14.999999046325684},
         },
@@ -1697,32 +1719,23 @@ satisfactory_calc.RecipesDict{
         "Turbo Rifle Ammo": {
             ItemName:   "turbo-rifle-ammo",
             RecipeName: "Turbo Rifle Ammo",
+            Producers:  {"manufacturer"},
             Output:     250,
             Inputs:     {"aluminum-casing":15, "packaged-turbofuel":15, "rifle-cartridge":125},
         },
-        "Turbo Rifle Ammo (Blender)": {
-            ItemName:   "turbo-rifle-ammo",
-            RecipeName: "Turbo Rifle Ammo (Blender)",
-            Output:     250,
-            Inputs:     {"aluminum-casing":15, "rifle-cartridge":125, "turbofuel":15},
-        },
     },
     "turbofuel": {
-        "Turbo Blend Fuel": {
-            ItemName:   "turbofuel",
-            RecipeName: "Turbo Blend Fuel",
-            Output:     44.999996185302734,
-            Inputs:     {"fuel":14.999999046325684, "heavy-oil-residue":29.999998092651367, "petroleum-coke":22.499998092651367, "sulfur":22.499998092651367},
-        },
         "Turbo Heavy Fuel": {
             ItemName:   "turbofuel",
             RecipeName: "Turbo Heavy Fuel",
+            Producers:  {"refinery"},
             Output:     29.999998092651367,
             Inputs:     {"compacted-coal":29.999998092651367, "heavy-oil-residue":37.499996185302734},
         },
         "Turbofuel": {
             ItemName:   "turbofuel",
             RecipeName: "Turbofuel",
+            Producers:  {"refinery"},
             Output:     18.749998092651367,
             Inputs:     {"compacted-coal":14.999999046325684, "fuel":22.499998092651367},
         },
@@ -1731,6 +1744,7 @@ satisfactory_calc.RecipesDict{
         "Uranium Ore": {
             ItemName:   "uranium",
             RecipeName: "Uranium Ore",
+            Producers:  {"miner-mk1", "miner-mk2", "miner-mk3"},
             Output:     59.999996185302734,
             Inputs:     {},
         },
@@ -1739,12 +1753,14 @@ satisfactory_calc.RecipesDict{
         "Uranium Fuel Rod": {
             ItemName:   "uranium-fuel-rod",
             RecipeName: "Uranium Fuel Rod",
+            Producers:  {"manufacturer"},
             Output:     0.4000000059604645,
             Inputs:     {"electromagnetic-control-rod":2, "encased-industrial-beam":1.2000000476837158, "encased-uranium-cell":20},
         },
         "Uranium Fuel Unit": {
             ItemName:   "uranium-fuel-rod",
             RecipeName: "Uranium Fuel Unit",
+            Producers:  {"manufacturer"},
             Output:     0.6000000238418579,
             Inputs:     {"crystal-oscillator":0.6000000238418579, "electromagnetic-control-rod":2, "encased-uranium-cell":20, "rotor":2},
         },
@@ -1753,6 +1769,7 @@ satisfactory_calc.RecipesDict{
         "Uranium Waste": {
             ItemName:   "uranium-waste",
             RecipeName: "Uranium Waste",
+            Producers:  {"nuclear-power-plant"},
             Output:     10,
             Inputs:     {"uranium-fuel-rod":0.20000000298023224, "water":240},
         },
@@ -1761,12 +1778,14 @@ satisfactory_calc.RecipesDict{
         "Flexible Framework": {
             ItemName:   "versatile-framework",
             RecipeName: "Flexible Framework",
+            Producers:  {"manufacturer"},
             Output:     7.499999523162842,
             Inputs:     {"modular-frame":3.749999761581421, "rubber":29.999998092651367, "steel-beam":22.499998092651367},
         },
         "Versatile Framework": {
             ItemName:   "versatile-framework",
             RecipeName: "Versatile Framework",
+            Producers:  {"assembler"},
             Output:     5,
             Inputs:     {"modular-frame":2.5, "steel-beam":30},
         },
@@ -1775,48 +1794,21 @@ satisfactory_calc.RecipesDict{
         "Aluminum Scrap": {
             ItemName:   "water",
             RecipeName: "Aluminum Scrap",
+            Producers:  {"refinery"},
             Output:     119.99999237060547,
             Inputs:     {"alumina-solution":239.99998474121094, "coal":119.99999237060547},
-        },
-        "Battery": {
-            ItemName:   "water",
-            RecipeName: "Battery",
-            Output:     0,
-            Inputs:     {"alumina-solution":40, "aluminum-casing":20, "sulfuric-acid":0},
-        },
-        "Distilled Silica": {
-            ItemName:   "water",
-            RecipeName: "Distilled Silica",
-            Output:     80,
-            Inputs:     {"dissolved-silica":120, "limestone":50, "water":100},
         },
         "Electrode Aluminum Scrap": {
             ItemName:   "water",
             RecipeName: "Electrode Aluminum Scrap",
+            Producers:  {"refinery"},
             Output:     104.99999237060547,
             Inputs:     {"alumina-solution":179.99998474121094, "petroleum-coke":59.999996185302734},
-        },
-        "Fertile Uranium": {
-            ItemName:   "water",
-            RecipeName: "Fertile Uranium",
-            Output:     40,
-            Inputs:     {"nitric-acid":15, "sulfuric-acid":25, "uranium":25, "uranium-waste":25},
-        },
-        "Instant Scrap": {
-            ItemName:   "water",
-            RecipeName: "Instant Scrap",
-            Output:     50,
-            Inputs:     {"bauxite":150, "coal":100, "sulfuric-acid":50, "water":60},
-        },
-        "Non-fissile Uranium": {
-            ItemName:   "water",
-            RecipeName: "Non-fissile Uranium",
-            Output:     15,
-            Inputs:     {"nitric-acid":15, "silica":25, "sulfuric-acid":15, "uranium-waste":37.5},
         },
         "Water": {
             ItemName:   "water",
             RecipeName: "Water",
+            Producers:  {"water-extractor", "resource-well-extractor"},
             Output:     59.999996185302734,
             Inputs:     {},
         },
@@ -1825,28 +1817,32 @@ satisfactory_calc.RecipesDict{
         "Caterium Wire": {
             ItemName:   "wire",
             RecipeName: "Caterium Wire",
+            Producers:  {"constructor-id"},
             Output:     119.99999237060547,
             Inputs:     {"caterium-ingot":14.999999046325684},
         },
         "Fused Wire": {
             ItemName:   "wire",
             RecipeName: "Fused Wire",
+            Producers:  {"assembler"},
             Output:     90,
             Inputs:     {"caterium-ingot":3, "copper-ingot":12},
         },
         "Iron Wire": {
             ItemName:   "wire",
             RecipeName: "Iron Wire",
+            Producers:  {"constructor-id"},
             Output:     22.5,
             Inputs:     {"iron-ingot":12.5},
         },
         "Wire": {
             ItemName:   "wire",
             RecipeName: "Wire",
+            Producers:  {"constructor-id"},
             Output:     29.999998092651367,
             Inputs:     {"copper-ingot":14.999999046325684},
         },
     },
 }
 PASS
-ok  	satisfactory-calc/lib/satisfactory_calc	0.271s
+ok  	satisfactory-calc/lib/satisfactory_calc	0.309s

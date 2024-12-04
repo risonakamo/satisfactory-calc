@@ -15,11 +15,13 @@ import (
 type PreferredRecpsDict map[string]string
 
 // convert list of fac lab recps to our item recps.
-// set excluded producers to exlcude recipes that use certain producers
+// set excluded producers to exlcude recipes that use certain producers.
+// set exlcuded recps to not include recps with particular names
 func convertFacLabRecps(
     recps []factorylab.Recipe,
     excludedProducers []string,
     preferredRecps PreferredRecpsDict,
+    excludedRecps []string,
 ) []ItemRecipe {
     var result []ItemRecipe
 
@@ -45,6 +47,11 @@ func convertFacLabRecps(
 
             // don't push into result recipes if it is not a preferred recipe
             if hasAPreferredRecipe && preferredRecipeName!=aMadeRecipe.RecipeName {
+                continue
+            }
+
+            // skip if an excluded recp
+            if slices.Contains(excludedRecps,aMadeRecipe.RecipeName) {
                 continue
             }
 

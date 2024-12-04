@@ -9,7 +9,8 @@ import (
 
 func Test_recipesDictGen(t *testing.T) {
     facLabData:=factorylab.ReadFactoryLabJson("../../data/factorylab_data.json")
-    result:=convertFacLabRecps(facLabData.Recipes,PresetExcludedProducers,PresetPreferredRecipes)
+    result:=convertFacLabRecps(facLabData.Recipes,PresetExcludedProducers,
+        PresetPreferredRecipes,PresetExcludedRecipes)
     result2:=groupRecipesIntoDict(result)
 
     pretty.Println(result2)

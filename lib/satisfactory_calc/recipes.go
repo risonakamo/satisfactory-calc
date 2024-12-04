@@ -55,10 +55,13 @@ var PresetExcludedProducers []string=[]string{
 // todo: maybe this system should be replaced with exclusion instead because this
 // cuts out too much?
 var PresetPreferredRecipes PreferredRecpsDict=PreferredRecpsDict{
-    "coal":"Coal",
-    "copper-ore":"Copper Ore",
     "rubber":"Rubber",
     "plastic":"Plastic",
+    "water":"Water",
+}
+
+var PresetExcludedRecipes []string=[]string{
+
 }
 
 // produce organised recipes dict from recipes list
@@ -84,6 +87,11 @@ func groupRecipesIntoDict(recps []ItemRecipe) RecipesDict {
 func loadRecipesDict(path string) RecipesDict {
     var facLabData factorylab.FactorylabJson=factorylab.ReadFactoryLabJson(path)
     return groupRecipesIntoDict(
-        convertFacLabRecps(facLabData.Recipes,PresetExcludedProducers,PresetPreferredRecipes),
+        convertFacLabRecps(
+            facLabData.Recipes,
+            PresetExcludedProducers,
+            PresetPreferredRecipes,
+            PresetExcludedRecipes,
+        ),
     )
 }
