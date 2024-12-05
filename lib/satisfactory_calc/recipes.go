@@ -52,12 +52,8 @@ var PresetExcludedProducers []string=[]string{
     "blender",
 }
 
-// todo: maybe this system should be replaced with exclusion instead because this
-// cuts out too much?
 var PresetPreferredRecipes PreferredRecpsDict=PreferredRecpsDict{
-    "rubber":"Rubber",
-    "plastic":"Plastic",
-    "water":"Water",
+
 }
 
 var PresetExcludedRecipes []string=[]string{
@@ -83,7 +79,7 @@ func groupRecipesIntoDict(recps []ItemRecipe) RecipesDict {
     return result
 }
 
-// get recipes dict from factory lab data json. uses preset producers for now.
+// get recipes dict from factory lab data json with some preset filtering options
 func loadRecipesDict(path string) RecipesDict {
     var facLabData factorylab.FactorylabJson=factorylab.ReadFactoryLabJson(path)
     return groupRecipesIntoDict(

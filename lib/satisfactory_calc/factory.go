@@ -3,8 +3,12 @@
 package satisfactory_calc
 
 import (
+	"errors"
 	"fmt"
 	"math"
+	"slices"
+
+	"github.com/k0kubun/pp/v3"
 )
 
 // factories all for a single item grouped by recipe name.
@@ -128,7 +132,7 @@ func scaleInputsToClockrate(inputs InputsDict,clockRate float32,builders int) In
 // calculate all sub factories for a given factory.
 // the factory should be scaled to the desired amount before
 // calling this function
-func constructFactory(fact Factory,recps RecipesDict) Factory {
+func dep_constructFactory(fact Factory,recps RecipesDict) Factory {
     var subFactories SubFactoriesDict=SubFactoriesDict{}
 
     var item string
@@ -142,7 +146,7 @@ func constructFactory(fact Factory,recps RecipesDict) Factory {
         var subRecipe ItemRecipe
         for subRecipeName,subRecipe = range alternateRecps {
             fmt.Println("calculating",subRecipeName)
-            subFactories[item][subRecipeName]=constructFactory(
+            subFactories[item][subRecipeName]=dep_constructFactory(
                 scaleFactory(
                     createFactory(subRecipe),
                     neededAmount,
@@ -155,4 +159,75 @@ func constructFactory(fact Factory,recps RecipesDict) Factory {
     fact.SubFactories=subFactories
 
     return fact
+}
+
+// construct a factory, filling out the subfactories.
+// give list of recipes to use. if reach an item where a recp isn't selected, will fail
+// and report the issue
+func constructFactory2(
+    fact Factory,
+    recps RecipesDict,
+    recpsSelection []string,
+) (Factory,error) {
+    var subFactories SubFactoriesDict=SubFactoriesDict{}
+
+    var item string
+    var neededAmount float32
+    for item,neededAmount = range fact.TotalInputs {
+        // recps for the current item
+        var alternateRecps AlternatesDict=recps[item]
+
+        var foundRecp ItemRecipe=getRecpFromSelections(
+            alternateRecps,
+            recpsSelection,
+        )
+
+        if len(foundRecp.ItemName)==0 {
+            fmt.Println("failed to find recipe for:",item)
+            fmt.Println("need to create:",neededAmount)
+            fmt.Println("available recipes:")
+            pp.Println(alternateRecps)
+            return Factory{},errors.New("missing recipe")
+        }
+
+        var madeFactory Factory
+        var e error
+        madeFactory,e=constructFactory2(
+            scaleFactory(
+                createFactory(foundRecp),
+                neededAmount,
+            ),
+            recps,
+            recpsSelection,
+        )
+
+        if e!=nil {
+            return Factory{},e
+        }
+
+        subFactories[item]=FactorybyRecipe{
+            foundRecp.RecipeName:madeFactory,
+        }
+    }
+
+    fact.SubFactories=subFactories
+
+    return fact,nil
+}
+
+// given alternates dict and selection of recps, get the 1st recipe
+// that can be found in the recps selection.
+// if can't find, returned recipe will have empty name
+func getRecpFromSelections(
+    recipesDict AlternatesDict,
+    recpsSelection []string,
+) ItemRecipe {
+    var recpName string
+    for recpName = range recipesDict {
+        if slices.Contains(recpsSelection,recpName) {
+            return recipesDict[recpName]
+        }
+    }
+
+    return ItemRecipe{}
 }
