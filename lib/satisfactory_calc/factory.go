@@ -9,6 +9,7 @@ import (
 	"satisfactory-calc/lib/utils"
 	"slices"
 
+	"github.com/fatih/color"
 	"github.com/k0kubun/pp/v3"
 )
 
@@ -235,23 +236,33 @@ func getRecpFromSelections(
 
 // format print single factory
 func printFactory(fac Factory) {
-    fmt.Printf("%dx %s (%s) @ %.2f -> %.2f\n",
+    fmt.Printf("%dx %s (%s) @ %s -> %dx%s = %s\n",
         fac.BuilderCount,
         fac.ItemName,
         fac.RecipeName,
-        fac.ClockRate,
-        fac.TotalOutput,
+        color.YellowString("%.2f",fac.ClockRate),
+        fac.BuilderCount,
+        color.CyanString("%.2f",fac.OutputPerBuilder),
+        color.HiGreenString("%.2f",fac.TotalOutput),
     )
 }
 
 // print factory and all subfactories
-func longPrintFactory(fac Factory,indent int) {
-    fmt.Printf(utils.DuplicateString(" ",indent))
+func longPrintFactory(
+    fac Factory,
+    indentLevel int,
+    indentSize int,
+) {
+    var indentStr string=utils.DuplicateString(" ",indentLevel*indentSize)
+    fmt.Printf("[ ] %s%s: ",
+        indentStr,
+        color.RedString("%d",indentLevel+1),
+    )
     printFactory(fac)
 
     var subFactoryDict FactorybyRecipe
     for _,subFactoryDict = range fac.SubFactories {
         var subFactory Factory=utils.GetDictFirstItem(subFactoryDict)
-        longPrintFactory(subFactory,indent+2)
+        longPrintFactory(subFactory,indentLevel+1,indentSize)
     }
 }

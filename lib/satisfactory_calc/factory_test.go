@@ -67,5 +67,5 @@ func Test_factoryConstruct2(t *testing.T) {
     pp.BufferFoldThreshold=999999
     // pp.Default.SetColoringEnabled(false)
     // pp.Println(fac)
-    longPrintFactory(fac,0)
+    longPrintFactory(fac,0,4)
 }

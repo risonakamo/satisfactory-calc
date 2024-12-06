@@ -3,6 +3,7 @@ module satisfactory-calc
 go 1.23.2
 
 require (
+	github.com/fatih/color v1.18.0 // indirect
 	github.com/k0kubun/pp/v3 v3.4.1 // indirect
 	github.com/kr/pretty v0.3.1 // indirect
 	github.com/kr/text v0.2.0 // indirect
