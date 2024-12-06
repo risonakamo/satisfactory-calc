@@ -6,6 +6,7 @@ import (
 	"errors"
 	"fmt"
 	"math"
+	"satisfactory-calc/lib/utils"
 	"slices"
 
 	"github.com/k0kubun/pp/v3"
@@ -230,4 +231,27 @@ func getRecpFromSelections(
     }
 
     return ItemRecipe{}
+}
+
+// format print single factory
+func printFactory(fac Factory) {
+    fmt.Printf("%dx %s (%s) @ %.2f -> %.2f\n",
+        fac.BuilderCount,
+        fac.ItemName,
+        fac.RecipeName,
+        fac.ClockRate,
+        fac.TotalOutput,
+    )
+}
+
+// print factory and all subfactories
+func longPrintFactory(fac Factory,indent int) {
+    fmt.Printf(utils.DuplicateString(" ",indent))
+    printFactory(fac)
+
+    var subFactoryDict FactorybyRecipe
+    for _,subFactoryDict = range fac.SubFactories {
+        var subFactory Factory=utils.GetDictFirstItem(subFactoryDict)
+        longPrintFactory(subFactory,indent+2)
+    }
 }
