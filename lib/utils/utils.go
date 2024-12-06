@@ -16,7 +16,7 @@ func GetDictFirstItem[KeyT comparable,ValT any](dict map[KeyT]ValT) ValT {
 func DuplicateString(str string,amount int) string {
 	var result string=""
 
-	for _ = range amount {
+	for range amount {
 		result+=str
 	}
 
