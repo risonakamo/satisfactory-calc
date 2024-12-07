@@ -132,6 +132,8 @@ func scaleInputsToClockrate(inputs InputsDict,clockRate float32,builders int) In
 // calculate all sub factories for a given factory.
 // the factory should be scaled to the desired amount before
 // calling this function
+//
+// Deprecated: replaced
 func dep_constructFactory(fact Factory,recps RecipesDict) Factory {
     var subFactories SubFactoriesDict=SubFactoriesDict{}
 

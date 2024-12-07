@@ -91,3 +91,29 @@ func loadRecipesDict(path string) RecipesDict {
         ),
     )
 }
+
+// merge inputs dicts by adding all inputs together
+func mergeInputDict(inputs1 InputsDict,inputs2 InputsDict) InputsDict {
+    var result InputsDict=InputsDict{}
+
+    // looping over input1, grab and add from input2. due to defaulting to 0
+    // if it doesnt exist, this updates all using input1
+    var item string
+    var amount float32
+    for item,amount = range inputs1 {
+        result[item]=amount+inputs2[item]
+    }
+
+    // now need to catch items that was in input2 but not in 1
+    var in bool
+    for item,amount = range inputs2 {
+        _,in=inputs1[item]
+
+        // add all items that was not in inputs1
+        if !in {
+            result[item]=amount
+        }
+    }
+
+    return result
+}
