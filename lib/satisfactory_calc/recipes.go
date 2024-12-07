@@ -2,7 +2,10 @@
 
 package satisfactory_calc
 
-import "satisfactory-calc/lib/factorylab"
+import (
+	"fmt"
+	"satisfactory-calc/lib/factorylab"
+)
 
 // collection of recipes, sorted by item/recipe
 // key: item name
@@ -116,4 +119,16 @@ func mergeInputDict(inputs1 InputsDict,inputs2 InputsDict) InputsDict {
     }
 
     return result
+}
+
+// format print inputs dict
+func printInputsDict(inputs InputsDict) {
+    var item string
+    var amount float32
+    for item,amount = range inputs {
+        fmt.Printf("%s: %.2f\n",
+            item,
+            amount,
+        )
+    }
 }

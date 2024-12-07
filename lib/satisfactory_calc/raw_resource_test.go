@@ -3,7 +3,6 @@ package satisfactory_calc
 import (
 	"testing"
 
-	"github.com/k0kubun/pp/v3"
 	"k8s.io/apimachinery/pkg/util/sets"
 )
 
@@ -38,5 +37,5 @@ func Test_calcResource(t *testing.T) {
         "limestone",
     }...))
 
-    pp.Println(result)
+    printInputsDict(result)
 }
