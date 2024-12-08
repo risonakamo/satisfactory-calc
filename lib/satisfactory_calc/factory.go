@@ -3,7 +3,6 @@
 package satisfactory_calc
 
 import (
-	"errors"
 	"fmt"
 	"math"
 	"slices"
@@ -57,6 +56,13 @@ type Factory struct {
     SubFactories SubFactoriesDict
 
     Recipe ItemRecipe
+}
+
+// error occured with factory construction. need a recipe for a certain item.
+type MissingRecipeError struct {
+    NeededItem string
+    NeededAmount float32
+    AvailableRecipes AlternatesDict
 }
 
 // initialise a factory for the target recipe. factory will be 1 builder.
@@ -165,7 +171,7 @@ func dep_constructFactory(fact Factory,recps RecipesDict) Factory {
 
 // construct a factory, filling out the subfactories.
 // give list of recipes to use. if reach an item where a recp isn't selected, will fail
-// and report the issue
+// and report the issue. returns the partially created factory up to that point
 func constructFactory2(
     fact Factory,
     recps RecipesDict,
@@ -184,12 +190,16 @@ func constructFactory2(
             recpsSelection,
         )
 
+        // failed to find recipe for an item. partially fill out the factory
+        // and return missing recipe error
         if len(foundRecp.ItemName)==0 {
-            fmt.Println("failed to find recipe for:",item)
-            fmt.Println("need to create:",neededAmount)
-            fmt.Println("available recipes:")
-            pp.Println(alternateRecps)
-            return Factory{},errors.New("missing recipe")
+            fact.SubFactories=subFactories
+
+            return fact,&MissingRecipeError{
+                NeededItem: item,
+                NeededAmount: neededAmount,
+                AvailableRecipes: alternateRecps,
+            }
         }
 
         var madeFactory Factory
@@ -204,7 +214,8 @@ func constructFactory2(
         )
 
         if e!=nil {
-            return Factory{},e
+            fact.SubFactories=subFactories
+            return fact,e
         }
 
         subFactories[item]=FactorybyRecipe{
@@ -232,4 +243,12 @@ func getRecpFromSelections(
     }
 
     return ItemRecipe{}
+}
+
+// string print of missing recipe error
+func (e *MissingRecipeError) Error() string {
+    return fmt.Sprintln("failed to find recipe for:",e.NeededItem)+
+        fmt.Sprintln("need to create:",e.NeededAmount)+
+        fmt.Sprintln("available recipes:")+
+        pp.Sprintln(e.AvailableRecipes)
 }
