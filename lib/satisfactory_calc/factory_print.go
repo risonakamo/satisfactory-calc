@@ -55,7 +55,7 @@ func printFactoryStr(
 }
 
 // long print factory with initialiser options to recursive version
-func longPrintFactory(fac Factory) {
+func LongPrintFactory(fac Factory) {
     var result []string=longPrintFactory2(fac,0,0,4)
 
     var longestLen int=0

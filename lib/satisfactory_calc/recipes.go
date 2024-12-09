@@ -83,7 +83,7 @@ func groupRecipesIntoDict(recps []ItemRecipe) RecipesDict {
 }
 
 // get recipes dict from factory lab data json with some preset filtering options
-func loadRecipesDict(path string) RecipesDict {
+func LoadRecipesDict(path string) RecipesDict {
     var facLabData factorylab.FactorylabJson=factorylab.ReadFactoryLabJson(path)
     return groupRecipesIntoDict(
         convertFacLabRecps(

@@ -67,7 +67,7 @@ type MissingRecipeError struct {
 
 // initialise a factory for the target recipe. factory will be 1 builder.
 // sub factories are not yet calculated
-func createFactory(recp ItemRecipe) Factory {
+func CreateFactory(recp ItemRecipe) Factory {
     return Factory{
         ItemName: recp.ItemName,
         RecipeName: recp.RecipeName,
@@ -172,7 +172,7 @@ func dep_constructFactory(fact Factory,recps RecipesDict) Factory {
 // construct a factory, filling out the subfactories.
 // give list of recipes to use. if reach an item where a recp isn't selected, will fail
 // and report the issue. returns the partially created factory up to that point
-func constructFactory2(
+func ConstructFactory2(
     fact Factory,
     recps RecipesDict,
     recpsSelection []string,
