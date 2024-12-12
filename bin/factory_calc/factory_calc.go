@@ -1,8 +1,14 @@
 package main
 
 import (
+	"bufio"
+	"errors"
 	"fmt"
+	"os"
 	"satisfactory-calc/lib/satisfactory_calc"
+	"strings"
+
+	"github.com/k0kubun/pp/v3"
 )
 
 func main() {
@@ -13,11 +19,16 @@ func main() {
 		"../../data/factorylab_data.json",
 	)
 
-	var factory satisfactory_calc.Factory=satisfactory_calc.CreateFactory(itemSelect,recipeSelect)
+	var itemRecipe satisfactory_calc.ItemRecipe=recipesData[itemSelect][recipeSelect]
+
+	var factory satisfactory_calc.Factory=satisfactory_calc.CreateFactory(itemRecipe)
 	var e error
 	var selectedRecipes []string
 
 	for {
+		fmt.Println("Recipes:")
+		pp.Println(selectedRecipes)
+
 		factory,e=satisfactory_calc.ConstructFactory2(
 			factory,
 			recipesData,
@@ -29,6 +40,28 @@ func main() {
 			satisfactory_calc.LongPrintFactory(factory)
 			// todo: print out total raw resources
 			return
+		}
+
+		if errors.As(e,&satisfactory_calc.MissingRecipeErrorE) {
+			fmt.Println(e)
+			fmt.Println("Enter a recipe to use:")
+			fmt.Print("> ")
+
+			var userSelect string
+
+			var reader *bufio.Reader=bufio.NewReader(os.Stdin)
+			userSelect,e=reader.ReadString('\n')
+
+			if e!=nil {
+				panic(e)
+			}
+
+			userSelect=strings.TrimSpace(userSelect)
+
+			selectedRecipes=append(selectedRecipes,userSelect)
+		} else {
+			fmt.Println("unknown error")
+			panic(e)
 		}
 	}
 }
