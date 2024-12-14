@@ -36,12 +36,27 @@ func main() {
 			selectedRecipes,
 		)
 
+
+
+		// completion operations
 		if e==nil {
-			fmt.Println("Successfully constructed factory")
+			fmt.Println()
+			fmt.Println("Successfully constructed factory:")
 			satisfactory_calc.LongPrintFactory(factory)
-			// todo: print out total raw resources
+			fmt.Println()
+
+			var resources satisfactory_calc.InputsDict=satisfactory_calc.CalculateResourceUse(
+				factory,
+				satisfactory_calc.DefaultRawResources,
+			)
+
+			fmt.Println("Total Resources:")
+			satisfactory_calc.PrintInputsDict(resources)
+
 			return
 		}
+
+
 
 		// missing recipe. have user select a recipe
 		if errors.As(e,&satisfactory_calc.MissingRecipeErrorE) {
@@ -55,6 +70,8 @@ func main() {
 			}
 
 			selectedRecipes=append(selectedRecipes,userChooseRecipe(*recipeErr))
+
+
 
 		// random unknown error occured
 		} else {

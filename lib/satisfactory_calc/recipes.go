@@ -122,7 +122,7 @@ func mergeInputDict(inputs1 InputsDict,inputs2 InputsDict) InputsDict {
 }
 
 // format print inputs dict
-func printInputsDict(inputs InputsDict) {
+func PrintInputsDict(inputs InputsDict) {
     var item string
     var amount float32
     for item,amount = range inputs {
