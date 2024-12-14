@@ -18,7 +18,7 @@ func Test_recipesDictGen(t *testing.T) {
 }
 
 func Test_loadRecipes(t *testing.T) {
-    result:=loadRecipesDict("../../data/factorylab_data.json")
+    result:=LoadRecipesDict("../../data/factorylab_data.json")
 
     pretty.Println(result)
 }

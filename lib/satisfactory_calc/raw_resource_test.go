@@ -7,9 +7,9 @@ import (
 )
 
 func Test_calcResource(t *testing.T) {
-	data := loadRecipesDict("../../data/factorylab_data.json")
-	fac := createFactory(data["heavy-modular-frame"]["Heavy Modular Frame"])
-	fac, e := constructFactory2(fac, data, []string{
+	data := LoadRecipesDict("../../data/factorylab_data.json")
+	fac := CreateFactory(data["heavy-modular-frame"]["Heavy Modular Frame"])
+	fac, e := ConstructFactory2(fac, data, []string{
 		"Steel Pipe",
 		"Steel Ingot",
 		"Modular Frame",
@@ -31,11 +31,11 @@ func Test_calcResource(t *testing.T) {
 	}
 
 
-    result:=calculateResourceUse(fac,sets.New([]string{
+    result:=CalculateResourceUse(fac,sets.New([]string{
         "iron-ore",
         "coal",
         "limestone",
     }...))
 
-    printInputsDict(result)
+    PrintInputsDict(result)
 }

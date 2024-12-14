@@ -7,9 +7,9 @@ import (
 )
 
 func Test_factoryCreate(t *testing.T) {
-    data:=loadRecipesDict("../../data/factorylab_data.json")
+    data:=LoadRecipesDict("../../data/factorylab_data.json")
 
-    fac:=createFactory(data["heavy-modular-frame"]["Heavy Modular Frame"])
+    fac:=CreateFactory(data["heavy-modular-frame"]["Heavy Modular Frame"])
     pp.Println(fac)
 
     if fac.TotalOutput!=2 {
@@ -40,9 +40,9 @@ func Test_factoryCreate(t *testing.T) {
 // }
 
 func Test_factoryConstruct2(t *testing.T) {
-    data:=loadRecipesDict("../../data/factorylab_data.json")
-    fac:=createFactory(data["heavy-modular-frame"]["Heavy Modular Frame"])
-    fac,e:=constructFactory2(fac,data,[]string{
+    data:=LoadRecipesDict("../../data/factorylab_data.json")
+    fac:=CreateFactory(data["heavy-modular-frame"]["Heavy Modular Frame"])
+    fac,e:=ConstructFactory2(fac,data,[]string{
         "Steel Pipe",
         "Steel Ingot",
         "Modular Frame",
@@ -69,5 +69,5 @@ func Test_factoryConstruct2(t *testing.T) {
     // pp.Default.SetColoringEnabled(false)
     // pp.Println(fac)
 
-    longPrintFactory(fac)
+    LongPrintFactory(fac)
 }
