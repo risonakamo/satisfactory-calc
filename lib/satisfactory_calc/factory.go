@@ -65,6 +65,9 @@ type MissingRecipeError struct {
     AvailableRecipes AlternatesDict
 }
 
+// const err used for comparing
+var MissingRecipeErrorE *MissingRecipeError
+
 // initialise a factory for the target recipe. factory will be 1 builder.
 // sub factories are not yet calculated
 func CreateFactory(recp ItemRecipe) Factory {
@@ -156,7 +159,7 @@ func dep_constructFactory(fact Factory,recps RecipesDict) Factory {
             fmt.Println("calculating",subRecipeName)
             subFactories[item][subRecipeName]=dep_constructFactory(
                 scaleFactory(
-                    createFactory(subRecipe),
+                    CreateFactory(subRecipe),
                     neededAmount,
                 ),
                 recps,
@@ -204,9 +207,9 @@ func ConstructFactory2(
 
         var madeFactory Factory
         var e error
-        madeFactory,e=constructFactory2(
+        madeFactory,e=ConstructFactory2(
             scaleFactory(
-                createFactory(foundRecp),
+                CreateFactory(foundRecp),
                 neededAmount,
             ),
             recps,
