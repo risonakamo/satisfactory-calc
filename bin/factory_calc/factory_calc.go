@@ -3,14 +3,14 @@
 package main
 
 import (
-	"bufio"
 	"errors"
 	"fmt"
-	"os"
+	"maps"
 	"satisfactory-calc/lib/satisfactory_calc"
-	"strings"
+	"slices"
 
 	"github.com/k0kubun/pp/v3"
+	"github.com/manifoldco/promptui"
 )
 
 func main() {
@@ -44,26 +44,46 @@ func main() {
 			return
 		}
 
+		// missing recipe. have user select a recipe
 		if errors.As(e,&satisfactory_calc.MissingRecipeErrorE) {
-			fmt.Println(e)
-			fmt.Println("Enter a recipe to use:")
-			fmt.Print("> ")
+			var recipeErr *satisfactory_calc.MissingRecipeError
+			var ok bool
+			recipeErr,ok=e.(*satisfactory_calc.MissingRecipeError)
 
-			var userSelect string
-
-			var reader *bufio.Reader=bufio.NewReader(os.Stdin)
-			userSelect,e=reader.ReadString('\n')
-
-			if e!=nil {
-				panic(e)
+			if !ok {
+				panic("bad error cast")
 			}
 
-			userSelect=strings.TrimSpace(userSelect)
+			selectedRecipes=append(selectedRecipes,userChooseRecipe(*recipeErr))
 
-			selectedRecipes=append(selectedRecipes,userSelect)
+		// random unknown error occured
 		} else {
 			fmt.Println("unknown error")
 			panic(e)
 		}
 	}
+}
+
+// given a missing recipe error, prompt user to select an available recipe.
+// return the selected recipe.
+func userChooseRecipe(recipeErr satisfactory_calc.MissingRecipeError) string {
+	fmt.Println(recipeErr.Error())
+
+	var choices []string=slices.Collect(maps.Keys(recipeErr.AvailableRecipes))
+
+	var prompter promptui.Select=promptui.Select{
+		Label: "Select Recipe",
+		Items: choices,
+		HideHelp: true,
+	}
+
+	var userSelect string
+	var e error
+	_,userSelect,e=prompter.Run()
+
+	if e!=nil {
+		panic(e)
+	}
+
+	return userSelect
 }
