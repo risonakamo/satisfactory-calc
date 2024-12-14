@@ -1,3 +1,5 @@
+// run with go run (for now)
+
 package main
 
 import (
