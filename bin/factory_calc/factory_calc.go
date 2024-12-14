@@ -88,6 +88,7 @@ func userChooseRecipe(recipeErr satisfactory_calc.MissingRecipeError) string {
 	fmt.Println()
 	fmt.Println("-------------------------------")
 	fmt.Println(recipeErr.Error())
+	satisfactory_calc.PrintAlternatesDict(recipeErr.AvailableRecipes)
 
 	var choices []string=slices.Collect(maps.Keys(recipeErr.AvailableRecipes))
 

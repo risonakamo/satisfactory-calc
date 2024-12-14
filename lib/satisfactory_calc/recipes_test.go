@@ -38,3 +38,11 @@ func Test_mergeInputs(t *testing.T) {
 
     pp.Println(mergeInputDict(inputs1,inputs2))
 }
+
+func Test_printAlternates(t *testing.T) {
+    data:=LoadRecipesDict("../../data/factorylab_data.json")
+
+    recipes:=data["heavy-modular-frame"]
+
+    PrintAlternatesDict(recipes)
+}

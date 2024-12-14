@@ -5,6 +5,8 @@ package satisfactory_calc
 import (
 	"fmt"
 	"satisfactory-calc/lib/factorylab"
+
+	"github.com/fatih/color"
 )
 
 // collection of recipes, sorted by item/recipe
@@ -138,5 +140,35 @@ func PrintRecipesList(recipes []string) {
     var recipe string
     for _,recipe = range recipes {
         fmt.Printf("- %s\n",recipe)
+    }
+}
+
+// pretty print an item recipe block
+func printItemRecipe(recipe ItemRecipe,multiplier float32) {
+    fmt.Printf("%s -> %s x %s = %s\n",
+        color.HiMagentaString(recipe.RecipeName),
+        color.YellowString("%.2f",multiplier),
+        color.CyanString("%.2f",recipe.Output),
+        color.GreenString("%.2f",recipe.Output*multiplier),
+    )
+
+    var inputItem string
+    var inputAmount float32
+    for inputItem,inputAmount = range recipe.Inputs {
+        fmt.Printf("    - %s: %s x %s = %s\n",
+            inputItem,
+            color.YellowString("%.2f",multiplier),
+            color.CyanString("%.2f",inputAmount),
+            color.HiGreenString("%.2f",inputAmount*multiplier),
+        )
+    }
+}
+
+// pretty print alternates dict
+func PrintAlternatesDict(alternates AlternatesDict) {
+    var recipe ItemRecipe
+    for _,recipe = range alternates {
+        printItemRecipe(recipe,1)
+        fmt.Println()
     }
 }

@@ -8,7 +8,6 @@ import (
 	"slices"
 
 	"github.com/fatih/color"
-	"github.com/k0kubun/pp/v3"
 )
 
 // factories all for a single item grouped by recipe name.
@@ -255,7 +254,5 @@ func (e *MissingRecipeError) Error() string {
         "failed to find recipe for:",
         color.YellowString("%s",e.NeededItem),
     )+
-    fmt.Sprintln("need to create:",color.MagentaString("%.2f",e.NeededAmount))+
-    fmt.Sprintln("available recipes:")+
-    pp.Sprintln(e.AvailableRecipes)
+    fmt.Sprintln("need to create:",color.MagentaString("%.2f",e.NeededAmount))
 }
