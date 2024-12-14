@@ -9,7 +9,6 @@ import (
 	"satisfactory-calc/lib/satisfactory_calc"
 	"slices"
 
-	"github.com/k0kubun/pp/v3"
 	"github.com/manifoldco/promptui"
 )
 
@@ -26,11 +25,11 @@ func main() {
 	var factory satisfactory_calc.Factory=satisfactory_calc.CreateFactory(itemRecipe)
 	var e error
 	var selectedRecipes []string
+	var constructCount int=0
 
 	for {
-		fmt.Println("Recipes:")
-		pp.Println(selectedRecipes)
-
+		constructCount++
+		fmt.Printf("Constructing... (%d)\n",constructCount)
 		factory,e=satisfactory_calc.ConstructFactory2(
 			factory,
 			recipesData,
@@ -46,6 +45,7 @@ func main() {
 
 		// missing recipe. have user select a recipe
 		if errors.As(e,&satisfactory_calc.MissingRecipeErrorE) {
+			fmt.Println()
 			var recipeErr *satisfactory_calc.MissingRecipeError
 			var ok bool
 			recipeErr,ok=e.(*satisfactory_calc.MissingRecipeError)
@@ -67,6 +67,9 @@ func main() {
 // given a missing recipe error, prompt user to select an available recipe.
 // return the selected recipe.
 func userChooseRecipe(recipeErr satisfactory_calc.MissingRecipeError) string {
+	fmt.Println()
+	fmt.Println()
+	fmt.Println("-------------------------------")
 	fmt.Println(recipeErr.Error())
 
 	var choices []string=slices.Collect(maps.Keys(recipeErr.AvailableRecipes))

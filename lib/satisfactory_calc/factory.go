@@ -7,6 +7,7 @@ import (
 	"math"
 	"slices"
 
+	"github.com/fatih/color"
 	"github.com/k0kubun/pp/v3"
 )
 
@@ -250,8 +251,11 @@ func getRecpFromSelections(
 
 // string print of missing recipe error
 func (e *MissingRecipeError) Error() string {
-    return fmt.Sprintln("failed to find recipe for:",e.NeededItem)+
-        fmt.Sprintln("need to create:",e.NeededAmount)+
-        fmt.Sprintln("available recipes:")+
-        pp.Sprintln(e.AvailableRecipes)
+    return fmt.Sprintln(
+        "failed to find recipe for:",
+        color.YellowString("%s",e.NeededItem),
+    )+
+    fmt.Sprintln("need to create:",color.MagentaString("%.2f",e.NeededAmount))+
+    fmt.Sprintln("available recipes:")+
+    pp.Sprintln(e.AvailableRecipes)
 }

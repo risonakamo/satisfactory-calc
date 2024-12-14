@@ -132,3 +132,11 @@ func printInputsDict(inputs InputsDict) {
         )
     }
 }
+
+// pretty print list of recipes
+func PrintRecipesList(recipes []string) {
+    var recipe string
+    for _,recipe = range recipes {
+        fmt.Printf("- %s\n",recipe)
+    }
+}
