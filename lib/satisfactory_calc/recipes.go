@@ -172,3 +172,32 @@ func PrintAlternatesDict(alternates AlternatesDict) {
         fmt.Println()
     }
 }
+
+// scale an alternates dict so the output of each item recipe matches the given
+// target output. accordingly affects all inputs
+func ScaleAlternatesDict(alternates AlternatesDict,targetOutput float32) AlternatesDict {
+    var newAlternates AlternatesDict=AlternatesDict{}
+
+    var recipeName string
+    var recipe ItemRecipe
+    for recipeName,recipe = range alternates {
+        var scaledRecipe ItemRecipe=recipe
+        var multiplier float32=recipe.Output/targetOutput
+
+        scaledRecipe.Output=targetOutput
+
+        var newScaledInputs InputsDict=InputsDict{}
+
+        var inputName string
+        var inputAmount float32
+        for inputName,inputAmount = range recipe.Inputs {
+            newScaledInputs[inputName]=inputAmount*multiplier
+        }
+
+        scaledRecipe.Inputs=newScaledInputs
+
+        newAlternates[recipeName]=scaledRecipe
+    }
+
+    return newAlternates
+}

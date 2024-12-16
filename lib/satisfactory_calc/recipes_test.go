@@ -46,3 +46,13 @@ func Test_printAlternates(t *testing.T) {
 
     PrintAlternatesDict(recipes)
 }
+
+func Test_scaleAlternates(t *testing.T) {
+    data:=LoadRecipesDict("../../data/factorylab_data.json")
+
+    recipes:=data["heavy-modular-frame"]
+
+    result:=ScaleAlternatesDict(recipes,20)
+
+    PrintAlternatesDict(result)
+}
