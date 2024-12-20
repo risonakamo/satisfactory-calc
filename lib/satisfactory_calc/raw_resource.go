@@ -13,6 +13,9 @@ var DefaultRawResources sets.Set[string]=sets.New([]string{
     "limestone",
     "water",
     "copper-ore",
+    "crude-oil",
+    "raw-quartz",
+    "caterium-ore",
 }...)
 
 // calculate total resource use of a factory given target resources

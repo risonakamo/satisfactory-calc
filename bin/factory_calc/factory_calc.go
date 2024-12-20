@@ -6,24 +6,44 @@ import (
 	"errors"
 	"fmt"
 	"maps"
+	"os"
 	"satisfactory-calc/lib/satisfactory_calc"
 	"slices"
 
 	"github.com/manifoldco/promptui"
 )
 
+// program args
+type CliArgs struct {
+	ItemSelect string
+	RecipeSelect string
+}
+
 func main() {
-	var itemSelect string="heavy-modular-frame"
-	var recipeSelect string="Heavy Modular Frame"
+	var args CliArgs
+	var e error
+	args,e=getArgs()
+
+	if e!=nil {
+		return
+	}
+
+	var itemSelect string=args.ItemSelect
+	var recipeSelect string=args.RecipeSelect
 
 	var recipesData satisfactory_calc.RecipesDict=satisfactory_calc.LoadRecipesDict(
 		"../../data/factorylab_data.json",
 	)
 
+	e=checkItem(itemSelect,recipeSelect,recipesData)
+
+	if e!=nil {
+		return
+	}
+
 	var itemRecipe satisfactory_calc.ItemRecipe=recipesData[itemSelect][recipeSelect]
 
 	var factory satisfactory_calc.Factory=satisfactory_calc.CreateFactory(itemRecipe)
-	var e error
 	var selectedRecipes []string
 	var constructCount int=0
 
@@ -107,4 +127,55 @@ func userChooseRecipe(recipeErr satisfactory_calc.MissingRecipeError) string {
 	}
 
 	return userSelect
+}
+
+// get program args
+func getArgs() (CliArgs,error) {
+	if len(os.Args)<3 {
+		fmt.Println("Not enough args")
+		fmt.Println("usage: {exe} {item name} {recipe name}")
+		return CliArgs{},errors.New("not enough args")
+	}
+
+	return CliArgs{
+		ItemSelect: os.Args[1],
+		RecipeSelect: os.Args[2],
+	},nil
+}
+
+// check if item and recipe are in recipes dict. if not, prints helpful text and returns
+// error
+func checkItem(
+	item string,
+	recipe string,
+	recipesData satisfactory_calc.RecipesDict,
+) error {
+	var in bool
+	var foundRecipes satisfactory_calc.AlternatesDict
+	foundRecipes,in=recipesData[item]
+
+	if !in {
+		fmt.Println("Could not find item:",item)
+		fmt.Println("Available Items:")
+
+		var item string
+		for item = range recipesData {
+			fmt.Println(item)
+		}
+		return errors.New("bad item")
+	}
+
+	_,in=foundRecipes[recipe]
+
+	if !in {
+		fmt.Println("Could not find recipe:",recipe)
+		fmt.Println("Available Recipes:")
+		var aRecipe string
+		for aRecipe = range foundRecipes {
+			fmt.Println(aRecipe)
+		}
+		return errors.New("bad recipe")
+	}
+
+	return nil
 }
