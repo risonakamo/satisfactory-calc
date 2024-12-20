@@ -128,9 +128,9 @@ func PrintInputsDict(inputs InputsDict) {
     var item string
     var amount float32
     for item,amount = range inputs {
-        fmt.Printf("%s: %.2f\n",
+        fmt.Printf("%s: %s\n",
             item,
-            amount,
+            color.HiYellowString("%.2f",amount),
         )
     }
 }
