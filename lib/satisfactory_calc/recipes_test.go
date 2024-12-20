@@ -44,7 +44,7 @@ func Test_printAlternates(t *testing.T) {
 
     recipes:=data["heavy-modular-frame"]
 
-    PrintAlternatesDict(recipes)
+    PrintAlternatesDict(recipes,20)
 }
 
 func Test_scaleAlternates(t *testing.T) {
@@ -54,5 +54,5 @@ func Test_scaleAlternates(t *testing.T) {
 
     result:=ScaleAlternatesDict(recipes,20)
 
-    PrintAlternatesDict(result)
+    PrintAlternatesDict(result,20)
 }

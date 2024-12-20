@@ -165,10 +165,15 @@ func printItemRecipe(recipe ItemRecipe,multiplier float32) {
 }
 
 // pretty print alternates dict
-func PrintAlternatesDict(alternates AlternatesDict) {
+func PrintAlternatesDict(alternates AlternatesDict,targetOutput float32) {
     var recipe ItemRecipe
     for _,recipe = range alternates {
-        printItemRecipe(recipe,1)
+        var calculatedMultiplier float32=calculateMultiplierForOutput(
+            recipe.Output,
+            targetOutput,
+        )
+
+        printItemRecipe(recipe,calculatedMultiplier)
         fmt.Println()
     }
 }
@@ -200,4 +205,9 @@ func ScaleAlternatesDict(alternates AlternatesDict,targetOutput float32) Alterna
     }
 
     return newAlternates
+}
+
+// calculate a necessary multiplier amount to reach a target output, given an original output
+func calculateMultiplierForOutput(originalOutput float32,targetOutput float32) float32 {
+    return targetOutput/originalOutput
 }
