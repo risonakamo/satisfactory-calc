@@ -40,7 +40,7 @@ func printFactoryStr(
         spacingAdd=0
     }
 
-    return fmt.Sprintf("[ ] %s%s: %dx %s (%s)%s@ %s -> %dx%s = %s",
+    return fmt.Sprintf("- [ ] %s%s: %dx %s (%s)%s@ %s -> %dx%s = %s",
         indentStr,
         color.RedString("%d",indentLevel+1),
         fac.BuilderCount,
