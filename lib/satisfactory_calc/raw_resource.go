@@ -1,7 +1,9 @@
 package satisfactory_calc
 
 import (
+	"maps"
 	"satisfactory-calc/lib/utils"
+	"slices"
 
 	"k8s.io/apimachinery/pkg/util/sets"
 )
@@ -37,4 +39,14 @@ func CalculateResourceUse(fac Factory,targetResources sets.Set[string]) InputsDi
     }
 
     return result
+}
+
+// convert a recipes dict to raw resource dict, which would count every resource
+// as a raw resource
+func RecipesDictToRawResourceSet(recipes RecipesDict) sets.Set[string] {
+    return sets.New(
+        slices.Collect(
+            maps.Keys(recipes),
+        )...,
+    )
 }

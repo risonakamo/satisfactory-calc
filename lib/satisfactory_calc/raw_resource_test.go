@@ -3,6 +3,7 @@ package satisfactory_calc
 import (
 	"testing"
 
+	"github.com/k0kubun/pp/v3"
 	"k8s.io/apimachinery/pkg/util/sets"
 )
 
@@ -38,4 +39,12 @@ func Test_calcResource(t *testing.T) {
     }...))
 
     PrintInputsDict(result)
+}
+
+func Test_allRawResources(t *testing.T) {
+	data := LoadRecipesDict("../../data/factorylab_data.json")
+
+	result:=RecipesDictToRawResourceSet(data)
+
+	pp.Println(result)
 }

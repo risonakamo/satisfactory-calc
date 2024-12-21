@@ -10,7 +10,9 @@ import (
 	"satisfactory-calc/lib/satisfactory_calc"
 	"slices"
 
+	"github.com/k0kubun/pp/v3"
 	"github.com/manifoldco/promptui"
+	"k8s.io/apimachinery/pkg/util/sets"
 )
 
 // program args
@@ -25,7 +27,8 @@ func main() {
 	args,e=getArgs()
 
 	if e!=nil {
-		return
+		fmt.Println("arguments warning:",e)
+		fmt.Println("usage: {exe} {item name} {recipe name}")
 	}
 
 	var itemSelect string=args.ItemSelect
@@ -34,6 +37,8 @@ func main() {
 	var recipesData satisfactory_calc.RecipesDict=satisfactory_calc.LoadRecipesDict(
 		"../../data/factorylab_data.json",
 	)
+	var allItemsRawResources sets.Set[string]=satisfactory_calc.
+		RecipesDictToRawResourceSet(recipesData)
 
 	e=checkItem(itemSelect,recipeSelect,recipesData)
 
@@ -67,7 +72,7 @@ func main() {
 
 			var resources satisfactory_calc.InputsDict=satisfactory_calc.CalculateResourceUse(
 				factory,
-				satisfactory_calc.DefaultRawResources,
+				allItemsRawResources,
 			)
 
 			fmt.Println("Total Resources:")
@@ -88,6 +93,16 @@ func main() {
 			if !ok {
 				panic("bad error cast")
 			}
+
+			var currentResources satisfactory_calc.InputsDict=
+			satisfactory_calc.CalculateResourceUse(
+				factory,
+				sets.New[string](),
+			)
+
+			fmt.Println("Currently Needed Resources:")
+			satisfactory_calc.PrintInputsDict(currentResources)
+			pp.Println(factory)
 
 			selectedRecipes=append(selectedRecipes,userChooseRecipe(*recipeErr))
 
@@ -131,10 +146,13 @@ func userChooseRecipe(recipeErr satisfactory_calc.MissingRecipeError) string {
 
 // get program args
 func getArgs() (CliArgs,error) {
-	if len(os.Args)<3 {
-		fmt.Println("Not enough args")
-		fmt.Println("usage: {exe} {item name} {recipe name}")
-		return CliArgs{},errors.New("not enough args")
+	var args CliArgs=CliArgs{}
+
+	if len(os.Args)==1 {
+		return args,errors.New("not enough args")
+	} else if len(os.Args)==2 {
+		args.ItemSelect=os.Args[1]
+		return args,errors.New("missing recipe name")
 	}
 
 	return CliArgs{
