@@ -7,11 +7,12 @@ import (
 	"fmt"
 	"maps"
 	"os"
+	"path/filepath"
 	"satisfactory-calc/lib/satisfactory_calc"
+	"satisfactory-calc/lib/utils"
 	"slices"
 
 	"github.com/manifoldco/promptui"
-	"k8s.io/apimachinery/pkg/util/sets"
 )
 
 // program args
@@ -33,11 +34,10 @@ func main() {
 	var itemSelect string=args.ItemSelect
 	var recipeSelect string=args.RecipeSelect
 
+	var here string=utils.GetHereDirExe()
 	var recipesData satisfactory_calc.RecipesDict=satisfactory_calc.LoadRecipesDict(
-		"../../data/factorylab_data.json",
+		filepath.Join(here,"data/factorylab_data.json"),
 	)
-	var allItemsRawResources sets.Set[string]=satisfactory_calc.
-		RecipesDictToRawResourceSet(recipesData)
 
 	e=checkItem(itemSelect,recipeSelect,recipesData)
 
@@ -71,7 +71,7 @@ func main() {
 
 			var resources satisfactory_calc.InputsDict=satisfactory_calc.CalculateResourceUse(
 				factory,
-				allItemsRawResources,
+				satisfactory_calc.DefaultRawResources,
 			)
 
 			fmt.Println("Total Resources:")

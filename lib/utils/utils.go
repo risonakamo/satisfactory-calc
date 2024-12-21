@@ -2,6 +2,11 @@
 
 package utils
 
+import (
+	"os"
+	"path/filepath"
+)
+
 // get 1st item in a dict
 func GetDictFirstItem[KeyT comparable,ValT any](dict map[KeyT]ValT) ValT {
 	var key KeyT
@@ -21,4 +26,17 @@ func DuplicateString(str string,amount int) string {
 	}
 
 	return result
+}
+
+// give folder location of the exe that calls this func
+func GetHereDirExe() string {
+    var exePath string
+    var e error
+    exePath,e=os.Executable()
+
+    if e!=nil {
+        panic(e)
+    }
+
+    return filepath.Dir(exePath)
 }
