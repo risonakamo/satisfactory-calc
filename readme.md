@@ -16,6 +16,13 @@ Example of Intermediate Recipe Selection
     - Indicates clock percent and target output for each factory to be built by user
 - Output formatted in hierarchical order for easy building
 
+# Setup
+```
+bash bin/factory_calc/build.sh
+```
+
+Use `factory_calc.exe` at the top level.
+
 # Usage
 ```
 factory_calc.exe {item name} {item recipe}
