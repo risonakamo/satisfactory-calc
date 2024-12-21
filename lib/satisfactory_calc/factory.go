@@ -216,13 +216,13 @@ func ConstructFactory2(
             recpsSelection,
         )
 
+        subFactories[item]=FactorybyRecipe{
+            foundRecp.RecipeName:madeFactory,
+        }
+
         if e!=nil {
             fact.SubFactories=subFactories
             return fact,e
-        }
-
-        subFactories[item]=FactorybyRecipe{
-            foundRecp.RecipeName:madeFactory,
         }
     }
 

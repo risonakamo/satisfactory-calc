@@ -10,7 +10,6 @@ import (
 	"satisfactory-calc/lib/satisfactory_calc"
 	"slices"
 
-	"github.com/k0kubun/pp/v3"
 	"github.com/manifoldco/promptui"
 	"k8s.io/apimachinery/pkg/util/sets"
 )
@@ -93,16 +92,6 @@ func main() {
 			if !ok {
 				panic("bad error cast")
 			}
-
-			var currentResources satisfactory_calc.InputsDict=
-			satisfactory_calc.CalculateResourceUse(
-				factory,
-				sets.New[string](),
-			)
-
-			fmt.Println("Currently Needed Resources:")
-			satisfactory_calc.PrintInputsDict(currentResources)
-			pp.Println(factory)
 
 			selectedRecipes=append(selectedRecipes,userChooseRecipe(*recipeErr))
 
